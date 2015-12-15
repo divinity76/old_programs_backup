@@ -1,0 +1,11 @@
+I can not guarantee that this is the original, untouched, 
+VitorBot release, but i think it is.
+
+Why did i want to preserve this obscure bot? it has a magic
+"Find person" feature, much like the in-game exiva spell.
+But, it uses 0 mana, even works in Rookgard, and shows EXACT SQM
+like "153 SQMs north and 10 SQM west"...
+
+No other bot can do this, as far as i know. I wish to analyze the bot, find out
+how the hell its doing that... and if it still works in RL tibia today.
+epic PK cheat right there..
