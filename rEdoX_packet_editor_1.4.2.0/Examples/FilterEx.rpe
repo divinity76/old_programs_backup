@@ -1,0 +1,34 @@
+library rPE_ex;
+
+uses
+  windows,
+  Winsock2,
+  winsock,
+  rpefuncs;
+
+{procedure FilterEx(var Buf: Pchar; Len: Integer; FilterExList: TFilterExList);
+type
+  TFilterEx = record
+    OldHex: string;
+    NewHex: string;
+  end;}
+
+procedure Send_WS1(s: TSocket; var Buf : PChar; len, flags: Integer; pSendWs1, pRecvWs1, pSendWs2, pRecvWs2: Pointer; var IsWorking : Boolean); stdcall;
+var
+ FilterExList : TFilterExList;
+begin
+  setlength(FilterExList,2);
+  FilterExList[0].OldHex := '4564697431';
+  FilterExList[0].NewHex := '46656C6978'; 
+  FilterExList[1].OldHex := '4564697432';
+  FilterExList[1].NewHex := '46656C6978'; 
+  FilterEx(buf,len,FilterExList);
+end;
+  
+exports
+ Send_WS1;
+ 
+begin
+
+end.
+

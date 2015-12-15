@@ -1,0 +1,129 @@
+Version history of rPE - rEdoX Packet Editor
+============================================
+
+Below you find a list with the added features, changes and fixes for 
+each version.
+
+Version 1.4.2.0 (Sep 25 2007)
+-----------------------------------
+- Type Search Added
+- "Save as html" added
+
+Version 1.4.1.0 (Sep 18 2007)
+-----------------------------------
+- MDI Minimize/Maximize fix
+- Docking Added
+- Conversion Added
+
+Version 1.4.0.0 (Sep 8 2007)
+-----------------------------------
+- Heavy GUI changes
+- IPC Method changed
+- Crashes fixed
+- GetSysCallNr.exe -> Heavy Speed increase (3m to <5s)
+
+
+Version 1.3.0.1 (Jun 24 2007)
+-----------------------------------
+- MDI-Focus fix
+- OpenProcess-Dialog fix
+
+
+Version 1.3.0.0 (Jun 23 2007)
+-----------------------------------
+- Kernelmode support added
+	- Kernelmode Stealth
+	- Kernelmode based DLL injection
+- GetSysCallNr.exe / Target.exe
+- Antidetections for rPE.dll added
+- GUI fix
+- Fixed MDI-AV
+
+
+Version 1.2.0.0 (Jun 10 2007)
+-----------------------------------
+- Disassembly View
+- Syntax highlighting for the disassembly view
+- Standalone Filter
+- Ignore list
+- each packet got his own Socket ID 
+- Little Hotfixes
+- Example Customfilter
+- CreateRemoteThread injection
+- SetThreadContext injection
+
+
+Version 1.1.0.0 (Nov 19 2006)
+-----------------------------------
+- Connection redirecting/capturing
+- Bytes beim senden erhoehen(so wie bei wpe)
+- Automatische packet analyse
+	 AABBCCDDEEFF
+   	 AACCBBDDEEFF
+	 ______________
+	 AA BBCC DDEEFF
+    	 AA CCBB DDEEFF
+- Custom Filter List
+- Standard Filter to Custom Filter
+- Neue Custom Filter Funktionen
+- Kleine bugfixes
+- INI-support
+
+
+Version 1.0.0.0 (Oct 10 2006)
+-----------------------------------
+- 2e -> 00
+- Filternamen
+- copy/paste
+- Uninject
+- custom filter
+
+
+Version 0.9.0.0 beta (Oct 8 2006)
+-----------------------------------
+- Performance verbessert
+- Multithreading beachtet
+- Userfreundliche prozess auswahl
+- Check auf 0-terminierende strings wieder eingebaut
+
+
+Version 0.8.0.0 beta (Oct 7 2006)
+-----------------------------------
+- rPE_ex.dll
+	-void Send_WS1(SOCKET s, const char* buf, int len, int flags);
+	-procedure Send_WS1(s: TSocket; var Buf; len, flags: Integer);
+
+	-void Send_WS2(SOCKET s, const char* buf, int len, int flags);
+	-procedure Send_WS2(s: TSocket; var Buf; len, flags: Integer);
+
+	-void Recv_WS1(SOCKET s, const char* buf, int len, int flags);
+	-procedure Recv_WS1(s: TSocket; var Buf; len, flags: Integer);
+
+	-void Recv_WS2(SOCKET s, const char* buf, int len, int flags);
+	-procedure Recv_WS2(s: TSocket; var Buf; len, flags: Integer);
+- CreateProcess
+- Crashbug fixed
+
+
+Version 0.5.0.0 beta (Aug 30 2006)
+-----------------------------------
+- Hotkeys
+- Filter Speichern/Laden
+- GUI veraendert
+- Check auf 0-terminierende strings
+
+
+Version 0.2.0.0 alpha (Aug 28 2006)
+-----------------------------------
+- Filter support
+- Options: Functions, Buffersize
+- Dez/Char/Bin/Hex-Converter
+- String/Hex-Converter
+
+
+Version 0.1.0.0 alpha (Aug 27 2006)
+-----------------------------------
+- Basic GUI
+- winsock  -> send/recv 
+- winsock2 -> send/recv
+- wsa -> send/recv 

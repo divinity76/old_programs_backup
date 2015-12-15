@@ -1,0 +1,150 @@
+library rPE_ex;
+
+uses
+  windows,
+  Winsock2,
+  winsock,
+  rpefuncs;
+
+var
+  bLookLikeCit: Boolean = true;
+  bViewAll: Boolean = false;
+  bAntiAsura: Boolean = true;
+  bAntiDs_stalker: Boolean = true;
+  bAntiStormgust: Boolean = true;
+  bNormalHit: Boolean = true;
+
+const
+  HidePacket: string = '72006437363137353264000A00383863380087006200CFB18900';
+
+function Recv_WS2(s: TSocket; var Buf: PChar; len, flags: Integer; pSendWs1, pRecvWs1, pSendWs2, pRecvWs2: Pointer; var IsWorking: Boolean): Integer; stdcall;
+var
+  SendRecvList: TSendRecvList;
+  FilterExList: TFilterExList;
+  iCountSend, iCountFilter: Integer;
+begin
+  iCountSend := 0;
+  iCountFilter := 0;
+  result := 0;
+  if bLookLikeCit then
+    inc(iCountFilter, 1);
+  if bViewAll then
+    inc(iCountFilter, 4);
+
+  if bAntiAsura then
+    inc(iCountSend, 1);
+  if bAntiDs_stalker then
+    inc(iCountSend, 1);
+  if bAntiStormgust then
+    inc(iCountSend, 1);
+  if bNormalHit then
+    inc(iCountSend, 1);
+
+  setlength(SendRecvList, iCountSend);
+  setlength(FilterExList, iCountFilter);
+  iCountSend := 0;
+  iCountFilter := 0;
+  {###################### look_like_crit ######################}
+  if bLookLikeCit then
+  begin
+    FilterExlist[iCountFilter].OldHex := '100000000';
+    FilterExlist[iCountFilter].NewHex := '1000A0000';
+    inc(iCountFilter, 1);
+  end;
+
+  {###################### view-all ######################}
+  if bViewAll then
+  begin
+    FilterExlist[iCountFilter].OldHex := '000000000004';
+    FilterExlist[iCountFilter].NewHex := '000000000000';
+    inc(iCountFilter, 1);
+    FilterExlist[iCountFilter].OldHex := '000000000002';
+    FilterExlist[iCountFilter].NewHex := '000000000000';
+    inc(iCountFilter, 1);
+    FilterExlist[iCountFilter].OldHex := '000000000022';
+    FilterExlist[iCountFilter].NewHex := '000000000000';
+    inc(iCountFilter, 1);
+    FilterExlist[iCountFilter].OldHex := '000000000440';
+    FilterExlist[iCountFilter].NewHex := '000000000000';
+  end;
+
+  {###################### anti-asura ######################}
+  if bAntiAsura then
+  begin
+    setlength(SendRecvList[iCountSend].RecvHex, 1);
+    SendRecvList[iCountSend].RecvHex[0] := '890076EB8900000000000F01';
+    SendRecvList[iCountSend].SendHex := HidePacket;
+    SendRecvList[iCountSend].Count := 1;
+    inc(iCountSend, 1);
+  end;
+
+  {###################### anti-ds_stalker ######################}
+  if bAntiDs_stalker then
+  begin
+    setlength(SendRecvList[iCountSend].RecvHex, 1);
+    SendRecvList[iCountSend].RecvHex[0] := 'DE012E00CFB1890002F38900';
+    SendRecvList[iCountSend].SendHex := HidePacket;
+    SendRecvList[iCountSend].Count := 1;
+    inc(iCountSend, 1);
+  end;
+
+  {###################### anti-stormgust ######################}
+  if bAntiStormgust then
+  begin
+    setlength(SendRecvList[iCountSend].RecvHex, 1);
+    SendRecvList[iCountSend].RecvHex[0] := '0059000100000020030000';
+    SendRecvList[iCountSend].SendHex := HidePacket;
+    SendRecvList[iCountSend].Count := 1;
+    inc(iCountSend, 1);
+  end;
+
+  {###################### normal hit ###a###################}
+  if bNormalHit then
+  begin
+    setlength(SendRecvList[iCountSend].RecvHex, 2);
+    SendRecvList[iCountSend].RecvHex[0] := '880076E';
+    SendRecvList[iCountSend].RecvHex[1] := '880076E';
+    SendRecvList[iCountSend].SendHex := HidePacket;
+    SendRecvList[iCountSend].Count := 1;
+  end;
+
+  SendIfMatch(buf, len, pSendWs1, SendRecvList);
+  FilterEx(buf, len, FilterExList);
+end;
+
+function Send_WS1(s: TSocket; var Buf: PChar; len, flags: Integer; pSendWs1, pRecvWs1, pSendWs2, pRecvWs2: Pointer; var IsWorking: Boolean): Integer; stdcall;
+begin
+  result := 0;
+  aSock := s;
+end;
+
+procedure DLL_Load;
+begin
+  IntLog('rpe_log.log');
+end;
+
+procedure DLL_UnLoad;
+begin
+  Running := false;
+  sleep(60);
+  EndLog;
+end;
+
+procedure DLLMain(dwR: integer);
+begin
+  case dwR of
+    DLL_PROCESS_ATTACH:
+      DLL_Load;
+    DLL_PROCESS_DETACH:
+      DLL_UnLoad;
+  end;
+end;
+
+exports
+  Send_WS1,
+  Recv_WS2;
+begin
+  Running := true;
+  DLLProc := @DLLMain;
+  DLLMain(DLL_PROCESS_ATTACH);
+end.

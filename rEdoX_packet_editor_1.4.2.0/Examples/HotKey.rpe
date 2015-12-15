@@ -1,0 +1,57 @@
+library rPE_ex;
+
+uses
+  windows,
+  Winsock2,
+  winsock,
+  rpefuncs;
+  
+procedure hot;
+begin
+ SendPacket(aSock,'7465656565656565656565656565656565657374');
+end;     
+     
+function Send_WS1(s: TSocket; var Buf : PChar; len, flags: Integer; pSendWs1, pRecvWs1, pSendWs2, pRecvWs2: Pointer; var IsWorking : Boolean):Integer; stdcall;
+begin
+ Send_Callback := pSendWs1;
+ aSock := s;
+ result := 0;
+end;
+
+procedure DLL_Load;
+begin
+ IntLog('rpe_log.log');
+end;
+
+procedure DLL_UnLoad;
+begin
+ Running := false;
+ sleep(60);
+ EndLog;
+end;
+
+procedure DLLMain(dwR: integer);
+begin
+  case dwR of
+    DLL_PROCESS_ATTACH:
+      DLL_Load;
+    DLL_PROCESS_DETACH:
+      DLL_UnLoad;
+  end;
+end;
+
+exports
+ Send_WS1;
+ 
+var a : THotKey; 
+begin
+  setlength(a,1);
+  a[0] := ord('A');
+  SetHotKey(@Hot,a);
+  Running := true;
+  DLLProc := @DLLMain;
+  DLLMain(DLL_PROCESS_ATTACH);
+end.
+
+
+

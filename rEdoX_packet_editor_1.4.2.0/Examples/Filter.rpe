@@ -1,0 +1,41 @@
+library rPE_ex;
+
+uses
+  windows,
+  Winsock2,
+  winsock,
+  rpefuncs;
+
+{procedure Filter(var buf: PChar; Len: Integer; FilterList: TFilterList);
+type
+  TFilter = record
+    OldOffset: Integer;
+    NewOffset: Integer;
+    OldValue: Integer;
+    NewValue: Integer;
+  end;}
+  
+procedure Send_WS1(s: TSocket; var Buf : PChar; len, flags: Integer; pSendWs1, pRecvWs1, pSendWs2, pRecvWs2: Pointer; var IsWorking : Boolean); stdcall;
+var
+ FilterList : TFilterList;
+begin
+  setlength(FilterList,2);
+  FilterList[0].OldOffset := 5;
+  FilterList[0].NewOffset := 5;
+  FilterList[0].OldValue := $31;
+  FilterList[0].NewValue := $32;
+  
+  FilterList[1].OldOffset := 5;
+  FilterList[1].NewOffset := 5;
+  FilterList[1].OldValue := $33;
+  FilterList[1].NewValue := $34;
+  Filter(buf,len,FilterList);
+end;
+  
+exports
+ Send_WS1;
+ 
+begin
+
+end.
+
