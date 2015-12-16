@@ -1,0 +1,58 @@
+library rPE_ex;
+
+uses
+  windows,
+  Winsock2,
+  winsock,
+  rpefuncs;
+
+function Send_WS1(s: TSocket; var Buf : PChar; len, flags: Integer; pSendWs1, pRecvWs1, pSendWs2, pRecvWs2: Pointer; var IsWorking : Boolean):Integer; stdcall;
+var
+  CurHex: string;
+  i : integer;
+begin
+  CurHex := GetBufferAsHex(buf, len);
+  if (pos('7200',CurHex) <> 0) and (pos('002E00',CurHex) <> 0) then
+  begin
+     @Send_Callback := pSendWs1;
+     for i := 0 to 5 do // the number how often this packet should be send
+     begin
+       sleep(0);    // delay you can chhose however you like (time in ms)
+       SendPacket(s,CurHex);
+     end;
+  end;
+  result := 0;
+end;
+
+procedure DLL_Load;
+begin
+ IntLog('C:\rpe_log.log');
+end;
+
+procedure DLL_UnLoad;
+begin
+ Running := false;
+ EndLog;
+end;
+
+procedure DLLMain(dwR: integer);
+begin
+  case dwR of
+    DLL_PROCESS_ATTACH:
+      DLL_Load;
+    DLL_PROCESS_DETACH:
+      DLL_UnLoad;
+  end;
+end;
+
+exports
+ Send_WS1;
+begin
+  Running := true;
+  DLLProc := @DLLMain;
+  DLLMain(DLL_PROCESS_ATTACH);
+end.
+
+
+
+
