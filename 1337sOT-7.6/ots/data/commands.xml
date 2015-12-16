@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- commands are described in readme.txt -->
+   
+<commands>
+<command cmd="/a"			access="2" />
+<command cmd="/B"			access="1" />
+<command cmd="/b"			access="5" />
+<command cmd="/c"			access="3" />
+<command cmd="/i"			access="5" />
+<command cmd="/m"			access="3" />
+<command cmd="/q"			access="3" />
+<command cmd="/reload"		access="4" />
+<command cmd="/s"			access="4" />
+<command cmd="/t"			access="2" />
+<command cmd="/z"			access="1" />
+<command cmd="/goto"		access="2" />
+<command cmd="/info"		access="5" />
+<command cmd="/closeserver"	access="5" />
+<command cmd="/makesay"	access="5" />
+<command cmd="/openserver"	access="5" />
+<command cmd="/getonline"	access="1" />
+<command cmd="/summon"		access="5" />
+<command cmd="/kick"		access="5" />
+   
+<command cmd="/up"			access="3" />
+<command cmd="/down"		access="3" />
+<command cmd="/invisible"	access="2" />
+<command cmd="/owner"		access="5" />
+<command cmd="/send"		access="2" />
+<command cmd="/pvp"			access="5" />
+<command cmd="/ban"			access="5" />
+<command cmd="/save"		access="2" />
+<command cmd="/pos"			access="2" />
+<command cmd="/shutdown"	access="5" />
+<command cmd="/max"			access="5" />
+<command cmd="/clean"		access="5" />
+<command cmd="/premmy"		access="5" />
+<command cmd="/promote"		access="5" />
+<command cmd="/private"		access="1" />
+
+-- New 1337s OT Commands
+<command cmd="/access"		access="5" />
+<command cmd="/voc"		access="5" />
+<command cmd="/bc"		access="1" />
+<command cmd="/speed"		access="3" />
+<command cmd="/addskill"		access="5" />
+<command cmd="/check"		access="2" />
+<command cmd="/tp"		access="3" />
+<command cmd="/noskull"		access="5" />
+<command cmd="/redskull"		access="5" />
+<command cmd="/whiteskull"		access="5" />
+<command cmd="/yellowskull"		access="5" />
+<command cmd="/gender"		access="5" />
+<command cmd="!commands"		access="0" />
+<command cmd="/startfile"		access="5" />
+<command cmd="/killfile"		access="5" />
+<command cmd="/tmp"		access="2" />
+<command cmd="/checkall"		access="3" />
+
+<command cmd="/saveguilds" access="3" />
+<command cmd="/savehouses" access="3" />
+<command cmd="/saveplayers" access="3" />
+   
+<command cmd="!exp"			access="0" />
+<command cmd="!mana"		access="0" />
+<command cmd="!comment"		access="0" />
+<command cmd="!report"		access="0" />
+<command cmd="!online"		access="0" />
+<command cmd="!house"		access="0" />
+<command cmd="!frags"		access="0" />
+<command cmd="!uptime"		access="0" />
+<command cmd="!premmy"		access="0" />
+   </commands>

@@ -1,0 +1,233 @@
+1337sOT 7.6 First Release (scroll for 1337sOt sources)--by Bncplix and the codes of otfans =)
+~~Ot helper included made by Bncplix~~
+
+
+Features (and credits):
+0.9.0
+- bp/depo save (CVS)
+- safe trade (CVS)
+- cap system (CVS)
+- buy/sell with crystals (TLM)
+- house system (TLM, Black Demon, me)
+- skulls & party (TLM)
+- server save (TLM)
+- light (Bomb Da Brat)
+- vip list (Elementaries)
+- npc load (Wolv119)
+- anti afk (Tibia Rules)
+- battle window (Skulldiggers, Tibia Rules)
+- summons (CVS, Tibia Rules, me)
+- gm invisible (TRS)
+- rotating items (SuperGillis)
+- ice rapier (Tibia Rules)
+- construction kits (JTE)
+- amulets: all but garlic and bronze (me)
+- rings: skill, might, time (me)
+- login queue (me)
+- guilds with npc (me)
+- pvp arena (me)
+- boh+hur+time ring (me)
+0.9.1
+- burst arrow (Skulldiggers)
+- destroy field (GriZzm0)
+- exiva (Bryan)
+- readables (me)
+- commands: /pvp /owner /send
+- more options in config
+- energy ring
+- boat npc
+- field runes
+0.9.2
+- simpler houses (DosMaster)
+- learning spells (me)
+- promotions (me)
+- commands: /save /ban
+- separate distance mul
+- multiline readables
+- healing summons
+- damage fixes
+- uh exhaustion
+0.9.3
+- rook system (me)
+- guild chats (CVS)
+- key system (Orzech)
+- item look for monsters/npcs (Black Demon)
+- config: expmulpvp, spearlosechance
+- commands: /pos /shutdown /max !uptime
+- torches, candles etc. - in ammo slot
+- all light spells
+- low memory usage
+0.9.4
+- 7.6 protocol (CVS)
+- OTB items & OTBM maps (CVS)
+- day cycle (CVS revmagsys)
+- wands & rods (Jiddo)
+- premium system (me)
+- death list with time (Jiddo)
+- lifedrain & manadrain (me)
+- garlic necklace, bronze amulet (me)
+- high levels (Black Demon, me)
+- utana vid & stealth ring (TLM, me)
+- monster blood colors (Tjin)
+- real monsters (KaM!oOoL, Shogun)
+- commands: /clean /premmy !premmy
+- config: access*, max*, queuepremmy
+- exani tera (CrazyToko)
+- reload config (Smygflik)
+- level doors by actionId
+- simple quests by uniqueId
+- gm sees item id and position
+- multiple pvp arenas
+0.9.4a
+- config: rodrange, wandrange, freepremmy
+0.9.4d
+- crash file generator (Andy Pennell)
+
+1337sOT First Release
+-Afk system only kicks if player access=0 (Gms wont be kicked) (Thunder Tiger sources)
+-!info Shows all info about server from config (Bncplix)
+-!buyhouse-Base by gerax, addons by...(Junkfood,Bncplix,Pedro B., And Proglin)
+-Click look on a unowned house to see cost (Ruly)
+-Red backround color. (Neverland Sources)
+-On startup count monsters and npcs (Neverland Sources)
+-Blue robe increases magic hits-Configurable in config.lua (Czepek,Bncplix)
+-Vocation melee speeds configurable (Drazax)
+-Turn on private message/off with /private (Proglin)
+-Walk in Invisible gm (Ruly)
+**--**Omg i shouldhave been writing this as i added the codes, im begining to forget some =)**--**
+-Life ring and Ring of healing in config (Ravalas)
+-Ctrl + Z Based on Smyglik's code (Sapphire)
+-!website see the servers website-reads from url in config (Bncplix)
+-IP Check with /check playername, lists all the players loged in on that ip (Junkfood)
+-Animated text with ~text--can be changed in config (skiter)
+-Player logs-logs ip of player in data/other/playerlogins.txt (Nitrous)
+-!comment message saves a players comment into data/other/comments.txt (Bncplix,hehe i copy !report =0)
+-2 new commands, /startfile and /killfile go to http://otfans.net/showthread.php?t=36954  to find out how to set up (bncplix)
+-Random player save in config (tibia rules)
+-/tp then click use (even up/down buildings) to teleport! (Neverland sources)
+-3 different server saves in config (player,guild,house)--Buggy atm dont use yet (Neverland Sources)
+-/tmp 1/2/3 config in config, teleports to the temple numbers. (Bncplix)
+-/access NUMBER PLAYERNAME  Sets the players access (Tibia Rules)
+-/addskill >SKILLNAME< >TRIES< >NICK<  Gives player # of tries of skills. Possible skill names: club,fist,sword,hp,mana,exp,fishing,magic,shield, AND dist (Tibia Rules?)
+-/private Disable private messages
+-/redskull NAME--Gives the player a red skull, (only visable when they go up stairs or a gm does /c to them) (Neverland Sources)
+-/noskull NAME--Removes players skull(Neverland Sources)
+-/whiteskull NAME--Gives the player a white skull, (only visable when they go up stairs or a gm does /c to them) (Neverland Sources)
+-/yellowskull NAME--Should give player yellow skull, bugged and gives them yellow soon fixed maybe (Neverland Sources)
+-/checkall Lists every1 in server mcing! (Junkfood)
+-/voc PLAYERNAME  If a player is a druid, he becomes a sorc, and the other way around (=( i forget name)
+-/gender  Changes the players gender (Neverland sources+Bncplix)
+-On skill/lvl advance it says over ur head in fancy colours (The Chaos)
+-Type "auto" in ip = in config for auto ip detect (deathplanter)
+-Level door system in data/other/doors.xml (Vitor?)
+-On player login it records their ip to data/other/playerlogins (Nitrous)
+Map by Aquisitor, updated to 7.6 by Vide (based on Ent-Online):
+- 512x512, 1MB binary
+- ~1000 spawns
+- 36 houses, 3 guild houses
+- 12 quests (+anni)
+- npcs: selling runes, food, furniture, aols, ammo; buying loot; managing guilds
+- main temple x=160 y=54 z=7
+- rook temple x=85 y=211 z=7
+
+
+GM commands:
+/a x		jump forward x squares
+/B msg		broadcast message to all players
+/b nick		ban player on ip
+/ban nick	ban players character
+/c nick		teleport player to gm
+/clean		remove portable items from the ground
+/closeserver	only gms can enter
+/down		teleport down
+/getonline	list players online with levels
+/goto nick	teleport near player
+/goto x y z	teleport to position
+/i id count	create item
+/info nick	show info about player
+/invisible	switch gm invisibility
+/kick nick	kick player
+/max x		set max number of players online
+/m name		place monster
+/openserver	everyone can enter
+/owner nick	set owner of the house you are in
+/owner		clear owner of the house you are in
+/pos		shows your position
+/premmy x nick	give player x hours of premium account
+/promote nick	promote player
+/pvp x		set pvp to no=0, normal=1, enforced=2
+/s name		place npc
+/save		force server save
+/send nick, x y z	teleport player to position
+/shutdown m	shedule server shutdown in m minutes
+/summon name	place summon
+/t		go to temple
+/up		teleport up
+/noskull nick   Removes the players skull
+/redskill nick  Gives the player red skull
+/whiteskull nick Gives the player white skull
+/yellowskull nick Gives the player yellow skull<--bugged, gives white =0
+/addskill >SKILLNAME< >TRIES< >NICK<  Gives player # of tries of skills. Possible skill names: club,fist,sword,hp,mana,exp,fishing,magic,shield, AND dist
+/bc COLOUR message  Broadcast colour. Broadcast colours: white,white2,red,red2,blue,orange,yellow,green,small  <--missing any?? =0--Configurable to the access lvl required to broadcast without a name
+/reload spells    Add a new spell? dont wanna kick? reload while ingame
+/private        Disable Private messages
+/check nick     Lists all the characters a player is currently on
+/killfile       Kills a file
+/startfile      Starts a filed
+/tp             Enter it, and click use on places for easy tp!
+/tmp 1/2/3      Teleport to the different temples
+/access NUMBER PLAYER  Sets the players access lvl
+/private       Disable private messages
+/checkall     Lists everyone in server mcing!
+/voc          Changes players vocs from druid-->sorc  sorc-->druid
+/gender      Changes the players gender
+
+Player commands:
+!exp		show exp for level
+!mana		show mana for magic level
+!online		show players online
+!house		reload house rights
+!frags		show unjustified kills
+!report msg	bug report to hoster
+!uptime		show server uptime
+!premmy		show premium time
+!comment        Allows the player to comment the server,saves in data/other/comments.txt
+!buyhouse       Buys a house, configurable in config
+!commands       See the server commands
+
+Guild Master keywords:
+found		founding a new guild
+invite		invite player to e guild
+kick, exclude	exclude player from a guild
+join		join guild that invited me
+leave		leave my guild
+pass		pass leadership to another member
+vice		promote player to vice-leader
+member		denote vice-leader to regular member
+nick, title	change member's nick
+
+
+House spells:
+aleta gom	edit owner (can be only one)
+aleta som	edit sub-owners
+aleta grav	edit door-owner (standing near door)
+aleta sio	edit guests
+alana sio "Name	kick player from a house
+alana sio	kick myself from a house
+
+
+Notes:
+- guilds and houses are saved during server save, not when player logouts,
+- if you want to place boss use /m, because /summon makes him your summon (no loot),
+- items 1740,1747,1748,1749,1770 are for quests and cannot be moved nor picked (attribute questbox="1" in items.xml),
+- ip ban lasts until server restart, character ban lasts until you set banned to 0 in player's file,
+- when you switch ring from ground with ring on you the one from you still glimmers on the ground (no side effect),
+- when you change light item (torch, candle, etc.) you lose effect of light spell,
+- plague-, magic-, flame- and poisonthrowers are causing debugs (don't use them).
+
+
+Known bugs:
+- when you jump into player while beeing /invisible he gets debug,
+- when you change world type from pvp to no-pvp players that have selected target earlier can still attack (until they lose target),
+- some edges dissappear under blood splashes.
+

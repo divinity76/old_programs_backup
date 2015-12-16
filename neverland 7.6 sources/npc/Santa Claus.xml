@@ -1,0 +1,6 @@
+<?xml version="1.0"?>  
+ <npc name="Santa Claus" script="data/npc/scripts/santa.lua" access="3" lookdir="2">  
+    <mana now="800" max="800"/>  
+    <health now="200" max="200"/>  
+    <look type="160" head="0" body="94" legs="0" feet="94"/>  
+ </npc> 

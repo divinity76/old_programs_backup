@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release win32" />
+	<File name="..\!About.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="..\aac.cpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor1 position="2641" topLine="59" />
+	</File>
+	<File name="..\aac.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="545" topLine="6" />
+	</File>
+	<File name="..\account.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="184" topLine="0" />
+	</File>
+	<File name="..\account.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1347" topLine="20" />
+	</File>
+	<File name="..\actions.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="9" zoom_2="0">
+		<Cursor1 position="33529" topLine="1216" />
+	</File>
+	<File name="..\actions.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4250" topLine="140" />
+	</File>
+	<File name="..\allocator.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="974" topLine="5" />
+	</File>
+	<File name="..\allocator.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="6503" topLine="196" />
+	</File>
+	<File name="..\chat.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2892" topLine="84" />
+	</File>
+	<File name="..\chat.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1294" topLine="23" />
+	</File>
+	<File name="..\commands.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="13392" topLine="502" />
+	</File>
+	<File name="..\commands.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4870" topLine="90" />
+	</File>
+	<File name="..\const76.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="6665" topLine="232" />
+	</File>
+	<File name="..\container.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3551" topLine="109" />
+	</File>
+	<File name="..\container.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2541" topLine="44" />
+	</File>
+	<File name="..\creature.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="7535" topLine="299" />
+	</File>
+	<File name="..\creature.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="6773" topLine="234" />
+	</File>
+	<File name="..\definitions.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1326" topLine="23" />
+	</File>
+	<File name="..\exception.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="10600" topLine="287" />
+	</File>
+	<File name="..\fileloader.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="20402" topLine="1000" />
+	</File>
+	<File name="..\fileloader.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="7887" topLine="347" />
+	</File>
+	<File name="..\game.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="116058" topLine="3786" />
+	</File>
+	<File name="..\game.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="10547" topLine="290" />
+	</File>
+	<File name="..\guilds.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor1 position="7619" topLine="264" />
+	</File>
+	<File name="..\guilds.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1144" topLine="7" />
+	</File>
+	<File name="..\houses.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="8763" topLine="239" />
+	</File>
+	<File name="..\houses.h" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2326" topLine="42" />
+	</File>
+	<File name="..\ioaccount.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1183" topLine="7" />
+	</File>
+	<File name="..\ioaccountxml.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2403" topLine="57" />
+	</File>
+	<File name="..\iomapbin.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4068" topLine="152" />
+	</File>
+	<File name="..\iomapotbm.cpp" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor1 position="527" topLine="0" />
+	</File>
+	<File name="..\iomapotbm.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1233" topLine="0" />
+	</File>
+	<File name="..\iomapxml.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3827" topLine="109" />
+	</File>
+	<File name="..\iomapxml.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1407" topLine="18" />
+	</File>
+	<File name="..\ioplayer.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1209" topLine="21" />
+	</File>
+	<File name="..\ioplayer.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1392" topLine="26" />
+	</File>
+	<File name="..\ioplayerxml.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="23642" topLine="785" />
+	</File>
+	<File name="..\ioplayerxml.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1974" topLine="27" />
+	</File>
+	<File name="..\item.cpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="19155" topLine="830" />
+	</File>
+	<File name="..\item.h" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3155" topLine="87" />
+	</File>
+	<File name="..\itemloader.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="5139" topLine="207" />
+	</File>
+	<File name="..\items.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="16228" topLine="598" />
+	</File>
+	<File name="..\items.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2016" topLine="63" />
+	</File>
+	<File name="..\luascript.cpp" open="0" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="8977" topLine="163" />
+	</File>
+	<File name="..\luascript.h" open="0" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3215" topLine="106" />
+	</File>
+	<File name="..\magic.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3184" topLine="97" />
+	</File>
+	<File name="..\map.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor1 position="6218" topLine="221" />
+	</File>
+	<File name="..\md5.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4937" topLine="98" />
+	</File>
+	<File name="..\monster.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="6782" topLine="225" />
+	</File>
+	<File name="..\monster.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3832" topLine="106" />
+	</File>
+	<File name="..\monsters.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="10225" topLine="374" />
+	</File>
+	<File name="..\monsters.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2085" topLine="61" />
+	</File>
+	<File name="..\networkmessage.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1089" topLine="0" />
+	</File>
+	<File name="..\networkmessage.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2608" topLine="69" />
+	</File>
+	<File name="..\npc.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="7573" topLine="279" />
+	</File>
+	<File name="..\npc.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2070" topLine="39" />
+	</File>
+	<File name="..\otserv.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="15183" topLine="533" />
+	</File>
+	<File name="..\otsystem.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3596" topLine="88" />
+	</File>
+	<File name="..\player.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="56951" topLine="2090" />
+	</File>
+	<File name="..\player.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2527" topLine="96" />
+	</File>
+	<File name="..\position.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="0" topLine="0" />
+	</File>
+	<File name="..\protocol.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1909" topLine="59" />
+	</File>
+	<File name="..\protocol.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="9275" topLine="149" />
+	</File>
+	<File name="..\protocol76.cpp" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="26582" topLine="1149" />
+	</File>
+	<File name="..\protocol76.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="8242" topLine="186" />
+	</File>
+	<File name="..\readables.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1296" topLine="18" />
+	</File>
+	<File name="..\readables.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1038" topLine="0" />
+	</File>
+	<File name="..\scheduler.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="901" topLine="26" />
+	</File>
+	<File name="..\spawn.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="12408" topLine="448" />
+	</File>
+	<File name="..\spells.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="11661" topLine="396" />
+	</File>
+	<File name="..\spells.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3593" topLine="122" />
+	</File>
+	<File name="..\status.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4943" topLine="183" />
+	</File>
+	<File name="..\templates.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1745" topLine="49" />
+	</File>
+	<File name="..\thing.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="640" topLine="26" />
+	</File>
+	<File name="..\tile.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="6533" topLine="210" />
+	</File>
+	<File name="..\tools.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1087" topLine="15" />
+	</File>
+	<File name="..\tools.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1631" topLine="17" />
+	</File>
+</CodeBlocks_layout_file>

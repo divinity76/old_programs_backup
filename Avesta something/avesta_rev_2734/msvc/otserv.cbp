@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="otserv" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="C:\otserv\otserv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-D__USE_SQLITE__" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-frtti" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="C:\otserv\otserv" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-DNOMINMAX" />
+					<Add option="-D__USE_SQLITE__" />
+					<Add option="-W" />
+					<Add option="-frtti" />
+					<Add option='-D&quot;_X86_&quot;' />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="..\account.cpp" />
+		<Unit filename="..\actions.cpp" />
+		<Unit filename="..\admin.cpp" />
+		<Unit filename="..\allocator.cpp" />
+		<Unit filename="..\ban.cpp" />
+		<Unit filename="..\baseevents.cpp" />
+		<Unit filename="..\chat.cpp" />
+		<Unit filename="..\combat.cpp" />
+		<Unit filename="..\commands.cpp" />
+		<Unit filename="..\condition.cpp" />
+		<Unit filename="..\configmanager.cpp" />
+		<Unit filename="..\connection.cpp" />
+		<Unit filename="..\container.cpp" />
+		<Unit filename="..\creature.cpp" />
+		<Unit filename="..\creatureevent.cpp" />
+		<Unit filename="..\cylinder.cpp" />
+		<Unit filename="..\database.cpp" />
+		<Unit filename="..\databasesqlite.cpp" />
+		<Unit filename="..\depot.cpp" />
+		<Unit filename="..\exception.cpp" />
+		<Unit filename="..\fileloader.cpp" />
+		<Unit filename="..\game.cpp" />
+		<Unit filename="..\house.cpp" />
+		<Unit filename="..\housetile.cpp" />
+		<Unit filename="..\ioaccount.cpp" />
+		<Unit filename="..\iomapotbm.cpp" />
+		<Unit filename="..\iomapserialize.cpp" />
+		<Unit filename="..\iomapxml.cpp" />
+		<Unit filename="..\ioplayer.cpp" />
+		<Unit filename="..\item.cpp" />
+		<Unit filename="..\items.cpp" />
+		<Unit filename="..\logger.cpp" />
+		<Unit filename="..\luascript.cpp" />
+		<Unit filename="..\mailbox.cpp" />
+		<Unit filename="..\map.cpp" />
+		<Unit filename="..\md5.cpp" />
+		<Unit filename="..\monster.cpp" />
+		<Unit filename="..\monsters.cpp" />
+		<Unit filename="..\movement.cpp" />
+		<Unit filename="..\networkmessage.cpp" />
+		<Unit filename="..\npc.cpp" />
+		<Unit filename="..\otserv.cpp" />
+		<Unit filename="..\outfit.cpp" />
+		<Unit filename="..\outputmessage.cpp" />
+		<Unit filename="..\player.cpp" />
+		<Unit filename="..\position.cpp" />
+		<Unit filename="..\protocol.cpp" />
+		<Unit filename="..\protocol80.cpp" />
+		<Unit filename="..\protocollogin.cpp" />
+		<Unit filename="..\raids.cpp" />
+		<Unit filename="..\rsa.cpp" />
+		<Unit filename="..\scheduler.cpp" />
+		<Unit filename="..\scriptmanager.cpp" />
+		<Unit filename="..\server.cpp" />
+		<Unit filename="..\spawn.cpp" />
+		<Unit filename="..\spells.cpp" />
+		<Unit filename="..\status.cpp" />
+		<Unit filename="..\talkaction.cpp" />
+		<Unit filename="..\tasks.cpp" />
+		<Unit filename="..\teleport.cpp" />
+		<Unit filename="..\thing.cpp" />
+		<Unit filename="..\tile.cpp" />
+		<Unit filename="..\tools.cpp" />
+		<Unit filename="..\trashholder.cpp" />
+		<Unit filename="..\vocation.cpp" />
+		<Unit filename="..\waitlist.cpp" />
+		<Unit filename="..\weapons.cpp" />
+		<Unit filename="..\account.h" />
+		<Unit filename="..\actions.h" />
+		<Unit filename="..\admin.h" />
+		<Unit filename="..\allocator.h" />
+		<Unit filename="..\ban.h" />
+		<Unit filename="..\baseevents.h" />
+		<Unit filename="..\chat.h" />
+		<Unit filename="..\combat.h" />
+		<Unit filename="..\commands.h" />
+		<Unit filename="..\condition.h" />
+		<Unit filename="..\configmanager.h" />
+		<Unit filename="..\connection.h" />
+		<Unit filename="..\const79.h" />
+		<Unit filename="..\container.h" />
+		<Unit filename="..\creature.h" />
+		<Unit filename="..\creatureevent.h" />
+		<Unit filename="..\cylinder.h" />
+		<Unit filename="..\database.h" />
+		<Unit filename="..\databasesqlite.h" />
+		<Unit filename="..\definitions.h" />
+		<Unit filename="..\depot.h" />
+		<Unit filename="..\enums.h" />
+		<Unit filename="..\exception.h" />
+		<Unit filename="..\fileloader.h" />
+		<Unit filename="..\game.h" />
+		<Unit filename="..\house.h" />
+		<Unit filename="..\housetile.h" />
+		<Unit filename="..\ioaccount.h" />
+		<Unit filename="..\iomap.h" />
+		<Unit filename="..\iomapotbm.h" />
+		<Unit filename="..\iomapserialize.h" />
+		<Unit filename="..\iomapxml.h" />
+		<Unit filename="..\ioplayer.h" />
+		<Unit filename="..\item.h" />
+		<Unit filename="..\itemloader.h" />
+		<Unit filename="..\items.h" />
+		<Unit filename="..\logger.h" />
+		<Unit filename="..\luascript.h" />
+		<Unit filename="..\mailbox.h" />
+		<Unit filename="..\map.h" />
+		<Unit filename="..\md5.h" />
+		<Unit filename="..\monster.h" />
+		<Unit filename="..\monsters.h" />
+		<Unit filename="..\movement.h" />
+		<Unit filename="..\networkmessage.h" />
+		<Unit filename="..\npc.h" />
+		<Unit filename="..\otpch.h" />
+		<Unit filename="..\otsystem.h" />
+		<Unit filename="..\outfit.h" />
+		<Unit filename="..\outputmessage.h" />
+		<Unit filename="..\player.h" />
+		<Unit filename="..\position.h" />
+		<Unit filename="..\protocol.h" />
+		<Unit filename="..\protocol80.h" />
+		<Unit filename="..\protocollogin.h" />
+		<Unit filename="..\raids.h" />
+		<Unit filename="..\rsa.h" />
+		<Unit filename="..\scheduler.h" />
+		<Unit filename="..\scriptmanager.h" />
+		<Unit filename="..\server.h" />
+		<Unit filename="..\spawn.h" />
+		<Unit filename="..\spells.h" />
+		<Unit filename="..\status.h" />
+		<Unit filename="..\talkaction.h" />
+		<Unit filename="..\tasks.h" />
+		<Unit filename="..\teleport.h" />
+		<Unit filename="..\templates.h" />
+		<Unit filename="..\thing.h" />
+		<Unit filename="..\tile.h" />
+		<Unit filename="..\tools.h" />
+		<Unit filename="..\town.h" />
+		<Unit filename="..\trashholder.h" />
+		<Unit filename="..\vocation.h" />
+		<Unit filename="..\waitlist.h" />
+		<Unit filename="..\weapons.h" />
+		<Unit filename="otserv.ico" />
+		<Unit filename="otserv.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="..\data\npc\scripts\bug.lua" />
+		<Unit filename="..\data\npc\scripts\lib\npc.lua" />
+		<Unit filename="..\data\npc\scripts\sven.lua" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

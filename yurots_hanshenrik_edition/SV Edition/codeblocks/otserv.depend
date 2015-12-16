@@ -1,0 +1,953 @@
+# depslib dependency file v1.0
+1124461662 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\account.cpp
+	<algorithm>
+	<functional>
+	<iostream>
+	"definitions.h"
+	"account.h"
+
+1143326534 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\definitions.h
+	"exception.h"
+	<ext/hash_map>
+	<ext/hash_set>
+	<hash_map>
+	<hash_set>
+	<limits>
+	<cstring>
+	<stdint.h>
+	<string.h>
+	<ext/hash_map>
+	<ext/hash_set>
+
+1140905445 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\exception.h
+
+1114764084 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\account.h
+	<list>
+	<string>
+
+1309738387 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\actions.cpp
+	"definitions.h"
+	"const76.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"game.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"house.h"
+	"tasks.h"
+	"tools.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<boost/bind.hpp>
+	"actions.h"
+
+1309557543 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\const76.h
+
+1309654724 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\player.h
+	"definitions.h"
+	"creature.h"
+	"container.h"
+	"depot.h"
+	"cylinder.h"
+	<vector>
+	<ctime>
+	<algorithm>
+	"templates.h"
+	"party.h"
+
+1309599523 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\creature.h
+	<vector>
+	"templates.h"
+	"thing.h"
+	"position.h"
+	"container.h"
+	"magic.h"
+
+1123123194 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\templates.h
+	<set>
+	<map>
+	"creature.h"
+	"otsystem.h"
+
+1309463071 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\otsystem.h
+	"definitions.h"
+	"logger.h"
+	<list>
+	<algorithm>
+	<windows.h>
+	<process.h>
+	<stddef.h>
+	<stdlib.h>
+	<conio.h>
+	<sys/timeb.h>
+	<winsock.h>
+	<pthread.h>
+	<semaphore.h>
+	<time.h>
+	<sys/types.h>
+	<sys/timeb.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<stdint.h>
+	<errno.h>
+
+1140297197 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\logger.h
+	<string>
+	<map>
+
+1138115305 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\thing.h
+	"definitions.h"
+	"position.h"
+
+1137893947 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+
+1144192352 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\container.h
+	"definitions.h"
+	"cylinder.h"
+	"item.h"
+
+1144191889 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\cylinder.h
+	"definitions.h"
+	"thing.h"
+
+1314002185 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\item.h
+	"thing.h"
+	"items.h"
+	<iostream>
+	<list>
+	<vector>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1309554454 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\items.h
+	"definitions.h"
+	"const76.h"
+	"itemloader.h"
+
+1138314350 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\itemloader.h
+	"fileloader.h"
+
+1144333214 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\fileloader.h
+	<string>
+	"stdio.h"
+
+1142112753 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\magic.h
+	"position.h"
+	"item.h"
+	<map>
+	"const76.h"
+	"tools.h"
+	"creature.h"
+
+1143508935 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\tools.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<stdio.h>
+	<stdlib.h>
+	<libxml/parser.h>
+
+1143143220 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\depot.h
+	"container.h"
+
+1140563697 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\monster.h
+	"tile.h"
+	"templates.h"
+	"monsters.h"
+
+1306570610 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\tile.h
+	"cylinder.h"
+	"item.h"
+	"magic.h"
+
+1137621530 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\monsters.h
+	<string>
+	"creature.h"
+
+1309507503 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\npc.h
+	"creature.h"
+	"luascript.h"
+	"templates.h"
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+
+1314001695 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\luascript.h
+	<string>
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+
+1313998461 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\game.h
+	<queue>
+	<vector>
+	<set>
+	"map.h"
+	"position.h"
+	"item.h"
+	"container.h"
+	"player.h"
+	"magic.h"
+	"spawn.h"
+	"templates.h"
+	"scheduler.h"
+
+1143076068 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\map.h
+	<queue>
+	<bitset>
+	<map>
+	"definitions.h"
+	"position.h"
+	"item.h"
+	"creature.h"
+	"magic.h"
+	"iomapserialize.h"
+	"tools.h"
+	"tile.h"
+
+1142234875 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapserialize.h
+	<string>
+
+1140563697 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\spawn.h
+	"tile.h"
+	"position.h"
+	"monster.h"
+	"templates.h"
+	<vector>
+	<map>
+
+1143076619 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\scheduler.h
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<functional>
+	"otsystem.h"
+
+1144697680 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\house.h
+	<string>
+	<list>
+	<map>
+	"boost/regex.hpp"
+	"definitions.h"
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1142042254 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\housetile.h
+	"tile.h"
+
+1143244609 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\tasks.h
+	<boost/function.hpp>
+	<functional>
+	"player.h"
+	"game.h"
+	"position.h"
+
+1140645297 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\actions.h
+	"position.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<map>
+	"luascript.h"
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+
+1124742484 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\allocator.cpp
+	"otsystem.h"
+	"allocator.h"
+
+1142374368 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\allocator.h
+	<memory>
+	<cstdlib>
+	<map>
+	<fstream>
+	<ctime>
+	<boost/pool/pool.hpp>
+	"definitions.h"
+
+1144877157 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ban.cpp
+	"ban.h"
+	"ioplayer.h"
+	"luascript.h"
+	<sstream>
+	"database.h"
+
+1144877157 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ban.h
+	"otsystem.h"
+	<list>
+
+1144787005 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioplayer.h
+	<string>
+	"player.h"
+
+1306570916 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\database.h
+	<winsock.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1146450009 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\chat.cpp
+	"chat.h"
+	"player.h"
+
+1146450009 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\chat.h
+	<map>
+	<list>
+	<string>
+	"const76.h"
+
+1102788805 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\codeblocks\otserv.rc
+	"resource.h"
+	"afxres.h"
+
+1102788805 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\codeblocks\resource.h
+
+1313998378 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\commands.cpp
+	<string>
+	<sstream>
+	<utility>
+	<boost/tokenizer.hpp>
+	"commands.h"
+	"player.h"
+	"npc.h"
+	"monsters.h"
+	"game.h"
+	"actions.h"
+	"house.h"
+	"ioplayer.h"
+	"tools.h"
+	"ban.h"
+	"luascript.h"
+	"town.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1313998380 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\commands.h
+	<string>
+	<map>
+	"creature.h"
+
+1308078482 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\town.h
+	<string>
+	<list>
+	<map>
+	"position.h"
+	"definitions.h"
+
+1309737291 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\container.cpp
+	"container.h"
+	"iomapotbm.h"
+	"game.h"
+	"player.h"
+
+1142368156 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapotbm.h
+	"iomap.h"
+	"item.h"
+
+1142234875 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomap.h
+	<string>
+	"map.h"
+	"iomapserialize.h"
+
+1309548336 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\creature.cpp
+	"definitions.h"
+	<string>
+	<sstream>
+	<algorithm>
+	"creature.h"
+	"otsystem.h"
+	"tile.h"
+	"npc.h"
+	"player.h"
+	"monster.h"
+	"game.h"
+
+1144191889 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\cylinder.cpp
+	"cylinder.h"
+
+1306570918 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\database.cpp
+	<iostream>
+	"database.h"
+
+1142705577 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\depot.cpp
+	"depot.h"
+	<sstream>
+
+1139521226 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\fileloader.cpp
+	"fileloader.h"
+
+1313998380 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\game.cpp
+	"definitions.h"
+	<string>
+	<sstream>
+	<map>
+	<iostream>
+	<fstream>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"otsystem.h"
+	"tasks.h"
+	"items.h"
+	"commands.h"
+	"creature.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"game.h"
+	"tile.h"
+	"house.h"
+	"spells.h"
+	"actions.h"
+	"ioplayer.h"
+	"chat.h"
+	"luascript.h"
+	"party.h"
+	"exception.h"
+
+1314003016 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\spells.h
+	"game.h"
+	"luascript.h"
+	"player.h"
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+
+1309770769 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\house.cpp
+	<sstream>
+	<algorithm>
+	"house.h"
+	"ioplayer.h"
+	"game.h"
+	"town.h"
+	"luascript.h"
+	"tools.h"
+
+1142042254 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\housetile.cpp
+	"housetile.h"
+	"house.h"
+	"game.h"
+
+1137454133 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioaccount.cpp
+	"ioaccount.h"
+	"ioaccountsql.h"
+	"ioaccountxml.h"
+	"luascript.h"
+
+1129479291 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioaccount.h
+	<string>
+	"account.h"
+
+1129479291 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioaccountsql.h
+	<string>
+	"ioaccount.h"
+
+1144965275 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioaccountxml.h
+	<string>
+	"definitions.h"
+	"ioaccount.h"
+
+1144965275 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioaccountxml.cpp
+	"ioaccountxml.h"
+	"tools.h"
+	<algorithm>
+	<functional>
+	<sstream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	"luascript.h"
+
+1140563697 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapbin.cpp
+	"iomapbin.h"
+	"spawn.h"
+	"teleport.h"
+	<iostream>
+	<stdlib.h>
+
+1125366914 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapbin.h
+	<string>
+	"iomap.h"
+
+1144191889 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\teleport.h
+	"tile.h"
+
+1313998380 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapotbm.cpp
+	"iomapotbm.h"
+	"game.h"
+	"map.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"fileloader.h"
+	"town.h"
+	"house.h"
+
+1142234875 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapserialize.cpp
+	"iomapserialize.h"
+	"iomapserializesql.h"
+	"iomapserializexml.h"
+	"iomapserializexml.h"
+
+1308131000 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapserializesql.h
+	"iomapserialize.h"
+	"database.h"
+	"map.h"
+	<string>
+
+1143217623 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapserializexml.h
+	"iomapserialize.h"
+	"map.h"
+	<string>
+
+1144191929 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapserializexml.cpp
+	"iomapserializexml.h"
+	"house.h"
+	"town.h"
+	"tools.h"
+	<sstream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/tree.h>
+
+1142211696 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapsql.cpp
+	"iomapsql.h"
+	<iostream>
+	<algorithm>
+	<functional>
+	<sstream>
+	<ext/hash_map>
+	<hash_map>
+	"luascript.h"
+	<boost/tokenizer.hpp>
+
+1142234875 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapsql.h
+	<string>
+	"iomap.h"
+
+1309768238 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapxml.cpp
+	"iomapxml.h"
+	"definitions.h"
+	"iomapserializexml.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+
+1142234875 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapxml.h
+	"iomap.h"
+
+1144787005 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioplayer.cpp
+	"ioplayer.h"
+	"ioplayersql.h"
+	"ioplayerxml.h"
+
+1144951809 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioplayersql.h
+	<string>
+	"ioplayer.h"
+	"player.h"
+
+1144787005 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioplayerxml.h
+
+1309599748 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioplayerxml.cpp
+	<sstream>
+	"ioplayer.h"
+	"ioplayerxml.h"
+	"ioaccount.h"
+	"item.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+
+1309600307 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\item.cpp
+	"definitions.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"house.h"
+	"actions.h"
+	"magic.h"
+	<iostream>
+	<sstream>
+	<iomanip>
+
+1144191889 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\trashholder.h
+	"item.h"
+	"cylinder.h"
+	"const76.h"
+
+1144191889 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\mailbox.h
+	"item.h"
+	"cylinder.h"
+	"const76.h"
+
+1129938043 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\itemloader.cpp
+	"itemloader.h"
+
+1309554115 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\items.cpp
+	"items.h"
+	"spells.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<iostream>
+	<string>
+
+1140297669 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\logger.cpp
+	"logger.h"
+	<iostream>
+
+1307893068 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\luascript.cpp
+	<string>
+	<iostream>
+	"luascript.h"
+
+1143256646 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\magic.cpp
+	"definitions.h"
+	"game.h"
+	"creature.h"
+	"monster.h"
+	"player.h"
+	"magic.h"
+
+1144787005 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\mailbox.cpp
+	"mailbox.h"
+	"game.h"
+	"player.h"
+	"ioplayer.h"
+	"depot.h"
+	"town.h"
+	<sstream>
+
+1309771338 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\map.cpp
+	"definitions.h"
+	<string>
+	<sstream>
+	<map>
+	<algorithm>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"iomapsql.h"
+	"iomapxml.h"
+	"iomapotbm.h"
+	"iomapserialize.h"
+	"otsystem.h"
+	<stdio.h>
+	"items.h"
+	"map.h"
+	"tile.h"
+	"player.h"
+	"luascript.h"
+
+1121810243 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\md5.cpp
+	<stdio.h>
+	<stdlib.h>
+	"md5.h"
+
+1121805978 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\md5.h
+
+1143319580 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\monster.cpp
+	<vector>
+	<string>
+	<sstream>
+	"monster.h"
+	"monsters.h"
+	"spells.h"
+	"game.h"
+
+1143586228 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\monsters.cpp
+	"monsters.h"
+	"spells.h"
+	"tools.h"
+	"luascript.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1142368156 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\networkmessage.cpp
+	<string>
+	<iostream>
+	<sstream>
+	"networkmessage.h"
+	"item.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+	"position.h"
+
+1134772360 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\networkmessage.h
+	"definitions.h"
+	"otsystem.h"
+	"const76.h"
+
+1309739837 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\npc.cpp
+	"definitions.h"
+	"npc.h"
+	"game.h"
+	"tools.h"
+	<algorithm>
+	<functional>
+	<string>
+	<sstream>
+	<fstream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"luascript.h"
+
+1313998073 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\otserv.cpp
+	<stdint.h>
+	"definitions.h"
+	<string>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<ctime>
+	"otsystem.h"
+	"networkmessage.h"
+	"protocol76.h"
+	<stdlib.h>
+	<time.h>
+	"game.h"
+	"ioaccount.h"
+	"ioplayer.h"
+	"status.h"
+	"spells.h"
+	"monsters.h"
+	"actions.h"
+	"commands.h"
+	"luascript.h"
+	"account.h"
+	"tools.h"
+	"md5.h"
+	"waitlist.h"
+	"ban.h"
+	"allocator.h"
+	<fcntl.h>
+	<arpa/inet.h>
+	<signal.h>
+	<errno.h>
+	<exception>
+	"exception.h"
+	"networkmessage.h"
+
+1309654577 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\protocol76.h
+	<string>
+	"protocol.h"
+
+1306758355 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\protocol.h
+	"definitions.h"
+	"game.h"
+	<string>
+	"player.h"
+
+1140371303 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\status.h
+	<string>
+	"otsystem.h"
+	"definitions.h"
+	"networkmessage.h"
+
+1140377825 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\waitlist.h
+	"game.h"
+	"networkmessage.h"
+
+1309559916 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\player.cpp
+	"definitions.h"
+	<string>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<stdlib.h>
+	"protocol.h"
+	"player.h"
+	"ioplayer.h"
+	"luascript.h"
+	"chat.h"
+	"house.h"
+
+1137893947 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\position.cpp
+	"position.h"
+	<iomanip>
+
+1124051743 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\protocol.cpp
+	"definitions.h"
+	"tile.h"
+	"otsystem.h"
+	<string>
+	"protocol.h"
+
+1309736427 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\protocol76.cpp
+	"definitions.h"
+	<string>
+	<iostream>
+	<sstream>
+	<time.h>
+	<list>
+	"networkmessage.h"
+	"protocol76.h"
+	"items.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"status.h"
+	"chat.h"
+	<stdio.h>
+	"luascript.h"
+	"otsystem.h"
+	"actions.h"
+	"game.h"
+	"ioplayer.h"
+	"house.h"
+	"waitlist.h"
+
+1137868009 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\scheduler.cpp
+	"scheduler.h"
+
+1146782217 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\spawn.cpp
+	"spawn.h"
+	"game.h"
+	"player.h"
+	"npc.h"
+	"tools.h"
+	<mysql++.h>
+	<boost/tokenizer.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1309772103 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\spells.cpp
+	"definitions.h"
+	"spells.h"
+	"tools.h"
+	<algorithm>
+	<functional>
+	<string>
+	<fstream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+
+1144951809 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\status.cpp
+	"status.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"luascript.h"
+	<sstream>
+	"game.h"
+	"networkmessage.h"
+
+1144191889 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\teleport.cpp
+	"teleport.h"
+	"game.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<sstream>
+
+1144345159 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\thing.cpp
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"creature.h"
+	"item.h"
+	"player.h"
+
+1309204689 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\tile.cpp
+	"definitions.h"
+	<string>
+	<iostream>
+	"definitions.h"
+	"tile.h"
+	"game.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+
+1143508935 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\tools.cpp
+	"tools.h"
+
+1144191889 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\trashholder.cpp
+	"trashholder.h"
+	"game.h"
+
+1142112753 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\waitlist.cpp
+	<iostream>
+	<sstream>
+	"waitlist.h"
+	"status.h"
+
+1306571147 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\party.h
+	"definitions.h"
+	"const76.h"
+	"player.h"
+	<list>
+	"party.h"
+
+1316265592 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\!about.cpp
+
+1306582359 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\party.cpp
+	"party.h"
+	<sstream>
+
+1140905445 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\exception.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<ctime>
+	<stdlib.h>
+	<map>
+	"otsystem.h"
+	"exception.h"
+	<map>
+	<string>
+	"excpt.h"
+	"tlhelp32.h"
+
+1308130897 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioaccountsql.cpp
+	"ioaccountsql.h"
+	<algorithm>
+	<functional>
+	<sstream>
+	"database.h"
+	<iostream>
+	"luascript.h"
+
+1308131051 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\iomapserializesql.cpp
+	"iomapserializesql.h"
+	"house.h"
+	"luascript.h"
+
+1308131137 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\ioplayersql.cpp
+	"ioplayer.h"
+	"ioplayersql.h"
+	"ioaccount.h"
+	"item.h"
+	"luascript.h"
+	"database.h"
+	"tools.h"
+	<boost/tokenizer.hpp>
+	<iostream>
+	<iomanip>
+	<ext/hash_map>
+	<hash_map>
+
+1102788805 source:c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\msvc\otserv.rc
+	"resource.h"
+	"afxres.h"
+
+1102788805 c:\users\hans henrik\desktop\ots\yurots hanshenrikedition 2011\sv edition\msvc\resource.h
+

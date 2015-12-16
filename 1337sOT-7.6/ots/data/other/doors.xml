@@ -1,0 +1,29 @@
+<doors>
+-- Desert Pyramid Start
+<door level="75" x="186" y="230" z="7"/>
+<door level="75" x="187" y="230" z="7"/>
+-- Desert Pyramid End
+-- Southern Guildhall Start
+<door level="50" x="175" y="181" z="8"/>
+<door level="30" x="177" y="181" z="8"/>
+<door level="75" x="181" y="181" z="8"/>
+<door level="100" x="179" y="181" z="8"/>
+-- Southern Guildhall End
+-- Orsha Anhi Start
+<door level="150" x="176" y="66" z="8"/>
+<door level="150" x="178" y="66" z="8"/>
+-- Orsha Anhi End
+-- Regular Anhi Start
+<door level="100" x="300" y="130" z="8"/>
+<door level="100" x="302" y="130" z="8"/>
+-- Regular Anhi End
+-- Noob Anhi Start
+<door level="15" x="215" y="152" z="8"/>
+<door level="15" x="217" y="152" z="8"/>
+-- Noob Anhi End
+
+<door level="50" x="286" y="394" z="8"/>
+
+<door level="30" x="113" y="232" z="13"/>
+
+</doors>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="YurOTS HHB SV Edition" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="C:\otserv\otserv_DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\otserv\" />
+				<Option object_output="." />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DREMOVED__MYSQL_ALT_INCLUDE__" />
+					<Add option="-D__DEBUG__MOVESYS__" />
+					<Add option="-DREMOVED__DEBUG__" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="C:\otserv\otserv_RELEASE" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\otserv\" />
+				<Option object_output="." />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O2" />
+					<Add option="-DREMOVED__MYSQL_ALT_INCLUDE__" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="QuickCompile Win32">
+				<Option output="C:\otserv\otserv_QuickCompiled" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\otserv\" />
+				<Option object_output="." />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DREMOVED__MYSQL_ALT_INCLUDE__" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DYUR_RINGS_AMULETS" />
+			<Add option="-DRULY_LIFE_RINGS" />
+			<Add option="-DYUR_READABLES" />
+			<Add option="-DTLM_BUY_SELL" />
+			<Add option="-DWOLV_LOAD_NPC" />
+			<Add option="-DHHB_GM_MOVE" />
+			<Add option="-DHHB_GM_MAX_SPEED" />
+			<Add option="-DHHB_ATTACK_SPEED" />
+			<Add option="-DREMOVED__USE_MYSQL__" />
+			<Add option="-DHHB_MULTI_CONFIG_LUA" />
+			<Add option="-D__SKULLSYSTEM__" />
+			<Add option="-DHHB_PARTY_SYSTEM" />
+			<Add option="-DHHB_NULL_GM" />
+			<Add option="-D__PB_GMINVISIBLE__" />
+			<Add option="-DYUR_CMD_EXT" />
+			<Add option="-DBD_ITEM_LOOK" />
+			<Add option="-DYUR_CLEAN_MAP" />
+		</Compiler>
+		<Linker>
+			<Add option="C:/Dev-Cpp/bin/libxml2.dll" />
+			<Add option="C:/Dev-Cpp/bin/lua5.dll" />
+			<Add option="C:/Dev-Cpp/bin/lualib5.dll" />
+			<Add option="-lwsock32" />
+			<Add option="C:/dev-cpp/lib/libboost_regex-mgw-mt-s-1_33_1.lib" />
+			<Add option="-lmysql" />
+		</Linker>
+		<Unit filename="..\!About.cpp" />
+		<Unit filename="..\.cvsignore" />
+		<Unit filename="..\Doxyfile" />
+		<Unit filename="..\LICENSE" />
+		<Unit filename="..\Makefile.am" />
+		<Unit filename="..\Makefile.in" />
+		<Unit filename="..\README" />
+		<Unit filename="..\SQLMapSample.sql" />
+		<Unit filename="..\account.cpp" />
+		<Unit filename="..\account.h" />
+		<Unit filename="..\actions.cpp" />
+		<Unit filename="..\actions.h" />
+		<Unit filename="..\allocator.cpp" />
+		<Unit filename="..\allocator.h" />
+		<Unit filename="..\ban.cpp" />
+		<Unit filename="..\ban.h" />
+		<Unit filename="..\bootstrap.sh" />
+		<Unit filename="..\chat.cpp" />
+		<Unit filename="..\chat.h" />
+		<Unit filename="resource.h" />
+		<Unit filename="..\commands.cpp" />
+		<Unit filename="..\commands.h" />
+		<Unit filename="..\config.h.in" />
+		<Unit filename="..\config.lua.dist" />
+		<Unit filename="..\configure" />
+		<Unit filename="..\configure.in" />
+		<Unit filename="..\const76.h" />
+		<Unit filename="..\container.cpp" />
+		<Unit filename="..\container.h" />
+		<Unit filename="..\creature.cpp" />
+		<Unit filename="..\creature.h" />
+		<Unit filename="..\cylinder.cpp" />
+		<Unit filename="..\cylinder.h" />
+		<Unit filename="..\data\accounts\111111.xml" />
+		<Unit filename="..\data\actions\actions.xml" />
+		<Unit filename="..\data\actions\lib\actions.lua" />
+		<Unit filename="..\data\actions\scripts\changevoc.lua" />
+		<Unit filename="..\data\actions\scripts\door.lua" />
+		<Unit filename="..\data\actions\scripts\doublesd.lua" />
+		<Unit filename="..\data\actions\scripts\dsm.lua" />
+		<Unit filename="..\data\actions\scripts\evilhole.lua" />
+		<Unit filename="..\data\actions\scripts\fishing.lua" />
+		<Unit filename="..\data\actions\scripts\fluids.lua" />
+		<Unit filename="..\data\actions\scripts\food.lua" />
+		<Unit filename="..\data\actions\scripts\key.lua" />
+		<Unit filename="..\data\actions\scripts\money.lua" />
+		<Unit filename="..\data\actions\scripts\music.lua" />
+		<Unit filename="..\data\actions\scripts\quest.lua" />
+		<Unit filename="..\data\actions\scripts\remove.lua" />
+		<Unit filename="..\data\actions\scripts\rope.lua" />
+		<Unit filename="..\data\actions\scripts\rwitems.lua" />
+		<Unit filename="..\data\actions\scripts\shovel.lua" />
+		<Unit filename="..\data\actions\scripts\summon.lua" />
+		<Unit filename="..\data\actions\scripts\switch.lua" />
+		<Unit filename="..\data\actions\scripts\teleport.lua" />
+		<Unit filename="..\data\actions\scripts\undead.lua" />
+		<Unit filename="..\data\actions\scripts\undead2.lua" />
+		<Unit filename="..\data\actions\scripts\w-helmet.lua" />
+		<Unit filename="..\data\actions\scripts\witch1.lua" />
+		<Unit filename="..\data\actions\scripts\witch2.lua" />
+		<Unit filename="..\data\commands.xml" />
+		<Unit filename="..\data\items\items.otb" />
+		<Unit filename="..\data\monster\demon.xml" />
+		<Unit filename="..\data\monster\giant spider.xml" />
+		<Unit filename="..\data\monster\minotaur archer.xml" />
+		<Unit filename="..\data\monster\monsters.xml" />
+		<Unit filename="..\data\monster\poison spider.xml" />
+		<Unit filename="..\data\npc\bug.xml" />
+		<Unit filename="..\data\npc\scripts\bug.lua" />
+		<Unit filename="..\data\npc\scripts\lib\npc.lua" />
+		<Unit filename="..\data\npc\scripts\sven.lua" />
+		<Unit filename="..\data\npc\sven.xml" />
+		<Unit filename="..\data\players\hurz.xml" />
+		<Unit filename="..\data\players\hurzel.xml" />
+		<Unit filename="..\data\players\hurzine.xml" />
+		<Unit filename="..\data\players\players.xml" />
+		<Unit filename="..\data\spells\instant\adura vita.lua" />
+		<Unit filename="..\data\spells\instant\exevo con.lua" />
+		<Unit filename="..\data\spells\instant\exevo gran mas pox.lua" />
+		<Unit filename="..\data\spells\instant\exevo gran mas vis.lua" />
+		<Unit filename="..\data\spells\instant\exevo gran vis lux.lua" />
+		<Unit filename="..\data\spells\instant\exevo mort hur.lua" />
+		<Unit filename="..\data\spells\instant\exevo pan.lua" />
+		<Unit filename="..\data\spells\instant\exura gran mas res.lua" />
+		<Unit filename="..\data\spells\instant\exura sio.lua" />
+		<Unit filename="..\data\spells\instant\exura vita.lua" />
+		<Unit filename="..\data\spells\instant\exura.lua" />
+		<Unit filename="..\data\spells\instant\utamo vita.lua" />
+		<Unit filename="..\data\spells\instant\utani gran hur.lua" />
+		<Unit filename="..\data\spells\instant\utani hur.lua" />
+		<Unit filename="..\data\spells\instant\utevo res ina.lua" />
+		<Unit filename="..\data\spells\lib\spells.lua" />
+		<Unit filename="..\data\spells\runes\energybomb.lua" />
+		<Unit filename="..\data\spells\runes\explosion.lua" />
+		<Unit filename="..\data\spells\runes\firebomb.lua" />
+		<Unit filename="..\data\spells\runes\great fireball.lua" />
+		<Unit filename="..\data\spells\runes\heavy magic missile.lua" />
+		<Unit filename="..\data\spells\runes\magic wall.lua" />
+		<Unit filename="..\data\spells\runes\soul fire.lua" />
+		<Unit filename="..\data\spells\runes\sudden death.lua" />
+		<Unit filename="..\data\spells\runes\ultimate healing.lua" />
+		<Unit filename="..\data\spells\spells.xml" />
+		<Unit filename="..\data\world\map-house.xml" />
+		<Unit filename="..\data\world\map-spawn.xml" />
+		<Unit filename="..\data\world\map.otbm" />
+		<Unit filename="..\database.cpp" />
+		<Unit filename="..\database.h" />
+		<Unit filename="..\db_struct.sql" />
+		<Unit filename="..\definitions.h" />
+		<Unit filename="..\depot.cpp" />
+		<Unit filename="..\depot.h" />
+		<Unit filename="..\exception.cpp" />
+		<Unit filename="..\exception.h" />
+		<Unit filename="..\fileloader.cpp" />
+		<Unit filename="..\fileloader.h" />
+		<Unit filename="..\game.cpp" />
+		<Unit filename="..\game.h" />
+		<Unit filename="..\house.cpp" />
+		<Unit filename="..\house.h" />
+		<Unit filename="..\housetile.cpp" />
+		<Unit filename="..\housetile.h" />
+		<Unit filename="..\ioaccount.cpp" />
+		<Unit filename="..\ioaccount.h" />
+		<Unit filename="..\ioaccountsql.cpp" />
+		<Unit filename="..\ioaccountsql.h" />
+		<Unit filename="..\ioaccountxml.cpp" />
+		<Unit filename="..\ioaccountxml.h" />
+		<Unit filename="..\iomap.h" />
+		<Unit filename="..\iomapbin.cpp" />
+		<Unit filename="..\iomapbin.h" />
+		<Unit filename="..\iomapotbm.cpp" />
+		<Unit filename="..\iomapotbm.h" />
+		<Unit filename="..\iomapserialize.cpp" />
+		<Unit filename="..\iomapserialize.h" />
+		<Unit filename="..\iomapserializesql.cpp" />
+		<Unit filename="..\iomapserializesql.h" />
+		<Unit filename="..\iomapserializexml.cpp" />
+		<Unit filename="..\iomapserializexml.h" />
+		<Unit filename="..\iomapsql.cpp" />
+		<Unit filename="..\iomapsql.h" />
+		<Unit filename="..\iomapxml.cpp" />
+		<Unit filename="..\iomapxml.h" />
+		<Unit filename="..\ioplayer.cpp" />
+		<Unit filename="..\ioplayer.h" />
+		<Unit filename="..\ioplayersql.cpp" />
+		<Unit filename="..\ioplayersql.h" />
+		<Unit filename="..\ioplayerxml.cpp" />
+		<Unit filename="..\ioplayerxml.h" />
+		<Unit filename="..\item.cpp" />
+		<Unit filename="..\item.h" />
+		<Unit filename="..\itemloader.cpp" />
+		<Unit filename="..\itemloader.h" />
+		<Unit filename="..\items.cpp" />
+		<Unit filename="..\items.h" />
+		<Unit filename="..\items.txt" />
+		<Unit filename="..\logger.cpp" />
+		<Unit filename="..\logger.h" />
+		<Unit filename="..\luascript.cpp" />
+		<Unit filename="..\luascript.h" />
+		<Unit filename="..\magic.cpp" />
+		<Unit filename="..\magic.h" />
+		<Unit filename="..\mailbox.cpp" />
+		<Unit filename="..\mailbox.h" />
+		<Unit filename="..\map.cpp" />
+		<Unit filename="..\map.h" />
+		<Unit filename="..\md5.cpp" />
+		<Unit filename="..\md5.h" />
+		<Unit filename="..\monster.cpp" />
+		<Unit filename="..\monster.h" />
+		<Unit filename="..\monsters.cpp" />
+		<Unit filename="..\monsters.h" />
+		<Unit filename="..\msvc\resource.h" />
+		<Unit filename="..\networkmessage.cpp" />
+		<Unit filename="..\networkmessage.h" />
+		<Unit filename="..\npc.cpp" />
+		<Unit filename="..\npc.h" />
+		<Unit filename="..\otserv.cpp" />
+		<Unit filename="..\otserv.ico" />
+		<Unit filename="..\otsystem.h" />
+		<Unit filename="..\party.cpp" />
+		<Unit filename="..\party.h" />
+		<Unit filename="..\player.cpp" />
+		<Unit filename="..\player.h" />
+		<Unit filename="..\position.cpp" />
+		<Unit filename="..\position.h" />
+		<Unit filename="..\protocol.cpp" />
+		<Unit filename="..\protocol.h" />
+		<Unit filename="..\protocol76.cpp" />
+		<Unit filename="..\protocol76.h" />
+		<Unit filename="..\sample.sql" />
+		<Unit filename="..\scheduler.cpp" />
+		<Unit filename="..\scheduler.h" />
+		<Unit filename="..\spawn.cpp" />
+		<Unit filename="..\spawn.h" />
+		<Unit filename="..\spells.cpp" />
+		<Unit filename="..\spells.h" />
+		<Unit filename="..\status.cpp" />
+		<Unit filename="..\status.h" />
+		<Unit filename="..\tasks.h" />
+		<Unit filename="..\teleport.cpp" />
+		<Unit filename="..\teleport.h" />
+		<Unit filename="..\templates.h" />
+		<Unit filename="..\thing.cpp" />
+		<Unit filename="..\thing.h" />
+		<Unit filename="..\tile.cpp" />
+		<Unit filename="..\tile.h" />
+		<Unit filename="..\tools.cpp" />
+		<Unit filename="..\tools.h" />
+		<Unit filename="..\town.h" />
+		<Unit filename="..\trashholder.cpp" />
+		<Unit filename="..\trashholder.h" />
+		<Unit filename="..\waitlist.cpp" />
+		<Unit filename="..\waitlist.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

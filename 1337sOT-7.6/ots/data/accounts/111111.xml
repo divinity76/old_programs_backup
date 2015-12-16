@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+ <account pass="tibia" type="1" premDays="15">
+ 	<characters>
+ 		<character name="God 1337" />
+ 		<character name="1337" />
+ 	</characters>
+ </account>

@@ -1,0 +1,171 @@
+# Project: Neverland
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = Neverland_private.res
+OBJ  = sources/account.o sources/actions.o sources/allocator.o sources/chat.o sources/commands.o sources/container.o sources/creature.o sources/exception.o sources/fileloader.o sources/game.o sources/guilds.o sources/houses.o sources/ioaccount.o sources/ioaccountxml.o sources/iomapbin.o sources/iomapjxb2.o sources/iomapotbm.o sources/iomapxml.o sources/ioplayer.o sources/ioplayerxml.o sources/item.o sources/itemloader.o sources/items.o sources/logger.o sources/loginqueue.o sources/luascript.o sources/magic.o sources/map.o sources/md5.o sources/monster.o sources/networkmessage.o sources/neverland.o sources/npc.o sources/player.o sources/position.o sources/protocol.o sources/protocol76.o sources/pvparena.o sources/readables.o sources/scheduler.o sources/spawn.o sources/spells.o sources/status.o sources/summons.o sources/thing.o sources/tile.o sources/tools.o $(RES)
+LINKOBJ  = sources/account.o sources/actions.o sources/allocator.o sources/chat.o sources/commands.o sources/container.o sources/creature.o sources/exception.o sources/fileloader.o sources/game.o sources/guilds.o sources/houses.o sources/ioaccount.o sources/ioaccountxml.o sources/iomapbin.o sources/iomapjxb2.o sources/iomapotbm.o sources/iomapxml.o sources/ioplayer.o sources/ioplayerxml.o sources/item.o sources/itemloader.o sources/items.o sources/logger.o sources/loginqueue.o sources/luascript.o sources/magic.o sources/map.o sources/md5.o sources/monster.o sources/networkmessage.o sources/neverland.o sources/npc.o sources/player.o sources/position.o sources/protocol.o sources/protocol76.o sources/pvparena.o sources/readables.o sources/scheduler.o sources/spawn.o sources/spells.o sources/status.o sources/summons.o sources/thing.o sources/tile.o sources/tools.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -L"C:/Dev-Cpp/other/lua-5.0.2/lib" -L"C:/Dev-Cpp/the-agency/boost_1_31_0/the-agency/build/retail" -L"C:/Dev-Cpp/other/mysql++-1.7.40/lib" -L"C:/Dev-Cpp/lib" -llua -llualib -lwsock32 -llibxml2 ../../../../../Dev-Cpp/bin/libxml2.dll  
+INCS =  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/other/lua-5.0.2/include"  -I"C:/Dev-Cpp/the-agency/boost_1_31_0"  -I"C:/Dev-Cpp/other/mysql++-1.7.40/lib"  -I"C:/Dev-Cpp/include/libxml" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/other/lua-5.0.2/include"  -I"C:/Dev-Cpp/the-agency/boost_1_31_0"  -I"C:/Dev-Cpp/other/mysql++-1.7.40/lib"  -I"C:/Dev-Cpp/include/libxml" 
+BIN  = Neverland.exe
+CXXFLAGS = $(CXXINCS) -DTLM_BUY_SELL -D_QUEST_XML_ -DJD_WANDS -D__WINDOWS__ -DTLM_SERVER_SAVE -DTLM_HOUSE_SYSTEM -DWOLV_LOAD_NPC -DBD_HOUSE_WINDOW -DTR_ANTI_AFK -DELEM_VIP_LIST -DTR_SUMMONS -DTRS_GM_INVISIBLE -DBRN_EXIVA -DSD_BURST_ARROW -DBDB_REPLACE_SPEARS -DBD_ITEM_LOOK -DSM_RELOAD_CONFIG -DJD_DEATH_LIST -DJD_WANDS -D__DEBUG_PLAYERS__ -DYUR_CVS_MODS -DYUR_ICE_RAPIER -DYUR_AOL -DSG_ROTATE_ITEM -DYUR_LOGIN_QUEUE -DYUR_MULTIPLIERS -DYUR_BOH -DYUR_NPC_EXT -DYUR_GUILD_SYSTEM -DYUR_CMD_EXT -DYUR_ITEM_EXT -DYUR_ACT_EXT -DYUR_NO_MONSTER_HEAL -DYUR_RINGS_AMULETS -DYUR_CONFIG_CAP -DYUR_FIGHT_MODE -DYUR_READABLES -DYUR_LEARN_SPELLS -DYUR_HEAL_EXHAUST -DYUR_SHUTDOWN -DYUR_ROOKGARD -DYUR_LIGHT_ITEM -DYUR_CLEAN_MAP -DPARCEL -DMOVE_UP -DANTI_MISS -DKICK_PLAYER -DDVOTE -DDEATH_LIST -DSKI_WAND -DFOLLOW_ATK -DYUR_PVP_ARENA -DYUR_PREMIUM_PROMOTION -DSELL_CONTAINER -DBDB_UTEVO_LUX -DWIK_ACCURATE -DTORCH -DYUR_LIGHT_ITEM -DYUR_LIGHT_ITEM -DDT_PREMMY -DZATH_GETSLOTITEM -DCHAOS_GMMC -DBD_FOLLOW -DTR_SUMMONFIX -DYUR_LIGHT_ITEM -DNAXE_CANTWALK -DEOTSERV_SERVER_SAVE -DBDB_UTEVO_LUX -DCAYAN_SPELLBOOK -DEOT_FIELDDAMAGE -DCAYAN_POISONMELEE -DDRAZAX_GMOUTFIT -DRUL_COMMANDS -DCVS_DAY_CYCLE -DTHUNDER -DTLM_BED -DRULY_ACCMANAGER -DRULY_ZITEM -DCTRL_Y -DTIJN_WILDCARD -DBD_ITEMTOSTAIRHOLE -DBD_PARALYZE -DRUL_DRUNK -DSURVIVAL_BLACKSQUARE -DTIJN_UTANAVID -DCTRL_Z -DLOOSIK_PVTCHANNEL -DLOOSIK_RECORD -DBC_CHAOS -DTLM_SKULLS_PARTY -DSMYG_ONLYONE -DREMERE_REMOVEITEM -DRUL_BLESS -DTJ_MONSTER_BLOOD -DARNE_LUCK -DTIJN_DRAIN -DREX_MUTED -DRULY_WALKTO -DVITOR_COMMAND -DDT_IT -DVITOR_RVR_HANDLING -DCAYAN_POISONARROW -DRULY_NOPUSHPARCEL -DRULY_NOPUSHFIELDS -DSMYG_GETWRITER -DART_WALKTELEPORT -DTIJN_SHIP -DVITOR_STACKABLE -DEOT_FIELDDAMAGE -DJIDDO_RAID -DTIJN_BERSERK -DRULY_CHALLENGELUA -DCHAOS_DIJNOUTFIT -DTR_ADDSKILL -DSG_RESTART -DRUL_CANCELINVIS -DRUL_WILDGROWTH -DLOOSIK_LOGSYSTEM -DTALA_EXANAPOX -DRUL_PREMMYSPELLS -DTLM_SKULLS_PARTY -DNITROUS_PLAYERLOG -DCVS_GETPATHTO  -DCVS_BYTE -DRUL_SOUL  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Neverland.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Neverland.exe" $(LIBS)
+
+sources/account.o: sources/account.cpp
+	$(CPP) -c sources/account.cpp -o sources/account.o $(CXXFLAGS)
+
+sources/actions.o: sources/actions.cpp
+	$(CPP) -c sources/actions.cpp -o sources/actions.o $(CXXFLAGS)
+
+sources/allocator.o: sources/allocator.cpp
+	$(CPP) -c sources/allocator.cpp -o sources/allocator.o $(CXXFLAGS)
+
+sources/chat.o: sources/chat.cpp
+	$(CPP) -c sources/chat.cpp -o sources/chat.o $(CXXFLAGS)
+
+sources/commands.o: sources/commands.cpp
+	$(CPP) -c sources/commands.cpp -o sources/commands.o $(CXXFLAGS)
+
+sources/container.o: sources/container.cpp
+	$(CPP) -c sources/container.cpp -o sources/container.o $(CXXFLAGS)
+
+sources/creature.o: sources/creature.cpp
+	$(CPP) -c sources/creature.cpp -o sources/creature.o $(CXXFLAGS)
+
+sources/exception.o: sources/exception.cpp
+	$(CPP) -c sources/exception.cpp -o sources/exception.o $(CXXFLAGS)
+
+sources/fileloader.o: sources/fileloader.cpp
+	$(CPP) -c sources/fileloader.cpp -o sources/fileloader.o $(CXXFLAGS)
+
+sources/game.o: sources/game.cpp
+	$(CPP) -c sources/game.cpp -o sources/game.o $(CXXFLAGS)
+
+sources/guilds.o: sources/guilds.cpp
+	$(CPP) -c sources/guilds.cpp -o sources/guilds.o $(CXXFLAGS)
+
+sources/houses.o: sources/houses.cpp
+	$(CPP) -c sources/houses.cpp -o sources/houses.o $(CXXFLAGS)
+
+sources/ioaccount.o: sources/ioaccount.cpp
+	$(CPP) -c sources/ioaccount.cpp -o sources/ioaccount.o $(CXXFLAGS)
+
+sources/ioaccountxml.o: sources/ioaccountxml.cpp
+	$(CPP) -c sources/ioaccountxml.cpp -o sources/ioaccountxml.o $(CXXFLAGS)
+
+sources/iomapbin.o: sources/iomapbin.cpp
+	$(CPP) -c sources/iomapbin.cpp -o sources/iomapbin.o $(CXXFLAGS)
+
+sources/iomapjxb2.o: sources/iomapjxb2.cpp
+	$(CPP) -c sources/iomapjxb2.cpp -o sources/iomapjxb2.o $(CXXFLAGS)
+
+sources/iomapotbm.o: sources/iomapotbm.cpp
+	$(CPP) -c sources/iomapotbm.cpp -o sources/iomapotbm.o $(CXXFLAGS)
+
+sources/iomapxml.o: sources/iomapxml.cpp
+	$(CPP) -c sources/iomapxml.cpp -o sources/iomapxml.o $(CXXFLAGS)
+
+sources/ioplayer.o: sources/ioplayer.cpp
+	$(CPP) -c sources/ioplayer.cpp -o sources/ioplayer.o $(CXXFLAGS)
+
+sources/ioplayerxml.o: sources/ioplayerxml.cpp
+	$(CPP) -c sources/ioplayerxml.cpp -o sources/ioplayerxml.o $(CXXFLAGS)
+
+sources/item.o: sources/item.cpp
+	$(CPP) -c sources/item.cpp -o sources/item.o $(CXXFLAGS)
+
+sources/itemloader.o: sources/itemloader.cpp
+	$(CPP) -c sources/itemloader.cpp -o sources/itemloader.o $(CXXFLAGS)
+
+sources/items.o: sources/items.cpp
+	$(CPP) -c sources/items.cpp -o sources/items.o $(CXXFLAGS)
+
+sources/logger.o: sources/logger.cpp
+	$(CPP) -c sources/logger.cpp -o sources/logger.o $(CXXFLAGS)
+
+sources/loginqueue.o: sources/loginqueue.cpp
+	$(CPP) -c sources/loginqueue.cpp -o sources/loginqueue.o $(CXXFLAGS)
+
+sources/luascript.o: sources/luascript.cpp
+	$(CPP) -c sources/luascript.cpp -o sources/luascript.o $(CXXFLAGS)
+
+sources/magic.o: sources/magic.cpp
+	$(CPP) -c sources/magic.cpp -o sources/magic.o $(CXXFLAGS)
+
+sources/map.o: sources/map.cpp
+	$(CPP) -c sources/map.cpp -o sources/map.o $(CXXFLAGS)
+
+sources/md5.o: sources/md5.cpp
+	$(CPP) -c sources/md5.cpp -o sources/md5.o $(CXXFLAGS)
+
+sources/monster.o: sources/monster.cpp
+	$(CPP) -c sources/monster.cpp -o sources/monster.o $(CXXFLAGS)
+
+sources/networkmessage.o: sources/networkmessage.cpp
+	$(CPP) -c sources/networkmessage.cpp -o sources/networkmessage.o $(CXXFLAGS)
+
+sources/neverland.o: sources/neverland.cpp
+	$(CPP) -c sources/neverland.cpp -o sources/neverland.o $(CXXFLAGS)
+
+sources/npc.o: sources/npc.cpp
+	$(CPP) -c sources/npc.cpp -o sources/npc.o $(CXXFLAGS)
+
+sources/player.o: sources/player.cpp
+	$(CPP) -c sources/player.cpp -o sources/player.o $(CXXFLAGS)
+
+sources/position.o: sources/position.cpp
+	$(CPP) -c sources/position.cpp -o sources/position.o $(CXXFLAGS)
+
+sources/protocol.o: sources/protocol.cpp
+	$(CPP) -c sources/protocol.cpp -o sources/protocol.o $(CXXFLAGS)
+
+sources/protocol76.o: sources/protocol76.cpp
+	$(CPP) -c sources/protocol76.cpp -o sources/protocol76.o $(CXXFLAGS)
+
+sources/pvparena.o: sources/pvparena.cpp
+	$(CPP) -c sources/pvparena.cpp -o sources/pvparena.o $(CXXFLAGS)
+
+sources/readables.o: sources/readables.cpp
+	$(CPP) -c sources/readables.cpp -o sources/readables.o $(CXXFLAGS)
+
+sources/scheduler.o: sources/scheduler.cpp
+	$(CPP) -c sources/scheduler.cpp -o sources/scheduler.o $(CXXFLAGS)
+
+sources/spawn.o: sources/spawn.cpp
+	$(CPP) -c sources/spawn.cpp -o sources/spawn.o $(CXXFLAGS)
+
+sources/spells.o: sources/spells.cpp
+	$(CPP) -c sources/spells.cpp -o sources/spells.o $(CXXFLAGS)
+
+sources/status.o: sources/status.cpp
+	$(CPP) -c sources/status.cpp -o sources/status.o $(CXXFLAGS)
+
+sources/summons.o: sources/summons.cpp
+	$(CPP) -c sources/summons.cpp -o sources/summons.o $(CXXFLAGS)
+
+sources/thing.o: sources/thing.cpp
+	$(CPP) -c sources/thing.cpp -o sources/thing.o $(CXXFLAGS)
+
+sources/tile.o: sources/tile.cpp
+	$(CPP) -c sources/tile.cpp -o sources/tile.o $(CXXFLAGS)
+
+sources/tools.o: sources/tools.cpp
+	$(CPP) -c sources/tools.cpp -o sources/tools.o $(CXXFLAGS)
+
+Neverland_private.res: Neverland_private.rc 
+	$(WINDRES) -i Neverland_private.rc --input-format=rc -o Neverland_private.res -O coff 
