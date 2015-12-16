@@ -1,0 +1,292 @@
+Windows 7 Loader eXtreme Edition v3.503
+
+Activates all Windows 7 versions:
+Ultimate, Professional, Enterprise, Starter, Basic, Home, etc.
+
+Activates Windows 7 / Vista / 2008 R2 / 2008 - RTM / preRTM / Office 2010
+Supported editions: All
+
+Back up your tokens.dat file if you must have a version other than Ultimate.
+
+This activator is a 'Frankenbuild' Loader, meaning it swaps out files in order to activate.
+
+Features:
+- Safer loader installation (than other activators)
+- Activate any edition (without reducing default activation abilities)
+- Trial Reset (get back 4 rearms and 30 days)
+
+Installs/Uninstalls/Detects public SLIC emulators:
+- W7 Loader
+- Open W7 Loader
+- SLIC Driver
+- Vista Boot
+- WOW7 Loader
+- MBR SLIC Loader
+- Vista Loader
+
+KMS Activation:
+- Emulated KMS Server
+- Internet KMS Servers
+
+Download latest updates(w7lxe.exe /update):
+- Windows 7/Vista/2008R2/2008 keys
+- Windows 7 SLICs
+- Windows 7/Vista Certificates
+- W7 Loader
+- Open W7 Loader
+- SLIC Driver
+- MBR SLIC Loader
+- KMS Emulator
+
+- Activate any editions
+- Automatic and Advanced Mode
+- Complete loaders collection
+- Custom loaders integration
+- Windows activation information
+- SLIC checking: checksum, SLIC&RSDT&XSDT markers
+- Installed loader information: Boot Loader and SLIC Emulator
+- Installed key information
+- SLIC dump
+- Certificate dump
+- Product key checker
+- Logos and OEM information installation
+- Commmand line keys
+- Internal SLIC's storage
+- Internal Certificates storage
+- Ability to use external SLIC's storage
+- Ability to use external Certificates storage
+- SLIC and Certificate comparison
+- Custom KMS servers list
+- Custom keys list
+- Custom logos list
+
+KB971033 ready.
+Shows extended activation-related information.
+Detects Chew-WGA&RemoveWAT-related system changes.
+Activates Office 2010 (w7lxe.exe /office2010).
+
+Emergency recovery
+MBR SLIC Loader and "Sleep Mode" compatibility:
+"Clear CMOS" jumper. 
+
+
+NOTES:
+
+Default SLIC emulator: W7 Loader (Forceful)
+Default emulation scheme: Safest + UnSafe 
+
+1. "Safest" uses Loader with Vista Boot Loading Screen (with option to use original W7 in boot options)
+2. "Safe" uses Loader with W7 Boot Loading Screen (with option to use original W7 in boot options)
+3. "Unsafe" uses Loader with W7 Boot Loading Screen (no option to use original W7 in boot options)
+
+-----------------------------------------------
+
+Vista type boot screen after installing loader?
+Try uninstalling the loader and install with "Safe" or "Unsafe" mode checked.
+
+-----------------------------------------------
+
+Special abilities:
+- Trial Reset (get back 4 rearms and 30 days)
+- Windows is always has recovery option (not need to recovery from DVD if SLIC emulator crash PC)
+- Activate any edition w/o reducing default activation abilities
+
+-----------------------------------------------
+
+Accessibility:
+- Reset Trial (returns 4 rearms and 30 days)
+- Windows always has the option to restore the work (no need to restore from the DVD, if your computer can not boot after the application of SLIC emulator)
+- Activates any editor without loss of activation opportunities
+
+-----------------------------------------------
+
+New command line keys:
+w7lxe.exe / biosbootmenu
+- Prevent activation drop for BIOS boot menu (Multi-boot)
+
+-----------------------------------------------
+
+It does work and will activate all Win 7 editions.
+
+But…
+
+Windows 7 Loader eXtreme Edition 3 uses retail MSDN keys, this is misleading as it combines them with certs in the UI, making it look like an OEM key.
+When the keys reach their maximum activation limit or Microsoft blocks them, this will become useless, unless Napalum has an unlimited supply of MSDN keys.
+
+Back up your tokens.dat file if you must have a version other than Ultimate.
+
+
+FAQ:
+ 
+Q: I the novice user of the PC, saw that there are various activators Windows 7 Loader. What of them to select? 
+A: To beginners and those who not ready to restore the loader, owing to impossibility to boot after application of activators, it is recommended to use only safe Windows 7 Loader eXtreme Edition v3. If the "Loader" method used then press "Cancel" button after reboot.
+ 
+Q: How to use the activator? 
+A: Start w7lxe.exe, do nothing, wait when all makes the activator in an automatic mode. 
+
+Q: Online genuine validation shows the error.
+A: KB971033 is blocked for the purpose of preventing possible activation loss in the future.
+
+Q: Can't Microsoft begin to ban modified BIOS with SLIC 2.1?
+A: Yes, it is theoretically possible. In Windows Vista times loaders banning was just theory too.
+
+Q: What emulation mode is used by default?
+A: Safest emulation is used for SLIC emulator check. If SLIC emulation and activation has passed successfully than UnSafe emulation.
+ 
+Q: For me it was not initial the load menu and  delay time for boot menu but why after  application of the "Loader" method there is 30 second return counting? 
+A: Such occurs only at the first reboot what in case if the SLIC emulator does not work (black screen) it was possible to reboot and use the native choice Windows 7. Other activators, in the case if the SLIC emulator does not work, it demands to restore procedure with installation DVD usage.
+
+Q: I do not wish to use illegal keys and KMS servers, but thus I wish to have to have "genuine software" status. What can recommend? 
+A: Use the grace period. For limitation overcoming on the maximum period of usage (4x30=120 days) to apply the "Trial Reset" method to reset of counters: 
+w7lxe.exe->Trial Reset->Activate
+or 
+w7lxe.exe /method=TrialReset
+
+Q: How to restore system after unsuccessful usage of TrialReset method by 3.115-3.118 version? 
+A: Run
+w7lxe.exe /trial-recovery
+from different windows 7 or Windows Vista installation.
+ 
+Q: I wish to make on Windows 7 and Windows Vista 49516 grace days the "49516 Trial Days" method as a constant working solution of a question about activation. 
+A: It is not necessary to make such choice as a constant basis. With the advent of the "Trial Reset" method the such solution has lost sense. Though for Windows Server 2008R2/2008 it is quite applicable. The "49516 Trial Days" method now has more likely fact-finding character that such is possible. 
+ 
+Q: After application of the "Loader" method activation does not occur. What to do? 
+A:
+1) Advanced Mode->Boot Loader->Install
+2) Reboot 
+3) Advanced Mode->Upload Screenshot
+Or keyboard->PrintScreen; Run->MsPaint->Paste->Save; http://imageshack.us/->Browse...->start upload
+4) Ask advanced users for help, having placed a screenshot. 
+ 
+Q: Used the "Loader" method, after rebooting the activator choice (Windows 7 Loader XE) does not load Windows. It was necessary to take advantage of the original choice. 
+A: It most likely means that the SLIC emulator used by default does not work on the given computer. 
+Try other emulators (it is necessary to reboot each time): 
+Advanced Mode->Boot Loader: MBR SLIC Loader->Install
+Advanced Mode->Boot Loader: Vista Boot 08.0501->Install
+Advanced Mode->Boot Loader: Vista Loader 2.1.2->Install
+Advanced Mode->Boot Loader: WOW7 Loader->Install
+Advanced Mode->Boot Loader: W7 Loader (Default)->Install
+Advanced Mode->Boot Loader: W7 Loader (Alternative)->Install
+Advanced Mode->Boot Loader: W7 Loader (LowMemory)->Install
+Advanced Mode->Boot Loader: SLIC Driver->Install
+ 
+Q: How to change delay time for boot menu? 
+A: Advanced Mode->Boot Loader->timeouts
+ 
+Q: In what advantage Safest emulation? 
+A: Always there is a possibility after rebooting to load Windows that is important when the SLIC emulator does not work. Safe emulation should gives the such possibility too.
+
+Q: At start the activator shows the message that it supports only FAT and NTFS file systems. 
+A: It is possible to skip compulsorily the check of the file system and to start the activator: 
+w7lxe.exe/fscheck=off
+Or for preventing from undesirable effects: 
+w7lxe.exe/fscheck=off/bootsect=off /mbr=off
+- In these two variants UnSafe emulation does not work. 
+ 
+Q: In the list of warnings it is written: "Loader: SCSI boot device detected!". What consequences can occur owing to application of the "Loader" method? 
+A: Warnings specify in the reason there can not pass activation. In this case SLIC emulation will probably not work.
+If the emulator has not worked, in such situation it is necessary to try: 
+Advanced Mode->Boot Loader: Vista Boot 08.0501->Install
+Advanced Mode->Boot Loader: SLIC Driver->Install
+
+Q: In the list of warnings it is written: "Incomplite SLIC(OEMX) detected!".
+A: It is necessary to try:
+Advanced Mode->Boot Loader: MBR SLIC Loader->Install
+ 
+Q: How the automatic mode of the activator works? How it makes a choice of a method for the recommendation? 
+A: If for the installed edition Windows exists OEM:SLP key and SLIC is detected - the "Certificate" method is recommended.
+If SLIC is absent - the "Loader" method.
+If for the installed edition of Windows does not exist OEM:SLP key - the "180+ Days" method.
+Thus all line of editions Windows 7/Vista/2008R2/2008 becomes covered (Except N and E editions which can be activated by self-decision). if Windows marked as "Pirated" Or other methods are not applicable - than "Trial Reset" method.
+ 
+Q: What sequence of operations corresponds to the "Loader" method in the automatic mode? 
+A:
+1) Advanced Mode->Key AND Certificates->Key: OEM:SLP (OEM) Key->Install
+2) Advanced Mode->Key AND Certificates->Certificate->Install
+3) Advanced Mode->Boot Loader->Install
+4) Reboot 
+If SLIC emulation and activation has passed successfully:
+5) Advanced Mode->Boot Loader->Emulation: UnSafe->Install
+6) Reboot
+ 
+Q: What sequence of operations corresponds to the "180+ Days" method in the automatic mode? 
+A:
+1) Advanced Mode->Key AND Certificates->Key: Volume:GVLK (Volume) Key->Install
+2) Advanced Mode->KMS Activation->Activate
+ 
+Q: What sequence of operations corresponds to the "Certificate" method in the automatic mode? 
+A:
+1) Advanced Mode->Key AND Certificates->Key: OEM:SLP (OEM) Key->Install
+2) Advanced Mode->Key AND Certificates->Certificate->Install
+ 
+Q: I has bought a new computer how to extract all information linked to activation? 
+A:
+1) Advanced Mode->Windows->Dump (Certificate) - keeps the certificate 
+2) Advanced Mode->BIOS->Dump (SLIC) - saves SLIC
+3) Product Key Info->Product Key - shows the installed key 
+ 
+Q: How to return the Windows 7 boot screen and the hibernation mode if 3.011-3.014 version has been used? 
+A:
+1) w7lxe.exe->Loader->Deactivate
+2) Reboot 
+3) w7lxe.exe->Loader->Activate
+ 
+Q: Activated, but activation is lost each time after hibernation.
+A: Advanced Mode->Boot Loader->Emulation: Safe->Install
+or
+Advanced Mode->Boot Loader->Emulation: UnSafe->Install
+or
+bcdedit -store \boot\lxe ...
+
+Q: For me it is installed Windows XP and Windows 7. After activation there was a third choice "Windows 7 Loader XE". Whether it is possible to delete the native choice Windows 7?
+A: Advanced Mode->Boot Loader->Emulation: Safe->Install
+Or 
+Advanced Mode->Boot Loader->Emulation: UnSafe->Install
+- the such solution is preferable.
+
+Q: It is necessary to customize loading Windows through bcdedit, in particular bcdedit-set testsigning on and HASP driver does not work.
+A: Advanced Mode->Boot Loader->Emulation: Safe->Install
+Or 
+Advanced Mode->Boot Loader->Emulation: UnSafe->Install
+ 
+Q: At loading computer there is a flashing menu. How to remove the flashing or the menu? 
+A: Advanced Mode->Boot Loader->Emulation: UnSafe->Install
+ 
+Q: I wish to activate at once through UnSafe emulation.  Whether it is necessary so to do? 
+A: No, it is recommended to pick up in the beginning the working SLIC emulator, with which Windows is activated. 
+After that it is possible to install through UnSafe SLIC emulation, with the big share of probability, it will work without complications. 
+
+Q: I use... (Something like a virtual file system) for disk image creation in real time. It boots before Windows - I am afraid to use the "Loader" method. 
+A: In an automatic mode (Safest emulation) usually the boot sector and the boot loader are not rewritten.
+What to prevent those exclusive situations in which the activator all the same rewrites boot sector, it is possible to use the command line key: 
+w7lxe.exe/bootsect=off /mbr=off
+ 
+Q: What physical changes bring in system for UnSafe, Safe and Safest  emulation modes? 
+A:
+Safest - changes mention only the boot menu. 
+Safe - changes mention only the boot loader. 
+UnSafe - changes mention boot sector and the loader. 
+ 
+Q: What changes bring in process of loading Windows for UnSafe, Safe and Safest  emulation modes? 
+A:
+Safest - the activator loader calls Windows.
+Safe - the activator loader calls the original boot loader.
+UnSafe - the boot sector calls the activator loader, the activator loader calls the original boot loader.
+ 
+Q: In what emulation mode (UnSafe, Safe, Safest) other activators Windows 7 Loader work? 
+A: UnSafe
+ 
+Q: I have a legal MSDN key for edition distinct from that which is installed, Windows refuses to accept it. 
+A: Advanced Mode->Key AND Certificates->Key: Retail (MSDN) Key->Install
+ 
+Q: How the activator allows installing keys of editions distinct from that which has been installed? 
+A: Such it is possible thanks to existence of the internal mechanism Windows "Anytime Upgrade". Direct interaction of the activator with it allows not breaking functioning of the activation mechanism  (in difference of other "universal" activators).
+ 
+Q: How to get the information about the new key? 
+A: Advanced Mode->Key AND Certificate->Key->Get Info
+ 
+Q: Where to learn what keys of the command line and external files support the activator? 
+A: Advanced Mode->Windows 7 Loader XE->Info
+ 
+Q: Where to learn the detailed information about Safest, Safe, Unsafe emulation? 
+A: The scheme in archive: Info\w7lxe-emu1-3500.png
