@@ -1,0 +1,211 @@
+* changes v0.33 -> v0.34:
+
+type: bug
+file: hashcat-cli
+desc: show status-screen only once (per second)
+cred: phoenix
+
+type: improvement
+file: hashcat-cli
+desc: added -m 105: sha1(strtolower($username).$pass)
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added -m 1200: MD5(Chap)
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added -m 1300: MSSQL
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: MD5 speed increase on i7 +13%, on core2 +2%
+cred: atom
+
+type: extension
+file: A0.M105
+desc: added examples files
+cred: BMN4EVER
+
+type: extension
+file: A0.M1200
+desc: added examples files
+cred: Swenum
+
+type: extension
+file: A0.M1300
+desc: added examples files
+cred: budden
+
+type: extension
+file: todos.txt
+desc: removed todos file, instead use hashcat forum
+cred: atom
+
+type: distribution
+file: hashcat-cli
+desc: no longer using upx, generates some false-positive av alerts
+cred: makaronenma
+
+* changes v0.32 -> v0.33:
+
+type: bug
+file: hashcat-cli
+desc: floating point exception if --bf-cs-buf has zero size
+cred: Aritmos
+
+type: bug
+file: hashcat-cli
+desc: number of segments display overflow on huge wordlist on windows
+cred: the_stranger
+
+type: bug
+file: hashcat-cli
+desc: segfault in attack-mode 1 when concatinating two oversized words
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added -m 800: SHA-1(Django)
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added -m 900: MD4
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added -m 1000: NTLM
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added -m 1100: Domain Cached Credentials
+cred: atom
+
+type: extension
+file: A0.M800, A0.M900, A0.M1000
+desc: added examples files
+cred: K9
+
+type: extension
+file: A0.M1100
+desc: added examples files
+cred: the_stranger
+
+* changes v0.31 -> v0.32:
+
+type: bug
+file: hashcat-cli
+desc: slow loading of big external-salt files on windows
+cred: K9
+
+type: bug
+file: hashcat-cli
+desc: integer overflow in options -s and -l
+cred: moncojhr, Arkaic
+
+type: bug
+file: hashcat-cli
+desc: accept md5(Unix) salts of length 0
+cred: the_stranger
+
+type: bug
+file: hashcat-cli
+desc: crashes if cpu does not support sse2
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: optimized attack-mode 4 and renamed it to permutation attack
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: added debug-mode 2: store every recovered password (build dictionaries)
+cred: K9
+
+type: documentation
+file: contact.txt
+desc: added email
+cred: atom
+
+type: documentation
+file: credits.txt
+desc: added credits information file
+cred: atom
+
+* changes v0.30 -> v0.31:
+
+type: bug
+file: hashcat-cli
+desc: random seed for -g was not initialized
+cred: D3ad0ne
+
+type: bug
+file: hashcat-cli
+desc: output does not show recovered hash (only password) when using -m 300
+cred: krypt3r, lemon
+
+type: bug
+file: hashcat-cli
+desc: CRLF in --eula and --help was \r\r\n, should be \r\n
+cred: hakre
+
+type: improvement
+file: hashcat-cli
+desc: support loading of already recovered passwords from outfile not MD5
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: implemented idea of new attack-mode. it needs optimization, dont use it
+cred: atom
+
+type: improvement
+file: hashcat-cli
+desc: load md5(Unix) salts of dynamic length (up to 8 chars)
+cred: Sc00bz
+
+type: improvement
+file: hashcat-cli
+desc: display notice "NOTE: press enter for status-screen" on startup
+cred: goblinmax
+
+type: improvement
+file: hashcat-cli
+desc: added --generate-rules-func-min and --generate-rules-func-max
+cred: atom
+
+type: improvement
+file: generated.rule
+desc: add more rules which recovered a password
+cred: ErrorNeo
+
+type: improvement
+file: hashcat-cli, bugs.txt, leetspeak.rule
+desc: typos
+cred: D3ad0ne
+
+type: extension
+file: A0.M101, A0.M102, A0.M200, A0.M300, A0.M400, A0.M500
+desc: added examples files
+cred: atom
+
+type: documentation
+file: changes.txt
+desc: normalized text format
+cred: atom
+
+type: documentation
+file: contact.txt
+desc: added contact information file
+cred: atom
+
+* changes v0.29 -> v0.30:
+
+first public release

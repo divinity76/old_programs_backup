@@ -1,0 +1,1 @@
+hashcat-cli --threads=9 --attack-mode=3 --hash-mode=1000 --bf-pw-min=7 --bf-cs-buf=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 hash.txt

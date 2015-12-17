@@ -1,0 +1,112 @@
+
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>entibr
+EnTibr, the NTLM password brute forcer (version 0.3)
+By Daniel Niggebrugge: http://blog.distracted.nl/
+
+usage: EnTibr NTLM_hash -c charset
+
+NTLM_hash:      32 character hex encoded NTLM hash
+-c charset      all | loweralpha | upperalpha | mixalpha | numeric |
+                loweralpha-numeric | upperalpha-numeric | mixalpha-numeric
+
+[Optional:]
+-B              priority below normal
+-Q              quiet, less stats while running
+-t threads      amount of threads to use
+-l max length   default 15
+-m min length   default 1
+
+example: EnTibr 066ddfd4ef0e9cd7c256fe77191ef43c -c loweralpha -t 4
+
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>entibr 859328D13A8A5820043A40
+0781034F0F -t 9 -c loweralpha-numeric
+NTLM hash:      859328d13a8a5820043a400781034f0f
+Threads:        9
+Lower priority: no
+Quiet:          no
+Length:         1-15
+Charset:        loweralpha-numeric
+0123456789abcdefghijklmnopqrstuvwxyz
+
+Length 1 - 100% in 0.00 s (0.29 Mhashes/s)
+Length 2 - 100% in 0.00 s (1.73 Mhashes/s)
+Length 3 - 100% in 0.00 s (62.21 Mhashes/s)
+Length 4 - 100% in 0.02 s (93.31 Mhashes/s)
+Length 5 - 100% in 0.38 s (161.31 Mhashes/s)
+Length 6 - 100% in 13.25 s (164.26 Mhashes/s)
+Aborting...5% in 21.17 s (173.83 Mhashes/s)
+Length 7 - 5% in 22.67 s (173.93 Mhashes/s)
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>entibr 859328D13A8A5820043A40
+0781034F0F -t 8 -c loweralpha-numeric
+NTLM hash:      859328d13a8a5820043a400781034f0f
+Threads:        8
+Lower priority: no
+Quiet:          no
+Length:         1-15
+Charset:        loweralpha-numeric
+0123456789abcdefghijklmnopqrstuvwxyz
+
+Length 1 - 100% in 0.00 s (0.26 Mhashes/s)
+
+Length 3 - 100% in 0.00 s (82.94 Mhashes/s)
+Length 4 - 100% in 0.01 s (165.89 Mhashes/s)
+Length 5 - 100% in 0.38 s (161.46 Mhashes/s)
+Length 6 - 100% in 12.53 s (173.77 Mhashes/s)
+Length 7 - 100% in 478.50 s (163.77 Mhashes/s)
+Aborting...34% in 6707.25 s (144.85 Mhashes/s)
+Length 8 - 34% in 6708.35 s (144.85 Mhashes/s)
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>entibr
+EnTibr, the NTLM password brute forcer (version 0.3)
+By Daniel Niggebrugge: http://blog.distracted.nl/
+
+usage: EnTibr NTLM_hash -c charset
+
+NTLM_hash:      32 character hex encoded NTLM hash
+-c charset      all | loweralpha | upperalpha | mixalpha | numeric |
+                loweralpha-numeric | upperalpha-numeric | mixalpha-numeric
+
+[Optional:]
+-B              priority below normal
+-Q              quiet, less stats while running
+-t threads      amount of threads to use
+-l max length   default 15
+-m min length   default 1
+
+example: EnTibr 066ddfd4ef0e9cd7c256fe77191ef43c -c loweralpha -t 4
+
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>entibr 859328D13A8A5820043A40
+0781034F0F -t 9 -c mixalpha-numeric
+NTLM hash:      859328d13a8a5820043a400781034f0f
+Threads:        9
+Lower priority: no
+Quiet:          no
+Length:         1-15
+Charset:        mixalpha-numeric
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+Length 1 - 100% in 0.00 s (0.14 Mhashes/s)
+Length 2 - 100% in 0.00 s (4.32 Mhashes/s)
+Length 3 - 100% in 0.00 s (138.38 Mhashes/s)
+Length 4 - 100% in 0.10 s (143.71 Mhashes/s)
+Length 5 - 100% in 5.53 s (166.12 Mhashes/s)
+Aborting...7% in 23.21 s (175.44 Mhashes/s)
+Length 6 - 7% in 23.81 s (175.45 Mhashes/s)
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>entibr 859328D13A8A5820043A40
+0781034F0F -t 9 -c mixalpha-numeric
+NTLM hash:      859328d13a8a5820043a400781034f0f
+Threads:        9
+Lower priority: no
+Quiet:          no
+Length:         1-15
+Charset:        mixalpha-numeric
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+Length 1 - 100% in 0.00 s (0.14 Mhashes/s)
+Length 2 - 100% in 0.00 s (4.32 Mhashes/s)
+Length 3 - 100% in 0.01 s (69.19 Mhashes/s)
+Length 4 - 100% in 0.10 s (157.32 Mhashes/s)
+Length 5 - 100% in 5.57 s (165.08 Mhashes/s)
+Length 6 - 100% in 396.17 s (143.78 Mhashes/s)
+Aborting...29% in 7023.73 s (146.52 Mhashes/s)
+Length 7 - 29% in 7024.38 s (146.52 Mhashes/s)
+C:\Users\Hans Henrik\Desktop\NTLM\EnTibr_0.3_win32>

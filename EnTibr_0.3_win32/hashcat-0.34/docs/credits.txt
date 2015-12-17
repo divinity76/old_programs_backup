@@ -1,0 +1,10 @@
+* The Countdown QuickPerm Algorithm (used in Permutation Attack)
+
+See: http://permuteweb.tchs.info
+Author: Phillip Paul Fuchs
+
+* Rule rules/passwordspro.rule
+
+See: http://www.insidepro.com/eng/passwordspro.shtml
+Author: InsidePro Software
+

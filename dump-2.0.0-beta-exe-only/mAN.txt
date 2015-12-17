@@ -1,0 +1,75 @@
+
+E:\hans\skadi\mer\dump-2.0.0-beta-exe-only>PwDump.exe -o "output.txt" 127.0.0.1
+1>>more.txt
+
+pwdump6 Version 2.0.0-beta-2 by fizzgig and the mighty group at foofus.net
+** THIS IS A BETA VERSION! YOU HAVE BEEN WARNED. **
+Copyright 2009 foofus.net
+
+This program is free software under the GNU
+General Public License Version 2 (GNU GPL), you can redistribute it and/or
+modify it under the terms of the GNU GPL, as published by the Free Software
+Foundation.  NO WARRANTY, EXPRESSED OR IMPLIED, IS GRANTED WITH THIS
+PROGRAM.  Please see the COPYING file included with this program
+and the GNU GPL for further details.
+
+
+
+E:\hans\skadi\mer\dump-2.0.0-beta-exe-only>PwDump.exe -o "output64.txt" -x 127.0
+.0.1 1>>more64.txt
+
+pwdump6 Version 2.0.0-beta-2 by fizzgig and the mighty group at foofus.net
+** THIS IS A BETA VERSION! YOU HAVE BEEN WARNED. **
+Copyright 2009 foofus.net
+
+This program is free software under the GNU
+General Public License Version 2 (GNU GPL), you can redistribute it and/or
+modify it under the terms of the GNU GPL, as published by the Free Software
+Foundation.  NO WARRANTY, EXPRESSED OR IMPLIED, IS GRANTED WITH THIS
+PROGRAM.  Please see the COPYING file included with this program
+and the GNU GPL for further details.
+
+
+E:\hans\skadi\mer\dump-2.0.0-beta-exe-only>pwdump.exe 127.0.0.1
+
+pwdump6 Version 2.0.0-beta-2 by fizzgig and the mighty group at foofus.net
+** THIS IS A BETA VERSION! YOU HAVE BEEN WARNED. **
+Copyright 2009 foofus.net
+
+This program is free software under the GNU
+General Public License Version 2 (GNU GPL), you can redistribute it and/or
+modify it under the terms of the GNU GPL, as published by the Free Software
+Foundation.  NO WARRANTY, EXPRESSED OR IMPLIED, IS GRANTED WITH THIS
+PROGRAM.  Please see the COPYING file included with this program
+and the GNU GPL for further details.
+
+No history available
+
+Administrator:500:NO PASSWORD*********************:859328D13A8A5820043A400781034
+F0F:::
+Gjest:501:NO PASSWORD*********************:NO PASSWORD*********************:::
+Completed.
+
+E:\hans\skadi\mer\dump-2.0.0-beta-exe-only>pwdump.exe 127.0.0.1 -x
+
+pwdump6 Version 2.0.0-beta-2 by fizzgig and the mighty group at foofus.net
+** THIS IS A BETA VERSION! YOU HAVE BEEN WARNED. **
+Copyright 2009 foofus.net
+
+This program is free software under the GNU
+General Public License Version 2 (GNU GPL), you can redistribute it and/or
+modify it under the terms of the GNU GPL, as published by the Free Software
+Foundation.  NO WARRANTY, EXPRESSED OR IMPLIED, IS GRANTED WITH THIS
+PROGRAM.  Please see the COPYING file included with this program
+and the GNU GPL for further details.
+
+No history available
+
+Administrator:500:NO PASSWORD*********************:859328D13A8A5820043A400781034
+F0F:::
+Gjest:501:NO PASSWORD*********************:NO PASSWORD*********************:::
+Completed.
+
+E:\hans\skadi\mer\dump-2.0.0-beta-exe-only>pause
+Trykk en tast for å fortsette...
+

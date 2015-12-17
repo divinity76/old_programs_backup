@@ -1,0 +1,4 @@
+Service start failed: 216 (E:\hans\skadi\mer\dump-2.0.0-beta-exe-only\bxyvnjff.exe/{8D4EBC68-C3AF-4FEB-BA5F-588DE199B9CA})
+Service start failed: 216 (E:\hans\skadi\mer\dump-2.0.0-beta-exe-only\jopcj.exe/{9116A93E-4DC4-4059-80CE-93A605EAB28F})
+Service start failed: 216 (E:\hans\skadi\mer\dump-2.0.0-beta-exe-only\sinetwuhb.exe/{78F4F814-0C2B-4B2D-A99C-A69D41EEAB07})
+Service start failed: 216 (E:\hans\skadi\mer\dump-2.0.0-beta-exe-only\xyjtkkk.exe/{3DFA02C1-490F-45E8-ACE3-AAFD94AAF96C})
