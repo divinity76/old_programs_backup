@@ -1,0 +1,126 @@
+[ CHANGELOG
+	Project Name
+		The Forgotten Server
+
+	Version
+		0.3
+
+	Codenamed
+		Crying Damson
+
+	License
+		GNU GPLv3
+
+	Forum
+		http://otland.net/
+]
+
+[ Features
+
+		ME = Tryller, Shynzo, Shenlong
+		SVN = OpenTibia SVN Developers
+
+	(Version 0.3)
+
+		Much less memory used (even 1000 times less for database queries!) (SVN, TFS)
+		Code optimization (SVN, RFS)
+		GCC 4.2 compatibility (SVN)
+		Skull System (SVN, TFS)
+		Party System (SVN, TFS)
+		Bed System (SVN, TFS)
+		Muted System (TFS)
+		Rule Violations Report system [ctrl + r] (SVN, TFS, ME)
+		Violation window system [ctrl + y] (SVN, ME)
+		Walk to item (SVN)
+		Magic effect displayed on air (SVN, TFS)
+		Wildcard~ for spells with params (SVN, TFS)
+		Bursts missing target (SVN, TFS)
+		Wands and Rods (TFS, ME)
+		Drunk and Paralyze System (SVN)
+		Creatures can move diagonally (SVN, TFS, ME)
+		New Lua Interface (Actions, NPCs) (TFS, ME)
+		Big Changes in Spells (TFS, ME)
+		New Decay System (SVN, TFS)
+		Rings and Amulets (SVN, TFS, ME)
+		Players can summon monsters (utevo res) (SVN, TFS)
+		Players can illusion creatures (utevo res ina) (SVN, TFS)
+		Soul Points (SVN, TFS)
+		Last Writer of letters (SVN, TFS, ME)
+		Groups to database (TFS, ME)
+		Configurabe cap system in config.lua (ME)
+		Added new Formula of Armor/Defense (SVN, TFS, ME)
+		All posible npc's of TFS in npc folder (TFS, ME)
+		Guild system (TFS)
+		Weapons (TFS, ME)
+		Players record system (TFS)
+		Save system (TFS)
+		Stages system (TFS)
+		Talkactions interface (TFS, ME)
+		Premium account (TFS)
+		Raid system (SVN, TFS)
+		Vocations XML (TFS, ME)
+		AOL system (TFS)
+		Clean system (TFS)
+		Monsters using new AI (TFS, ME)
+		Burst Arrows and Poison Arrows (TFS)
+		Exiva system (SVN, TFS)
+		Houses system (SVN, TFS)
+		Protection system (TFS)
+		Bug report system [ctrl + z] (SVN, TFS)
+		Ghost system (TFS)
+		Critical damage (TFS, ME)
+		Annimations on skills, level up (TFS)
+		Updates in config.lua (ME)
+		AFK system (TFS)
+		Experience to enforced system (TFS)
+		Set default priority (TFS)
+		Bless system (TFS)
+		Database struct (TFS, ME)
+		Highscores system (TFS, ME)
+		Deathlist system (TFS)
+		GUI and Console executables (TFS, ME)
+		Added most of monsters of protocol 7.6 (ME)
+		Basespeed in vocations.xml (TFS)
+		onLook(cid, pos) creaturescript event (TFS)
+		Replaced party system with the party system from OpenTibias avesta branch (TFS)
+		Global Storage values saving in database (TFS, SVN)
+		Configurable amount (0 to disable) of houses per each account (TFS)
+		/send command (/send player, x y z) (TFS)
+		Ingame guild management 'switch' on config.lua (TFS)
+		House buying and selling disabling on config.lua (TFS)
+		Dropped LuaSQL and replaced with LuaDatabase (TFS, OpenLua-Distro)
+		onKill(cid, target) creaturescript event (TFS)
+		onAdvance(cid, skill, oldlevel, newlevel) creaturescript event (TFS)
+		onThink creaturescript event for creatures (TFS)
+		onThink and onLook events aren't fired global anymore (TFS)
+		/squelch command to disable private messages receiving (TFS)
+		Dropped account types and replaced it with access levels (TFS)
+		Custom flags system (Elf, Talaturen)
+		Possibility to move items from far, push not pushable items and throw items anywhere (nfries88, TFS)
+		Configurable commands and talkactions logging (TFS)
+		Ghost Mode [with disabled effects] (Pedro B, TFS)
+		Cascading actions (TFS, SVN)
+		Rewritten ban class (TFS, SVN)
+		Bank system (SVN, Elf)
+		Moved players record and motd to database (TFS)
+		Moved CTRL + Z bug reports to database, written /reports command (TFS)
+		OTBv3 (SVN, TFS)
+		Monsters with elemental weaknesses (TFS)
+		Marriage 'system' (TFS)
+		Construction kits (TFS)
+		Global events (TFS)
+		Thing attribute changing (TFS)
+		onAttack creaturescript (TFS)
+      	Multiworld system (TFS)
+      	Promotion levels (TFS)
+		Larn spells (TFS)
+		In game Highscores (ME)
+		Spellbook working (TFS)
+		Stairs are working (TFS, SVN, ME)
+		All fields are working (SVN, TFS, ME)
+]
+
+[ Removed
+		Databasemanager
+		Account Manager
+]

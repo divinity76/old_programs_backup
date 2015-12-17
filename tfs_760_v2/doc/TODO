@@ -1,0 +1,32 @@
+[ TODO
+	Project Name
+		The Forgotten Server
+
+	Version
+		0.3
+
+	Codenamed
+		Crying Damson
+
+	License
+		GNU GPLv3
+
+	Forum
+		http://otland.net/
+]
+
+[ LIST
+	Stop using storage values for promotion, and also make it an int instead of a boolean,
+	should be 'promotion level', add optional parameter to "isPromoted" function which is
+	promotion level, default: 1.
+		Assigned to: Talaturen
+
+	Make more constant values configurable
+		Assigned to: Talaturen, Elf
+
+	Multiworld system - partially* patch it from revmultisys
+		Assigned to: Elf, Talaturen
+
+	Guilds on house lists
+		Assigned to: Elf
+]
