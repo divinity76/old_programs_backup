@@ -1,0 +1,47 @@
+[Setup]
+AppName=Lua
+AppVersion=5.0.2
+Description=Lua is a script system used in many videogames. Build by GabySoft (Gabriel Gómez) gaby_soft@yahoo.es .
+Url=http://www.lua.org/
+
+[Files]
+include\lauxlib.h
+include\lua.h
+include\lualib.h
+lib\liblua.a
+lib\liblualib.a
+Templates\hello.lua
+Templates\Lua.ico
+Templates\Lua.project.ico
+Templates\Lua.template
+Templates\Lua_main.cpp.txt
+Examples\lua\test\bisect.lua
+Examples\lua\test\cf.lua
+Examples\lua\test\echo.lua
+Examples\lua\test\env.lua
+Examples\lua\test\factorial.lua
+Examples\lua\test\fib.lua
+Examples\lua\test\fibfor.lua
+Examples\lua\test\globals.lua
+Examples\lua\test\hello.lua
+Examples\lua\test\life.lua
+Examples\lua\test\luac.lua
+Examples\lua\test\printf.lua
+Examples\lua\test\README
+Examples\lua\test\readonly.lua
+Examples\lua\test\sieve.lua
+Examples\lua\test\sort.lua
+Examples\lua\test\table.lua
+Examples\lua\test\trace-calls.lua
+Examples\lua\test\trace-globals.lua
+Examples\lua\test\undefined.lua
+Examples\lua\test\xd.lua
+docs\lua\refman-5.0.pdf
+bin\lua.exe
+bin\lua5.dll
+bin\luac.exe
+bin\lualib5.dll
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\Lua\Website.url
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\Lua\Documentation.lnk
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\Lua\Online Documentation.url
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\Lua\Lua interpreter.lnk

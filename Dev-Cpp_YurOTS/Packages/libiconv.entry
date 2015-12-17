@@ -1,0 +1,45 @@
+[Setup]
+AppName=libiconv
+AppVersion=1.9.1
+Description=LibIconv converts from one character encoding to another through Unicode conversion. This packaged is based on compilations from http://www.gimp.org/~tml/gimp/win32/downloads.html
+Url=http://www.gnu.org/software/libiconv
+
+[Files]
+bin\charset.dll
+bin\iconv.dll
+bin\iconv.exe
+include\iconv.h
+include\libcharset.h
+include\localcharset.h
+lib\charset.lib
+lib\iconv.lib
+lib\libiconv.a
+share\doc\libiconv\iconv.1.html
+share\doc\libiconv\iconv.3.html
+share\doc\libiconv\iconv_close.3.html
+share\doc\libiconv\iconv_open.3.html
+share\locale\ca\LC_MESSAGES\libiconv.mo
+share\locale\da\LC_MESSAGES\libiconv.mo
+share\locale\de\LC_MESSAGES\libiconv.mo
+share\locale\eo\LC_MESSAGES\libiconv.mo
+share\locale\es\LC_MESSAGES\libiconv.mo
+share\locale\fi\LC_MESSAGES\libiconv.mo
+share\locale\fr\LC_MESSAGES\libiconv.mo
+share\locale\ga\LC_MESSAGES\libiconv.mo
+share\locale\gl\LC_MESSAGES\libiconv.mo
+share\locale\hr\LC_MESSAGES\libiconv.mo
+share\locale\hu\LC_MESSAGES\libiconv.mo
+share\locale\id\LC_MESSAGES\libiconv.mo
+share\locale\it\LC_MESSAGES\libiconv.mo
+share\locale\pt_BR\LC_MESSAGES\libiconv.mo
+share\locale\ro\LC_MESSAGES\libiconv.mo
+share\locale\ru\LC_MESSAGES\libiconv.mo
+share\locale\sk\LC_MESSAGES\libiconv.mo
+share\locale\sl\LC_MESSAGES\libiconv.mo
+share\locale\sv\LC_MESSAGES\libiconv.mo
+share\locale\tr\LC_MESSAGES\libiconv.mo
+share\locale\uk\LC_MESSAGES\libiconv.mo
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\libiconv\iconv.1.html.lnk
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\libiconv\iconv.3.html.lnk
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\libiconv\iconv_close.3.html.lnk
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\libiconv\iconv_open.3.html.lnk

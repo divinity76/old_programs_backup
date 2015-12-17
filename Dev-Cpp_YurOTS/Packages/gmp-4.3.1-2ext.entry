@@ -1,0 +1,19 @@
+[Setup]
+AppName=GMP
+AppVersion=4.3.1
+Description=GNU Multiple Precision Arithmetic Library, the fastest bignum library on the planet!  This is a "Fat Binary" build that should run quite optimized on any x86-Family CPU.  This is a static library.  The C++ wrapper is included.
+Url=http://gmplib.org/
+
+[Files]
+doc\GMP\GMP Manual 4.3.0.pdf
+doc\GMP\GMP Manual online.url
+doc\GMP\How To Install GMP in Dev-Cpp.rar
+include\gmp.h
+include\gmpxx.h
+lib\libgmp.a
+lib\libgmpxx.a
+lib\libgmp.la
+lib\libgmpxx.la
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\GMP\doc\GMP Manual (PDF).lnk
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\GMP\doc\GMP Manual online.lnk
+C:\Users\Hans Henrik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Bloodshed Dev-C++\GMP\doc\How To Install GMP in Dev-Cpp.lnk

@@ -1,0 +1,25 @@
+[Setup]
+AppName=Pthreads-w32
+AppVersion=2.8.0
+Description=Open Source POSIX Threads for Win32
+Url=http://sourceware.org/pthreads-win32/
+
+[Files]
+docs\pthreads-win32\ANNOUNCE
+docs\pthreads-win32\BUGS
+docs\pthreads-win32\ChangeLog
+docs\pthreads-win32\CONTRIBUTORS
+docs\pthreads-win32\COPYING
+docs\pthreads-win32\COPYING.LIB
+docs\pthreads-win32\FAQ
+docs\pthreads-win32\MAINTAINERS
+docs\pthreads-win32\NEWS
+docs\pthreads-win32\PROGRESS
+docs\pthreads-win32\README
+docs\pthreads-win32\README.NONPORTABLE
+docs\pthreads-win32\TODO
+include\pthread.h
+include\sched.h
+include\semaphore.h
+lib\libpthreadGC2.a
+C:\Windows\system32\pthreadGC2.dll

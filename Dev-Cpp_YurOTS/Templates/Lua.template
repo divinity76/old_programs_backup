@@ -1,0 +1,25 @@
+[Template]
+ver=1
+Name=Lua
+Icon=Lua.ico
+Description=Create an Lua script based aplication
+Catagory=Lua
+[Unit0]
+CppName=main.cpp
+Cpp=Lua_main.cpp.txt
+[Unit1]
+CppName=hello.lua
+Cpp=hello.lua
+[Project]
+UnitCount=2
+Type=1
+IsCpp=1
+Compiler=
+CppCompiler=
+Linker=-lLua -lLualib_@@__@@__@@_
+CompilerSettings=0000000000000000000000
+CompilerSet=0
+IncludeVersionInfo=0
+SupportXPThemes=0
+Name=Lua Basic
+ProjectIcon=Lua.project.ico
