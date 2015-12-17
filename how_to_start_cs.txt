@@ -1,0 +1,9 @@
+start hl.exe with parameters
+hl.exe -game cstrike
+
+how to add bots:
+enter console (tab) and write
+bot_add : add a bot to team with least players
+
+bot_add_ct : add bot to counter strike team
+bot_add_t : add bot to terrorist team
