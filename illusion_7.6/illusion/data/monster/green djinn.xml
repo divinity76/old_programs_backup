@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+   <monster name="Green Djinn" level="50" maglevel="30" experience="190" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="220">
+      	<health now="330" max="330"/>
+      	<look type="51" head="20" body="30" legs="40" feet="50" corpse="2989"/>
+      	<combat targetdistance="1" runonhealth="50"/>
+   <attacks>
+      	<attack type="melee" maxdamage="140"/>
+ <attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="3000" probability="90"/>
+ <attack type="rune" name="drunk" exhaustion="50" cycleticks="2000" probability="200"/>
+ <attack type="instant" name="djinSpell" cycleticks="5000" probability="40"/>
+<attack type="rune" name="energy field" mindamage="25" maxdamage="25"/>
+   </attacks>
+ 
+   <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+   </defenses>
+ 
+   <loot>
+       <item id="2148" countmax="61" chance1="100000" chancemax="0"/>
+       <item id="2696" chance="50000"/>
+       <item id="2149" countmax="3" chance1="1000" chancemax="0"/>
+       <item id="1971" chance="10000"/>
+       <item id="2044" chance="20000"/>
+   </loot>
+   </monster>

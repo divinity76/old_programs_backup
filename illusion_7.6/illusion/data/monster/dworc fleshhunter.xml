@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+ <monster name="Dworc Fleshhunter" level="2" maglevel="2" experience="35" speed="220" monster="1" pushable="0" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="85" max="85"/>
+ <look type="215" corpse="4307"/>
+ <combat targetdistance="1" runonhealth="0"/>
+ 
+ <attacks>
+   	<attack type="melee" maxdamage="30"/>
+ 	<attack type="distance" name="throwingknife" mindamage="0" maxdamage="35" cycleticks="2000" probability="100"/>
+ 	<attack type="instant" name="exevo gran mas pox" exhaustion="500" cycleticks="2500" probability="80"/>
+ </attacks>
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+    	<item id="2148" countmax="12" chance1="100000" chancemax="0"/>
+    	<item id="2229" countmax="3" chance1="100000" chancemax="0"/>
+ 	<item id="2467" chance="10000"/>
+ 	<item id="3983" chance="1000"/>
+ 	<item id="2650" chance="10000"/>
+ 	<item id="3967" chance="1000"/>
+ 	<item id="2056" chance="50000"/>
+ 
+    	<item id="1987" chance="100000">
+    	<inside>
+ 	<item id="3965" chance="666"/>
+    	<item id="2410" countmax="3" chance1="50000" chancemax="0"/>
+    	<item id="2148" countmax="3" chance1="100000" chancemax="0"/>
+ 
+ 	
+ 
+    	</inside>
+    	</item>
+ </loot>
+ 
+ <voices>
+   	<voice sentence="Prek tars" cycleticks="10000" probability="40"/>
+ 	<voice sentence="Grow truk grrrrr" cycleticks="10000" probability="30"/>
+ <voice sentence="dekklep zurk" cycleticks="5000" probability="30"/>
+ </voices>
+ 
+ </monster>
+ 
+ 

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+ <monster name="Lizard Sentinel" level="20" maglevel="30" experience="100" pushable="0" speed="250" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="265" max="265"/>
+ <look type="114" corpse="4259"/>
+ <combat targetdistance="1" runonhealth="80"/>
+ 
+ <attacks>
+   	<attack type="melee" maxdamage="80"/>
+   	<attack type="distance" name="spear" maxdamage="80" cycleticks="3000" probability="100"/>
+ </attacks>
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+    	<item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+ 
+    	<item id="1987" chance="100000">
+    	<inside>
+ 
+    	<item id="2389" countmax="1" chance1="20000" chancemax="0"/>
+   	<item id="3974" chance="2000"/>
+ 
+    	</inside>
+    	</item>
+ </loot>
+ <voices/>
+ </monster>

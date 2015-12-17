@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+      <monster name="Elf" level="20" maglevel="30" experience="42" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="190">
+      	<health now="100" max="100"/>
+      	<look type="62" head="20" body="30" legs="40" feet="50" corpse="2945"/>
+      	<combat targetdistance="1" runonhealth="20"/>
+      <attacks>
+      	<attack type="melee" maxdamage="30"/>
+      	<attack type="distance" name="arrow" mindamage="0" maxdamage="25" cycleticks="3000" probability="100" />
+      </attacks>
+      
+      <defenses>
+      
+      </defenses>
+      
+      <loot>
+       	<item id="2148" countmax="5" chance1="100000" chancemax="0"/>
+       	<item id="2544" countmax="5" chance1="60000" chancemax="0"/>
+  	<item id="2674" countmax="2" chance1="50000" chancemax="0"/>
+ 
+       	<item id="2482" chance="20000"/>
+ 
+       	<item id="2484" chance="10000"/>
+ 
+       	<item id="2642" chance="10000"/>
+ 
+       	<item id="2643" chance="35000"/>
+      
+       	<item id="1987" chance="100000">
+       	<inside>
+ 
+       	<item id="2511" chance="8000"/>
+ 
+       	<item id="2397" chance="6666"/>
+ 
+       	<item id="2456" chance="6666"/>
+       	</inside>
+       	</item>
+      </loot>
+ 
+ <voices>
+   	<voice sentence="Bahaha aka!" cycleticks="10000" probability="40"/>
+ 	<voice sentence="Flee as long as you can!" cycleticks="10000" probability="40"/>
+ 	<voice sentence="You are not welcome here." cycleticks="10000" probability="40"/>
+ 	<voice sentence="Death to the defilfers!" cycleticks="10000" probability="40"/>
+ </voices>
+      </monster>
+ 

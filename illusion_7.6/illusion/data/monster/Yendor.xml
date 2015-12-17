@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+   <monster name="Yendor" level="55" maglevel="76" experience="10075" pushable="0" armor="35" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="300">
+      	<health now="10020" max="10020"/>
+      	<look type="144" head="78" body="78" legs="78" feet="78" corpse="2979"/>
+      	<combat targetdistance="5" runonhealth="300"/>
+   <attacks>
+ <attack type="instant" name="w exevo gran vis lux" cycleticks="3000" probability="85"/>
+ <attack type="rune" name="wexplosion" exhaustion="1000" cycleticks="2000" probability="100"/>
+ <attack type="rune" name="warlock_burstarrow" exhaustion="500" cycleticks="2000" probability="95"/>
+ <attack type="instant" name="b exura" cycleticks="2000" probability="85"/>
+ <attack type="rune" name="wfbomb" exhaustion="2000" cycleticks="4000" probability="60"/>
+ <attack type="rune" name="warlocksd" exhaustion="500" cycleticks="4000" probability="90"/>
+ <attack type="costum" name="invis" mindamage="0" maxdamage="0" exhaustion="500" cycleticks="5000" probability="95"/>
+ <attack type="rune" name="great fireball" exhaustion="500" cycleticks="4000" probability="80"/>
+         <attack type="rune" name="fire field" exhaustion="500" cycleticks="8000" probability="75"/>
+ 	<attack type="costum" name="manadrain" mindamage="45" maxdamage="80" exhaustion="100" cycleticks="3000" probability="50"/>
+ </attacks>
+   <defenses>
+ <defense immunity="energy"/>
+ <defense immunity="fire"/>
+ <defense immunity="poison"/>
+ <defense immunity="paralyze"/>
+ <defense immunity="drunk"/>
+ <defense immunity="invis"/>
+   </defenses>
+ <voices>
+ 	<voice sentence="I am the best Mage!" cycleticks="5000" probability="40"/>
+ </voices>
+   <loot>
+ <item id="2514" chance="11200"/> //mms
+ <item id="2472" chance="11500"/> //e plate
+ <item id="2640" chance="11500"/> //waterboot
+   </loot>
+ <summons maxSummons="4">
+  	<summon name="Warlock" chance="5000"/>
+ <summon name="Necromancer" chance="5000"/>
+ </summons>
+ 
+ </monster>

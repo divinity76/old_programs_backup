@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Kanobi" script="data/npc/scripts/furniture.lua" access="3" lookdir="3">
+	<health now="1000" max="1000"/>
+	<look type="128" head="78" body="71" legs="82" feet="114" corpse="3128"/>
+</npc>

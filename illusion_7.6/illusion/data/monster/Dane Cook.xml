@@ -1,0 +1,70 @@
+<?xml version="1.0" ?> 
+<monster name="Dane Cook" level="170" maglevel="250" experience="90000" speed="650" pushable="0" armor="80" defense="80" canpushitems="1" staticattack="50" changetarget="2200">
+  <health now="220000" max="220000" /> 
+<look type="134" head="116" body="76" legs="124" feet="116" corpse="3129"/>
+  <combat targetdistance="0" runonhealth="2000" /> 
+- <attacks>
+  <attack type="melee" maxdamage="10000" cycleticks="1000" probability="100" /> 
+  <attack type="instant" name="exura vita" exhaustion="500" cycleticks="5500" probability="40" /> 
+  <attack type="instant" name="exura vita" exhaustion="500" cycleticks="5500" probability="60" /> 
+  <attack type="instant" name="exura gran" exhaustion="500" cycleticks="5500" probability="50" /> 
+  <attack type="rune" name="sudden death" exhaustion="600" cycleticks="1500" probability="100" /> 
+  <attack type="rune" name="poisen explosion" exhaustion="1700" cycleticks="1500" probability="9" /> 
+  <attack type="rune" name="uexplosion" exhaustion="1800" cycleticks="1500" probability="6" /> 
+  <attack type="rune" name="giant fireball" exhaustion="900" cycleticks="1500" probability="50" /> 
+  <attack type="rune" name="great fireball" exhaustion="700" cycleticks="1500" probability="70" /> 
+  <attack type="rune" name="great fireballx" exhaustion="600" cycleticks="1500" probability="40" /> 
+  <attack type="rune" name="heavy magic missile" exhaustion="200" cycleticks="1500" probability="80" /> 
+  <attack type="instant" name="exevo vis lux" exhaustion="500" cycleticks="4000" probability="60" /> 
+  <attack type="instant" name="exevo gran mas vis" exhaustion="100" cycleticks="4000" probability="18" /> 
+  <attack type="instant" name="exevo gran mas mort" exhaustion="900" cycleticks="4000" probability="8" /> 
+  <attack type="instant" name="exevo gran mas song" exhaustion="900" cycleticks="4000" probability="10" /> 
+  <attack type="instant" name="exevo pox hur" exhaustion="900" cycleticks="4000" probability="6" /> 
+  <attack type="instant" name="raps galla" exhaustion="500" cycleticks="4000" probability="40" /> 
+  </attacks>
+- <defenses>
+  <defense immunity="invisible" /> 
+  <defense immunity="energy" /> 
+  <defense immunity="fire" /> 
+  <defense immunity="poison" /> 
+  <defense immunity="paralyze" /> 
+  <defense immunity="drunk" /> 
+  </defenses>
+- <loot>
+  <item id="2160" countmax="100" chance1="100000" chancemax="0" /> 
+  <item id="2600" chance="1000" /> 
+  <item id="2453" chance="700" /> 
+  <item id="2432" chance="7200" /> 
+  <item id="2408" chance="1000" /> 
+  <item id="2390" chance="4200" /> 
+  <item id="2343" chance="2900" /> 
+  <item id="2506" chance="800" /> 
+  <item id="2472" chance="1001" /> 
+  <item id="2640" chance="1110" /> 
+  <item id="3964" chance="700" /> 
+  <item id="2663" chance="700" /> 
+  heavens might 
+- <item id="1996" chance="10000">
+- <inside>
+  <item id="2160" countmax="50" chance1="80000" chancemax="0" /> 
+  <item id="2792" countmax="50" chance1="6666" chancemax="1110" /> 
+  <item id="2793" countmax="20" chance1="6666" chancemax="1110" /> 
+  <item id="2656" chance="1333" /> 
+  <item id="2466" chance="1800" /> 
+  <item id="2436" chance="1028" /> 
+  <item id="2123" chance="7200" /> 
+  <item id="2421" chance="3000" /> 
+  <item id="2173" chance="2900" /> 
+  <item id="2133" chance="1200" /> 
+  <item id="2541" chance="1200" /> 
+  <item id="2352" chance="5040" /> 
+  </inside>
+  </item>
+  </loot>
+- <voices>
+  <voice sentence="_,||, Su-Fi Nation! ,||,_" cycleticks="5000" probability="85" /> 
+  <voice sentence="Naughty Naughty Kool-Aid!!!!!!" cycleticks="5000" probability="85" /> 
+  <voice sentence="" cycleticks="5000" probability="45" /> 
+  </voices>
+  <summoning /> 
+  </monster>

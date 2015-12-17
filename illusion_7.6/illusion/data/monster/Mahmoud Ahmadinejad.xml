@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+  <monster name="Mahmoud Ahmadinejad" level="100" maglevel="200" experience="46000" pushable="0" armor="120" 
+ 
+ defense="150" canpushitems="1" staticattack="400" changetarget="200" speed="3400" bossmonster="1" skullType="4">
+      <health now="92000" max="92000"/>
+      <look type="35" head="20" body="30" legs="40" feet="50" corpse="2916"/>
+      <combat targetdistance="1" runonhealth="0"/>
+ 
+  <attacks>
+      <attack type="melee" mindamage="1600" maxdamage="3500" />
+      <attack type="instant" name="utani gran hur" cycleticks="30" probability="1000"/>
+      <attack type="instant" name="exura" cycleticks="2000" probability="1000"/>
+
+     <attack type="rune" name="GFBorshabaal" exhaustion="500" cycleticks="6000" 
+ 
+ probability="100"/>  
+      <attack type="instant" name="exoriorsha" exhaustion="500" cycleticks="7000" 
+ 
+ probability="85"/>
+      <attack type="instant" name="verdinhu" exhaustion="500" cycleticks="7000" 
+ 
+ probability="85"/>
+ </attacks>
+ 
+  <defenses>
+        <defense immunity="invisible"/>
+      <defense immunity="invis"/>
+      <defense immunity="fire"/>
+      <defense immunity="poison"/>
+      <defense immunity="paralyze"/>
+      <defense immunity="drunk"/>
+  </defenses>
+ 
+  <voices>
+      <voice sentence="KILL THE INFIDEL!!!!!"/>
+      <voice sentence="ALALALALALA!!!"/>
+      <voice sentence="I SHALL KILL Em"/>
+      <voice sentence="DEATH TO THE US OF A!!!"/>
+  </voices>
+ 
+ <loot>
+ <item id="2155" chance="9800"/>     /// big smerald
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2462" chance="100000"/>   ///devil helmet
+ <item id="2144" countmax="10" chance1="90000" chancemax="6000"/>   ///black pearl
+ <item id="2393" chance="80000"/>   ///giant sword
+ <item id="2174" chance="80000"/>   ///strange symbol
+ 
+ <item id="1987" chance="80000">  ///bag
+ <inside>
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2421" chance="1000"/>  ///thunder hammer
+ <item id="2402" chance="9000"/>     /// silver dagger
+ <item id="2178" chance="50000"/>   ///mind stone
+ <item id="2522" chance="1000"/>  ///great shield
+ <item id="2500" chance="1000"/>  ///lady armor
+ <item id="2499" chance="1000"/>  ///lady heml
+ <item id="2502" chance="3000"/>  ///dwarf helm
+ <item id="2503" chance="100"/>  ///dwarf armnor
+ <item id="3965" chance="500"/>  ///Gods spear
+ <item id="3970" chance="1000"/>  ///headdress
+</inside>
+ </item>
+ </loot>
+ 
+ <summons maxSummons="2">
+  <summon name="orshabaal" chance="20"/>
+ </summons>
+ 
+  </monster>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+ <monster name="Serpent Spawn" level="60" maglevel="40" experience="2000" pushable="0" speed="270" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="3000" max="3000"/>
+ <look type="220" corpse="4323"/>
+ <combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ <attack type="melee" maxdamage="200" cycleticks="2000" probability="100"/>
+        <attack type="rune" name ="great fireball" cycleticks="2000" probability="100"/>         
+      	<attack type="instant" name="banshee_sonar" exhaustion="500" cycleticks="4000" probability="80"/>       
+  	<attack type="instant" name="exevo gran mas pox" exhaustion="500" cycleticks="4000" probability="85"/>
+ <attack type="rune" name="paralyze" exhaustion="50" cycleticks="2000" probability="100"/>
+ 	<attack type="instant" name="hydra_poison" exhaustion="500" cycleticks="5000" probability="70"/>
+ </attacks>
+ 
+ <defenses>
+        <defense immunity="fire"/> 
+        <defense immunity="poison"/>
+ <defense immunity="paralyze"/>
+ <defense immunity="drunk"/>
+        <defense immunity="invis"/>
+ </defenses>
+ 
+ <loot>
+  <item id="2148" countmax="10" chance1="90000" chancemax="0"/>
+  <item id="2480" chance="6666"/>
+ 
+  <item id="1987" chance="100000">
+  <inside>
+  <item id="2388" chance="10000"/>
+ <item id="0" countmax="2" chance1="28050" chancemax="0"/>
+  <item id="2398" chance="10000"/>
+  <item id="2511" chance="5000"/>
+  <item id="2473" chance="5000"/>
+  <item id="2376" chance="3333"/>
+  <item id="2050" chance="20000"/>
+  </inside>
+  </item>
+ </loot>
+ <voices>
+ <voice sentence="Choooooooooooooooo!" cycleticks="10000" probability="40"/>
+ 
+ </voices>
+ </monster>

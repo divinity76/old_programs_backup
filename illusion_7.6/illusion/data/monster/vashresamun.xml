@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+      <monster name="Vashresamun" level="76" maglevel="43" experience="2950" pushable="0" armor="35" defense="30" canpushitems="1" staticattack="50" changetarget="200" speed="310">
+      	<health now="6000" max="6000"/>
+      	<look type="90" head="20" body="30" legs="40" feet="50" corpse="3016"/>
+      	<combat targetdistance="1" runonhealth="100"/>
+   
+   <attacks>
+ 	<attack type="melee" mindamage="200" maxdamage="700" />
+ 	<attack type="instant" name="orshabaal_deathstar" cycleticks="9000" probability="35"/>
+ 	<attack type="instant" name="exevo gran mas mort" cycleticks="9000" probability="15"/>
+ 	<attack type="instant" name="exura vita" cycleticks="5000" probability="66"/>
+ 	<attack type="instant" name="orshabaal_exori" cycleticks="7000" probability="70"/>
+    </attacks>
+   
+      <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<!-- <defense immunity="poison"/> -->
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+      </defenses>
+   
+      <voices>
+      	<voice sentence="MY TRESURE! DON'T TAKE IT!!"/>
+      	<voice sentence="HOOOOOOHHHSSSS!"/>
+      </voices>
+   
+      <loot>
+       	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+       	<item id="2176" chance="2000"/>
+       	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+   
+       	<item id="1987" chance="100000">
+       	<inside>
+       	<item id="2148" countmax="70" chance1="100000" chancemax="0"/>
+       	<item id="2550" chance="10000"/>
+      	<item id="2688" countmax="5" chance1="4000" chancemax="0"/>
+       	<item id="2540" chance="1333"/>
+  	<item id="2341" chance="1633"/>
+       	<item id="2539" chance="500"/>
+       	<item id="2533" chance="1428"/>
+       	<item id="2486" chance="1000"/>
+       	<item id="2658" chance="800"/>
+       	<item id="2189" chance="800"/>
+      	<item id="2147" countmax="2" chance1="4000" chancemax="0"/>
+      	<item id="2678" countmax="4" chance1="4000" chancemax="0"/>
+       	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      	<item id="2690" countmax="4" chance1="4000" chancemax="0"/>
+   
+       	<item id="2002" chance="2857">
+       	<inside>
+       	<item id="2148" countmax="1" chance1="2857" chancemax="0"/>
+       	</inside>
+       	</item>
+   
+   
+       	</inside>
+       	</item>
+      </loot>
+ <summons maxSummons="4">
+  	<summon name="Banshee" chance="5000"/>
+ </summons>
+      </monster>

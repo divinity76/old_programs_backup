@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+      <monster name="Dwarf" level="20" maglevel="30" experience="45" pushable="1" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+      	<health now="90" max="90"/>
+      	<look type="69" head="20" body="30" legs="40" feet="50" corpse="2960"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+      <attacks>
+      	<attack type="melee" maxdamage="30"/>
+      
+      </attacks>
+      
+      <defenses>
+      	<defense immunity="poison"/>
+      </defenses>
+      
+      <loot>
+       	<item id="2148" countmax="8" chance1="100000" chancemax="0"/>
+       	<item id="2484" chance="20000"/>
+       	<item id="2649" chance="10000"/>
+       	<item id="2597" chance="10000"/>
+       	<item id="2553" chance="10000"/>
+ 
+      	<item id="2787" countmax="1" chance1="50000" chancemax="0"/>
+      
+       	<item id="1987" chance="100000">
+       	<inside>
+       	<item id="2388" chance="10000"/>
+       	<item id="2386" chance="10000"/>
+       	<item id="2530" chance="10000"/>
+       	<item id="2213" chance="500"/>
+ 
+       	</inside>
+       	</item>
+      </loot>
+ 
+ <voices>
+ 	<voice sentence="Hail Durin!"/>
+ </voices>
+      </monster>
+ 

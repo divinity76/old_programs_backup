@@ -1,0 +1,23 @@
+/* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
+/* DO NOT EDIT ! */
+
+#ifndef DEVLAND_PRIVATE_H
+#define DEVLAND_PRIVATE_H
+
+/* VERSION DEFINITIONS */
+#define VER_STRING	"0.9.8.89"
+#define VER_MAJOR	0
+#define VER_MINOR	9
+#define VER_RELEASE	8
+#define VER_BUILD	89
+#define COMPANY_NAME	""
+#define FILE_VERSION	"0.9.0.4"
+#define FILE_DESCRIPTION	"Illusion 7.6"
+#define INTERNAL_NAME	""
+#define LEGAL_COPYRIGHT	""
+#define LEGAL_TRADEMARKS	""
+#define ORIGINAL_FILENAME	"DevLand"
+#define PRODUCT_NAME	"Illusion 8.0"
+#define PRODUCT_VERSION	"0.992bcFiX"
+
+#endif /*DEVLAND_PRIVATE_H*/

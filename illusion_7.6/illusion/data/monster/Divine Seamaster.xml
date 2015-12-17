@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+ <monster name="Divine Seamaster" level="120" maglevel="55" experience="12000" pushable="0" speed="899" monster="1" armor="30" defense="30" canpushitems="1" staticattack="50" changetarget="3250">
+ 	<health now="22500" max="22500"/>
+ 	<look type="121" corpse="4283"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="220" probability="100"/>
+         <attack type="instant" name="exevo poison hur" exhaustion="500" cycleticks="5200" probability="85"/>	
+         <attack type="instant" name="water hur" exhaustion="500" cycleticks="3600" probability="80"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="75"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="70"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="50"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="55"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="75"/>
+         <attack type="instant" name="exura" exhaustion="500" cycleticks="3000" probability="75"/>
+         <attack type="instant" name="exura" exhaustion="500" cycleticks="3000" probability="70"/>
+         <attack type="instant" name="exura" exhaustion="500" cycleticks="3000" probability="50"/>
+         <attack type="instant" name="exura gran" exhaustion="500" cycleticks="3000" probability="55"/>
+         <attack type="instant" name="exura gran" exhaustion="500" cycleticks="3000" probability="75"/>
+         <attack type="instant" name="exevo gran mas vis" exhaustion="500" cycleticks="2000" probability="24"/>	
+         <attack type="instant" name="exevo gran mas pox" exhaustion="500" cycleticks="2000" probability="60"/>	
+         <attack type="instant" name="exevo gran mas song" exhaustion="500" cycleticks="2000" probability="14"/>	
+         <attack type="instant" name="exevo gran mas mort" exhaustion="500" cycleticks="2000" probability="10"/>	
+         <attack type="instant" name="exevo gran mas rock" exhaustion="500" cycleticks="2000" probability="9"/>	
+         <attack type="instant" name="exevo pox hur" exhaustion="500" cycleticks="2000" probability="50"/>		
+         <attack type="instant" name="exevo hydrawlyc pox" exhaustion="500" cycleticks="3000" probability="65"/>	
+         <attack type="instant" name="exevo hydrawlyc hur" exhaustion="500" cycleticks="4000" probability="60"/>		
+ 
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+         <defense immunity="energy"/>
+ </defenses>
+ 
+ <loot>
+  	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+  	<item id="2666" countmax="7" chance1="33333" chancemax="0"/>
+         <item id="2671" countmax="6" chance1="33333" chancemax="0"/>
+  	<item id="2033" chance="11666"/>
+  	<item id="1976" chance="2333"/>
+  	<item id="2413" chance="4500"/>
+         <item id="2195" chance="1250"/>   // Boh
+         <item id="2536" chance="1750"/> //Medusa Shield
+  	<item id="2498" chance="1500"/> //royal helmet
+  	<item id="2492" chance="1450"/> //Dsm
+  	<item id="2546" countmax="9" chance1="6222" chancemax="0"/>
+  	<item id="2796" countmax="1" chance1="6666" chancemax="0"/>
+ 	<item id="2453" chance="177"/>
+ 	<item id="2437" chance="255"/>
+ 	<item id="2438" chance="99"/>
+ 
+  	<item id="1987" chance="100000">
+  	<inside>
+  	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+  	<item id="2149" countmax="20" chance1="11833" chancemax="1110"/>
+  	<item id="2392" chance="1230"/>  // Fire Sword
+ 	<item id="2528" chance="3100"/>  // Tower Shield
+         <item id="2475" chance="4000"/>  // Warrior helmet
+         <item id="2476" chance="1960"/>  // Knight Armor
+         <item id="2477" chance="1800"/>  // Knight Legs
+ 	<item id="2524" chance="1300"/>
+ 	<item id="2407" chance="1820"/>
+ 	<item id="3968" chance="500"/>
+ 	<item id="2542" chance="89"/>
+  	<item id="2547" countmax="100" chance1="10000" chancemax="3250"/>
+  	</inside>
+  	</item>
+ </loot>
+ <voices>
+ 	<voice sentence="Lirallllll" cycleticks="8000" probability="40"/>
+ 	<voice sentence="I have three heads!"  cycleticks="8000" probability="35"/>
+ 	<voice sentence="BERRRRRRRRRRRRRRRRR"  cycleticks="8000" probability="35"/>
+ 	<voice sentence="HEALING ROX!!!"  cycleticks="8000" probability="85"/>
+ </voices>
+ </monster>

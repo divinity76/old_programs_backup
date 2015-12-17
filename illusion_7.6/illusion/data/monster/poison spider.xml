@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+      <monster name="Poison Spider" level="0" maglevel="0" experience="22" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="160" blood="50" poisonmonster="1">
+      	<health now="26" max="26"/>
+      	<look type="36" head="20" body="30" legs="40" feet="50" corpse="2848"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+ <blood color="50" effect="16" splash="4"/>
+      <attacks>
+      	<attack type="poison_melee" maxdamage="20" probability="100" maxhits="40" maxhitsdamage="1"/>
+	<attack type="melee" maxdamage="15"/>
+      </attacks>
+ 
+      <defenses>
+      	<defense immunity="poison"/>
+      </defenses>
+ 
+      <loot>
+       	<item id="2148" countmax="6" chance1="80000" chancemax="0"/>
+      </loot>
+      </monster>

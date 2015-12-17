@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+ <npclist>
+---Seller
+ <npc name="Rulaha" x="186" y="114" z="7"/>
+ <npc name="Rulaha" x="214" y="112" z="4"/>
+ <npc name="Rulaha" x="46" y="394" z="7"/>
+---Promotion
+ <npc name="Marcela" x="187" y="87" z="7"/>
+--Parcels
+--boats
+
+--shopping mall
+<npc name="Robin Hood" x="218" y="109" z="6"/>
+
+
+<npc name="Eremo" x="220" y="114" z="6"/>
+
+<npc name="Frodo" x="226" y="111" z="7"/>
+<npc name="Frodo" x="220" y="115" z="4"/>
+<npc name="Frodo" x="46" y="398" z="7"/>
+
+<npc name="Maxy" x="226" y="110" z="6"/>
+
+<npc name="Joey" x="219" y="106" z="7"/>
+
+<npc name="Andrea" x="218" y="109" z="8"/>
+--desert npcs
+<npc name="Guild Master" x="220" y="114" z="7"/>
+<npc name="Joey" x="144" y="566" z="7"/>
+<npc name="Joey" x="441" y="470" z="3"/>
+<npc name="Joey" x="218" y="109" z="4"/>
+<npc name="Joey" x="46" y="402" z="7"/>
+<npc name="Frodo" x="466" y="472" z="3"/>
+<npc name="Andrea" x="115" y="557" z="8"/>
+<npc name="Frodos Cousin" x="227" y="105" z="7"/>
+<npc name="Maxy" x="441" y="478" z="3"/>
+<npc name="Maxy" x="216" y="115" z="4"/>
+<npc name="Eremo" x="465" y="477" z="3"/>
+<npc name="Broadcaster" x="199" y="93" z="8"/>
+<npc name="Gobolex" x="223" y="105" z="8"/>
+<npc name="obi" x="217" y="106" z="6"/>
+<npc name="obi" x="221" y="111" z="4"/>
+ </npclist>

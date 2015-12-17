@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+ <monster name="Beheloniano Brutal" level="139" maglevel="62" experience="21500" speed="4340" pushable="0" armor="140" defense="245" canpushitems="1" staticattack="50" changetarget="10345">
+ 	<health now="34000" max="34000"/>
+ 	<look type="55" head="20" body="30" legs="40" feet="50" corpse="2931"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="830" cycleticks="2000" probability="100"/>/>
+ 	<attack type="distance" name="largerock" mindamage="100" maxdamage="380" exhaustion="690" cycleticks="4000" probability="100"/>
+         <attack type="instant" name="utani hur" exhaustion="500" cycleticks="3000" probability="85"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="65"/>
+         <attack type="instant" name="exura vita" exhaustion="500" cycleticks="3000" probability="32"/>
+         <attack type="instant" name="exori" exhaustion="500" cycleticks="3000" probability="50"/>
+         <attack type="instant" name="exevo mas xori" exhaustion="500" cycleticks="3000" probability="20"/>
+ 	<attack type="distance" name="bolt" mindamage="10" maxdamage="430" cycleticks="5000" probability="100"/>
+ 	<attack type="distance" name="arrow" mindamage="10" maxdamage="365" cycleticks="2000" probability="100"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="energy"/>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+  	<item id="2148" countmax="70" chance1="100000" chancemax="1110"/>
+  	<item id="2671" countmax="30" chance1="10000" chancemax="1110"/>
+  	<item id="2547" countmax="80" chance1="10000" chancemax="3250"/>
+  	<item id="2393" chance="10000"/> //giantsword
+         <item id="1987" chance="100000">
+  	<item id="2514" chance="461"/>
+  	<item id="3962" chance="101"/>
+  	<item id="2352" chance="36"/>
+  	<inside>
+  	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+  	<item id="2645" chance="18000"/> //steel boots
+         <item id="2188" chance="10000"/>
+  	<item id="2161" chance="33033"/>
+  	<item id="2438" chance="115"/>
+  	<item id="2451" chance="325"/>
+  	<item id="2446" chance="355"/>
+  	</inside>
+  	</item>
+ </loot>
+ <voices>
+ 	<voice sentence="Lawl..noobin pikeno IOUAHEEOUHE!" cycleticks="5000" probability="50"/>
+ 	<voice sentence="Crush the intruders?HHAahahah" cycleticks="5000" probability="45"/>
+         <voice sentence="Im own the behes, now u'll pay for the behes u killed!!!" cycleticks="5000" probability="35"/>
+ </voices>
+ </monster>

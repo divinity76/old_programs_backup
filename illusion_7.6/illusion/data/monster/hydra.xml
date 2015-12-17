@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+ <monster name="Hydra" level="25" maglevel="158" experience="12100" pushable="0" speed="260" monster="1" armor="38" defense="35" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="10250" max="10250"/>
+ <look type="121" corpse="4283"/>
+ <combat targetdistance="1" runonhealth="300"/>
+ 
+ <attacks>
+   	<attack type="melee" maxdamage="4000"/>
+ 	<attack type="instant" name="hydra_water" exhaustion="500" cycleticks="3000" probability="50"/>
+ 	<attack type="instant" name="hydra_poison" exhaustion="500" cycleticks="5000" probability="70"/>
+   	<attack type="instant" name="exura gran" exhaustion="500" cycleticks="2000" probability="80"/>
+ </attacks>
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ <defense immunity="invisible"/>
+ </defenses>
+ 
+ <loot>
+    	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ 
+    	<item id="2666" countmax="3" chance1="50000" chancemax="0"/>
+ 
+    	<item id="2671" countmax="3" chance1="50000" chancemax="0"/>
+ 
+ 	<item id="2492" chance="300"/>//dsm
+ 
+ 	<item id="2476" chance="900"/>//k armor
+ 
+ 	<item id="2477" chance="800"/>//k legs
+ 
+    	<item id="2498" chance="400"/>//rh
+ 
+ 	<item id="2475" chance="1000"/>//wh
+ 
+ 	<item id="2195" chance="100"/>//Boh
+ 	<item id="2402" chance="100"/>//dagger
+ 
+    	<item id="1987" chance="100000">
+    	<inside>
+ 
+    	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ 
+ 
+ 
+ 	<item id="2536" chance="1200"/>//medusa shield
+ 
+ 
+ 
+ 	<item id="2214" chance="700"/>//ring healing
+ 
+ 	<item id="2146" countmax="1" chance1="2000" chancemax="0"/>//saphre
+ 
+ 
+ 
+ 	<item id="2197" chance="1400"/>//stoneskin
+ 
+ 
+ 
+ 	<item id="2177" chance="1800"/>//life crystal
+ 
+ 
+ 
+    	</inside>
+    	</item>
+ </loot>
+ 
+ 
+ 
+ 
+ 
+ </monster>

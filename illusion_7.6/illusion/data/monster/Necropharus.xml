@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+      <monster name="Necropharus" level="90" maglevel="450" experience="5580" pushable="0" armor="40" defense="35" canpushitems="1" staticattack="500" changetarget="200" speed="988">
+      	<health now="70000" max="70000"/>
+      	<look type="9" head="20" body="30" legs="40" feet="50" corpse="3128"/>
+      	<combat targetdistance="0" runonhealth="250"/>
+      <attacks>
+      	<attack type="melee" maxdamage="5000"/>
+      	<attack type="instant" name="exura" exhaustion="200" cycleticks="3000" probability="110"/>
+ <attack type="rune" name="npoisonmissile" exhaustion="2000" cycleticks="2000" probability="95"/>        <attack type="rune" name="envenom" exhaustion="500" cycleticks="9000" probability="70"/>
+      	<attack type="rune" name="Heavy magic missile" exhaustion="500" cycleticks="5000" probability="70"/>
+ <attack type="instant" name="d exura" cycleticks="2000" probability="85"/>
+ 	<attack type="costum" name="lifedrain" mindamage="45" maxdamage="80" exhaustion="100" cycleticks="3000" probability="50"/>
+      </attacks>
+ 
+      <defenses>
+      	<!-- <defense immunity="poison"/> -->
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+ <defense immunity="invisible"/>
+      </defenses>
+ 
+      <loot>
+       	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+       	<item id="2032" chance="10000"/>
+      	<item id="2804" countmax="2" chance1="20000" chancemax="0"/>
+ 
+       	<item id="1987" chance="100000">
+       	<inside>
+       	<item id="2412" chance="10000"/>
+      	<item id="2229" countmax="3" chance1="20000" chancemax="0"/>
+       	<item id="2747" chance="20000"/>
+       	<item id="2436" chance="1333"/>
+       	<item id="2663" chance="909"/>
+       	<item id="2195" chance="666"/>
+       	<item id="2656" chance="366"/>
+       	<item id="2423" chance="5000"/>
+       	</inside>
+       	</item>
+      </loot>
+ 
+ <summons maxSummons="4">
+ 	<summon name="Necromancer" chance="5000"/>
+ </summons>
+ 
+ </monster>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="BackPacks" script="data/npc/scripts/backpack.lua" access="3" lookdir="1">
+	<health now="1" max="1"/>
+	<look type="128" head="66" body="46" legs="2" feet="89"/>
+</npc>

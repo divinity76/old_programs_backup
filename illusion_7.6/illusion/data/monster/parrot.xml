@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+   <monster name="Parrot" level="20" maglevel="10" experience="0" pushable="0" speed="160" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="300">
+   	<health now="25" max="25"/>
+   	<look type="217" corpse="4314"/>
+   	<combat targetdistance="3" runonhealth="9"/>
+   <attacks>
+   	<attack type="melee" maxdamage="0"/>
+   </attacks>
+   
+   <defenses>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+   </defenses>
+   
+   <loot/>
+  
+   </monster>

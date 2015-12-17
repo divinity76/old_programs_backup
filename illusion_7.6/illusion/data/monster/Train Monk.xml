@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+ <monster name="Train Monk" level="20" maglevel="30" experience="0" pushable="1" armor="40" defense="50" canpushitems="1" staticattack="10000" changetarget="0">
+ 	<health now="1000" max="1000"/>
+ 	<look type="57" head="20" body="30" legs="40" feet="50" corpse="3058"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ 	<attack type="instant" name="exura vita" exhaustion="500" cycleticks="2000" probability="100"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="poison"/>
+ </defenses>
+ 
+ <voices>
+ 	<voice sentence="Repent heretic!"/>
+ 	<voice sentence="Feel my kick!"/>
+ 	<voice sentence="A prayer for Zathroth!"/>
+ </voices>
+ 
+ <loot>
+  	
+ </loot>
+ </monster>

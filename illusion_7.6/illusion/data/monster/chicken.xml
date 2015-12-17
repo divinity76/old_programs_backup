@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+ <monster name="Chicken" level="20" maglevel="10" experience="0" pushable="0" speed="220" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="15" max="15"/>
+ <look type="111" corpse="4265"/>
+ <combat targetdistance="3" runonhealth="0"/>
+ 
+ <attacks>
+ 	<attack type="melee" maxdamage="0"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+ 	<item id="2666" countmax="2" chance1="100000" chancemax="0"/>
+ 	<item id="3976" countmax="3" chance1="20000" chancemax="0"/>
+ </loot>
+ 
+ <voices>
+ 	<voice sentence="Cluck Cluck" cycleticks="10000" probability="40"/>
+ 	<voice sentence="Gokgoooook" cycleticks="10000" probability="20"/>
+ </voices>
+ 
+ </monster>

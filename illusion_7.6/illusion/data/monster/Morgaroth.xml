@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+ <monster name="Morgaroth" level="160" maglevel="90" experience="50000" speed="800" pushable="0" armor="100" defense="100" canpushitems="1" staticattack="50" changetarget="270">
+ 	<health now="42200" max="42200"/>
+ 	<look type="35" head="20" body="30" legs="40" feet="50" corpse="2916"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+       <attack type="instant" name="banshee_sonar" exhaustion="500" cycleticks="4000" probability="80"/>
+ 	<attack type="melee" mindamage="1000" maxdamage="9000" cycleticks="2000" probability="500"/>
+ 	<attack type="instant" name="exura gran" cycleticks="5000" probability="70"/>
+ 	<attack type="instant" name="morgaroth_exori" cycleticks="5000" probability="500"/>
+ 	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="8000" probability="70"/>
+ 	<attack type="rune" name="demon_largefireball" exhaustion="500" cycleticks="4000" probability="100"/>
+ 	<attack type="instant" name="orshabaal_exori" exhaustion="500" cycleticks="6000" probability="50"/>
+       <attack type="rune" name="paralyze" exhaustion="500" cycleticks="4000" probability="1000"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="energy"/>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <voices>
+ 	<voice sentence="Morgaroth has come!" cycleticks="5000" probability="40"/>
+ 	<voice sentence="From flesh to dust, from dust to fire" cycleticks="5000" probability="50"/>
+         <voice sentence="Borned from rotten flesh, cursed bones and pure evulness, Morgaroth is back" cycleticks="5000" probability="60"/>
+         <voice sentence="CHAMEK UTHUL URAK!" cycleticks="5000" probability="55"/>
+ </voices>
+ 
+ <loot>
+  	<item id="2148" countmax="100" chance1="200000" chancemax="0"/>
+  	<item id="2148" countmax="25" chance1="200000" chancemax="0"/>
+  	<item id="2393" chance="10000"/> //giantsword
+  	<item id="2514" chance="4000"/> // Mastermind Shield
+  	<item id="2408" chance="1000"/> // Warlord Sword
+   	<item id="2671" countmax="4" chance1="100000" chancemax="0"/>
+  	<item id="2432" chance="7808"/> // Fire Axe
+  	<item id="2472" chance="3000"/>  // Magic Plate Armor
+ 
+  	<item id="1987" chance="100000">
+  	<inside>
+  	<item id="2470" chance="2950"/> // Glegs
+ 	<item id="2522" chance="1100"/> // Great shield
+  	<item id="2520" chance="4600"/> // Demon shield
+  	</inside>
+  	</item>
+ </loot>
+ <summons maxSummons="6">
+  	<summon name="Demon" chance="5000"/>
+ </summons>
+ </monster>

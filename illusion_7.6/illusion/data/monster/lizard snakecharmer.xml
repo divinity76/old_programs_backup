@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+ <monster name="Lizard Snakecharmer" level="37" maglevel="37" experience="185" speed="250" monster="1" pushable="0" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="325" max="325"/>
+ <look type="115" corpse="4262"/>
+ <combat targetdistance="3" runonhealth="0"/>
+ 
+ <attacks>
+   	<attack type="melee" maxdamage="80"/>
+   	<attack type="instant" name="exura" cycleticks="3000" probability="100"/>
+   	<attack type="rune" name="envenom" cycleticks="3000" probability="50"/>
+ <attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="5000" probability="75"/>
+ </attacks>
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+    	<item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+    	<item id="2817" chance="50000"/>
+ </loot>
+ 
+ <voices/>
+ 
+ <summons maxSummons="5">
+   	   <summon name="Cobra" chance="5000"/>
+ </summons>
+ 
+ </monster>

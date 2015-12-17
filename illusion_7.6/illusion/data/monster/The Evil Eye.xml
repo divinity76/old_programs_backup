@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+   <monster name="The Evil Eye" level="160" maglevel="80" experience="13200" pushable="0" armor="35" defense="30" canpushitems="1" staticattack="50" changetarget="200" speed="270">
+      	<health now="5000" max="5000"/>
+      	<look type="108" head="20" body="30" legs="40" feet="50" corpse="3052"/>
+      	<combat targetdistance="1" runonhealth="150"/>
+ 
+   <attacks>
+      	<attack type="melee" mindamage="250" maxdamage="550"/>
+      	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="8000" probability="80"/>
+      	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="5000" probability="80"/>
+      	<attack type="instant" name="exevo gran mas vis" exhaustion="500" cycleticks="5000" probability="40"/>
+      	<attack type="rune" name="explosion" exhaustion="500" cycleticks="5000" probability="50"/>
+ <attack type="rune" name="paralyze" exhaustion="50" cycleticks="2000" probability="100"/>
+   </attacks>
+ 
+   <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<!-- <defense immunity="poison"/> -->
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+   </defenses>
+ 
+   <loot>
+      	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      	<item id="2445" chance="1000"/>
+      	<item id="2451" chance="1287"/>
+      	<item id="2453" chance="850"/>
+ 
+      	<item id="1987" chance="100000">
+      	<inside>
+      	<item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+      	<item id="2423" chance="50000"/>
+      	<item id="2391" chance="13333"/>
+      	</inside>
+      	</item>
+   </loot>
+ 
+ <summons maxSummons="4">
+  	<summon name="Demon Skeleton" chance="500"/>
+  	<summon name="Ghost" chance="500"/>
+ </summons>
+ 
+   </monster>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+      <monster name="Assasin" level="30" maglevel="30" experience="105" pushable="0" armor="18" defense="22" canpushitems="1" staticattack="50" changetarget="200" speed="260">
+      	<health now="175" max="175"/>
+      	<look type="129" head="95" body="95" legs="95" feet="95" corpse="3128"/>
+      	<combat targetdistance="1" runonhealth="30"/>
+      <attacks>
+      	<attack type="melee" maxdamage="80"/>
+                 <attack type="distance" name="throwingknife" mindamage="10" maxdamage="50" cycleticks="3000" probability="100"/>
+      
+      </attacks>
+      
+      <defenses>
+      	<!-- <defense immunity="poison"/> -->
+      </defenses>
+      
+      <loot>
+       	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+      
+       	<item id="1987" chance="100000">
+       	<inside>
+       	<item id="2403" chance="25000"/>
+      	<item id="2457" chance="8000"/>
+       	<item id="3968" chance="2000"/>
+       	<item id="3969" chance="3333"/>
+       	</inside>
+       	</item>
+      </loot>
+      </monster>

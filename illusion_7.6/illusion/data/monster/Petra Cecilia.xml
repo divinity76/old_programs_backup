@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+   <monster name="Petra Cecilia" level="50" maglevel="30" experience="60" pushable="1" armor="75" defense="50" canpushitems="1" staticattack="50" changetarget="200" speed="472">
+      	<health now="9110" max="9110"/>
+      	<look type="137" head="113" body="120" legs="114" feet="132" corpse="3065"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+   
+   <attacks>
+   	<attack type="distance" name="throwingknife" mindamage="30" maxdamage="90" cycleticks="4000" probability="100"/>
+ <attack type="melee" mindamage="130" maxdamage="230" cycleticks="2000" probability="100"/>
+   </attacks>
+   
+   <defenses>
+ <defense immunity="energy"/>
+ <defense immunity="fire"/>
+ <defense immunity="poison"/>
+ <defense immunity="paralyze"/>
+ <defense immunity="drunk"/>
+ <defense immunity="invis"/>
+   </defenses>
+   
+   <voices>
+   	<voice sentence="CORTATE EL CABELLO!" cycleticks="5000" probability="65"/>
+ <voice sentence="JOVENES LA FORMACION" cycleticks="5000" probability="95"/>
+ <voice sentence="CALLATE" cycleticks="5000" probability="85"/>
+ <voice sentence="JOVEN ESE NO ES EL SWETER DEL COLEGIO" cycleticks="5000" probability="95"/>
+ <voice sentence="JOVEN ENTREGUEME ESE IPOD" cycleticks="5000" probability="65"/>
+   </voices>
+   
+   <loot>
+  	<item id="2148" countmax="100" chance1="200000" chancemax="0"/>
+  	<item id="2148" countmax="25" chance1="200000" chancemax="0"/>
+  	<item id="2393" chance="10000"/> //giantsword
+  	<item id="2514" chance="4000"/> // MM shield
+   	<item id="2671" countmax="4" chance1="100000" chancemax="0"/>
+  	<item id="2432" chance="7808"/> // Fire axe
+  	<item id="2472" chance="3000"/>  // eplej
+       <item id="2542" chance="100000"/>  // plasma shield
+       <item id="2496" chance="100000"/>  // horned helmet
+  	<item id="1987" chance="100000">
+  	<inside>
+   	<item id="2678" countmax="3" chance1="20000" chancemax="0"/>
+  	<item id="2148" countmax="100" chance1="200000" chancemax="0"/>
+  	<item id="2151" countmax="4" chance1="50000" chancemax="0"/>
+  	<item id="2462" chance="5000"/> // Devil helmet
+ 	<item id="2149" countmax="3" chance1="16028" chancemax="0"/>
+  	<item id="2171" chance="5033"/> // Plat ammy
+  	<item id="2387" chance="10666"/> //double axe
+  	<item id="2470" chance="2950"/> // Glegs
+  	<item id="2520" chance="4600"/> // Demon shield
+  	<item id="2418" chance="5800"/> //golden sickle
+  	</inside>
+  	</item>
+ </loot>
+ 
+ <summons maxSummons="2">
+  	<summon name="Warlock" chance="5000"/>
+ </summons>
+ 
+   </monster>

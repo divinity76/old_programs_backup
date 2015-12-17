@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<monster name="butterfly" level="11" maglevel="20" experience="0" pushable="0" armor="10" defense="15" canpushitems="1" staticattack="15" changetarget="200" speed="300">
+	<health now="2" max="2"/>
+	<look type="227" head="20" body="30" legs="40" feet="50" corpse="4313"/>
+	<combat targetdistance="8" runonhealth="2"/>
+<attacks>
+
+</attacks>
+
+<defenses>
+	<defense immunity="poison"/>
+	<defense immunity="paralyze"/>
+	<defense immunity="drunk"/>
+</defenses>
+
+<voices>
+
+</voices>
+
+<loot>
+
+</loot>
+
+
+</monster>

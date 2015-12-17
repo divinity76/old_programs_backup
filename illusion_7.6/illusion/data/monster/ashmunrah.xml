@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+ <monster name="ashmunrah" level="110" maglevel="90" speed="300" experience="20000" pushable="0" armor="45" defense="40" canpushitems="1" staticattack="50" changetarget="200">
+ 	<health now="15500" max="15500"/>
+ 	<look type="88" head="20" body="30" legs="40" feet="50" corpse="3016"/>
+ 	<combat targetdistance="1" runonhealth="300"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="500" cycleticks="2000" probability="100"/>
+ 	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="8000" probability="76"/>
+ 	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="5000" probability="70"/>
+ 	<attack type="rune" name="explosion" exhaustion="500" cycleticks="6000" probability="800"/>
+ 
+ 	<attack type="rune" name="Soul fire" exhaustion="500" cycleticks="3000" probability="70"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="energy"/>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+ </defenses>
+ 
+ <voices>
+ 	<voice sentence="You cant pass!"/>
+ 	<voice sentence="Aint gonna hurt!"/>
+ </voices>
+ 
+ <loot>
+  	
+ <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ <item id="2514" chance="650"/> // MM shield
+ 
+ </loot>
+ </monster>

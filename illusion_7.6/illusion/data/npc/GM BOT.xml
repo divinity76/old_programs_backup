@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="BOT" script="data/npc/scripts/bot.lua" access="3" lookdir="1">
+	<health now="1" max="1"/>
+	<look type="75" head="97" body="95" legs="114" feet="0"/>
+</npc>

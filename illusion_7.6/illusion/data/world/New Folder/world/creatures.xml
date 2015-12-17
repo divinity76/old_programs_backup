@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+<creatures>
+<creature looktype="137" head="113" body="120" legs="114" feet="132" name="Amazon" type="monster"/>
+<creature looktype="79" name="Ancient Scarab" type="monster"/>
+<creature looktype="129" head="114" body="114" legs="114" feet="114" name="Assasin" type="monster"/>
+<creature looktype="105" name="Badger" type="monster"/>
+<creature looktype="129" head="58" body="59" legs="45" feet="114" name="Bandit" type="monster"/>
+<creature looktype="78" name="Banshee" type="monster"/>
+<creature looktype="122" name="Bat" type="monster"/>
+<creature looktype="16" name="Bear" type="monster"/>
+<creature looktype="55" name="Behemoth" type="monster"/>
+<creature looktype="17" name="Beholder" type="monster"/>
+<creature looktype="131" head="114" body="114" legs="114" feet="114" name="Black Knight" type="monster"/>
+<creature looktype="13" name="Black Sheep" type="monster"/>
+<creature looktype="80" name="Blue Djinn" type="monster"/>
+<creature looktype="101" name="Bone Beast" type="monster"/>
+<creature looktype="45" name="Bug" type="monster"/>
+<creature looktype="213" name="Pink Butterfly" type="monster"/>
+<creature looktype="227" name="Blue Butterfly" type="monster"/>
+<creature looktype="228" name="Red Butterfly" type="monster"/>
+<creature looktype="120" name="Carniphila" type="monster"/>
+<creature looktype="56" name="Cave Rat" type="monster"/>
+<creature looktype="124" name="Centipede" type="monster"/>
+<creature looktype="111" name="Chicken" type="monster"/>
+<creature looktype="81" name="Cobra" type="monster"/>
+<creature looktype="112" name="Crab" type="monster"/>
+<creature looktype="119" name="Crocodile" type="monster"/>
+<creature looktype="100" name="Crypt Shambler" type="monster"/>
+<creature looktype="22" name="Cyclops" type="monster"/>
+<creature looktype="225" name="Dark Monk" type="monster"/>
+<creature looktype="31" name="Deer" type="monster"/>
+<creature looktype="35" name="Demon" type="monster"/>
+<creature looktype="37" name="Demon Skeleton" type="monster"/>
+<creature looktype="32" name="Dog" type="monster"/>
+<creature looktype="34" name="Dragon" type="monster"/>
+<creature looktype="39" name="Dragon Lord" type="monster"/>
+<creature looktype="69" name="Dwarf" type="monster"/>
+<creature looktype="66" name="Dwarf Geomancer" type="monster"/>
+<creature looktype="70" name="Dwarf Guard" type="monster"/>
+<creature looktype="71" name="Dwarf Soldier" type="monster"/>
+<creature looktype="215" name="Dworc Fleshhunter" type="monster"/>
+<creature looktype="216" name="Dworc Venomsniper" type="monster"/>
+<creature looktype="214" name="Dworc Voodoomaster" type="monster"/>
+<creature looktype="103" name="Efreet" type="monster"/>
+<creature looktype="108" name="Elder Beholder" type="monster"/>
+<creature looktype="211" name="Elephant" type="monster"/>
+<creature looktype="62" name="Elf" type="monster"/>
+<creature looktype="63" name="Elf Arcanist" type="monster"/>
+<creature looktype="64" name="Elf Scout" type="monster"/>
+<creature looktype="40" name="Fire Devil" type="monster"/>
+<creature looktype="49" name="Fire Elemental" type="monster"/>
+<creature looktype="212" name="Flamingo" type="monster"/>
+<creature looktype="53" name="Frost Troll" type="monster"/>
+<creature looktype="95" name="Gargoyle" type="monster"/>
+<creature looktype="109" name="Gazer" type="monster"/>
+<creature looktype="48" name="Ghost" type="monster"/>
+<creature looktype="18" name="Ghoul" type="monster"/>
+<creature looktype="38" name="Giant Spider" type="monster"/>
+<creature looktype="61" name="Goblin" type="monster"/>
+<creature looktype="51" name="Green Djinn" type="monster"/>
+<creature looktype="73" name="Hero" type="monster"/>
+<creature looktype="129" head="95" body="116" legs="121" feet="115" name="Hunter" type="monster"/>
+<creature looktype="94" name="Hyaena" type="monster"/>
+<creature looktype="121" name="Hydra" type="monster"/>
+<creature looktype="116" name="Kongra" type="monster"/>
+<creature looktype="82" name="Larva" type="monster"/>
+<creature looktype="99" name="Lich" type="monster"/>
+<creature looktype="41" name="Lion" type="monster"/>
+<creature looktype="114" name="Lizard Sentinel" type="monster"/>
+<creature looktype="115" name="Lizard Snakecharmer" type="monster"/>
+<creature looktype="113" name="Lizard Templar" type="monster"/>
+<creature looktype="104" name="Marid" type="monster"/>
+<creature looktype="117" name="Merlkin" type="monster"/>
+<creature looktype="92" name="Mimic" type="monster"/>
+<creature looktype="25" name="Minotaur" type="monster"/>
+<creature looktype="24" name="Minotaur Archer" type="monster"/>
+<creature looktype="29" name="Minotaur Guard" type="monster"/>
+<creature looktype="23" name="Minotaur Mage" type="monster"/>
+<creature looktype="57" name="Monk" type="monster"/>
+<creature looktype="65" name="Mummy" type="monster"/>
+<creature looktype="9" name="Necromancer" type="monster"/>
+<creature looktype="5" name="Orc" type="monster"/>
+<creature looktype="8" name="Orc Berserker" type="monster"/>
+<creature looktype="59" name="Orc Leader" type="monster"/>
+<creature looktype="4" name="Orc Rider" type="monster"/>
+<creature looktype="6" name="Orc Shaman" type="monster"/>
+<creature looktype="50" name="Orc Spearman" type="monster"/>
+<creature looktype="2" name="Orc Warlord" type="monster"/>
+<creature looktype="7" name="Orc Warrior" type="monster"/>
+<creature looktype="123" name="Panda" type="monster"/>
+<creature looktype="217" name="Parrot" type="monster"/>
+<creature looktype="60" name="Pig" type="monster"/>
+<creature looktype="36" name="Poison Spider" type="monster"/>
+<creature looktype="42" name="Polar Bear" type="monster"/>
+<creature looktype="58" name="Priestess" type="monster"/>
+<creature looktype="74" name="Rabbit" type="monster"/>
+<creature looktype="21" name="Rat" type="monster"/>
+<creature looktype="26" name="Rotworm" type="monster"/>
+<creature looktype="83" name="Scarab" type="monster"/>
+<creature looktype="43" name="Scorpion" type="monster"/>
+<creature looktype="14" name="Sheep" type="monster"/>
+<creature looktype="118" name="Sibang" type="monster"/>
+<creature looktype="33" name="Skeleton" type="monster"/>
+<creature looktype="106" name="Skunk" type="monster"/>
+<creature looktype="19" name="Slime" type="monster"/>
+<creature looktype="20" name="Slime summon" type="monster"/>
+<creature looktype="134" head="95" body="57" legs="113" feet="115" name="Smuggler" type="monster"/>
+<creature looktype="28" name="Snake" type="monster"/>
+<creature looktype="30" name="Spider" type="monster"/>
+<creature looktype="221" name="Spit Nettle" type="monster"/>
+<creature looktype="128" head="95" body="116" legs="95" feet="114" name="Stalker" type="monster"/>
+<creature looktype="67" name="Stone Golem" type="monster"/>
+<creature looktype="76" name="Swamp Troll" type="monster"/>
+<creature looktype="219" name="Tarantula" type="monster"/>
+<creature looktype="218" name="Terror Bird" type="monster"/>
+<creature looktype="125" name="Tiger" type="monster"/>
+<creature looktype="15" name="Troll" type="monster"/>
+<creature looktype="139" head="113" body="57" legs="95" feet="113" name="Valkyrie" type="monster"/>
+<creature looktype="68" name="Vampire" type="monster"/>
+<creature looktype="3" name="War Wolf" type="monster"/>
+<creature looktype="130" head="19" body="71" legs="128" feet="128" name="Warlock" type="monster"/>
+<creature looktype="44" name="Wasp" type="monster"/>
+<creature looktype="131" head="57" body="57" legs="57" feet="57" name="Wild Warrior" type="monster"/>
+<creature looktype="52" name="Winter Wolf" type="monster"/>
+<creature looktype="54" name="Witch" type="monster"/>
+<creature looktype="27" name="Wolf" type="monster"/>
+
+
+<creature looktype="10" name="Wizard outfit" type="template"/>
+<creature looktype="11" name="Paladin outfit" type="template"/>
+<creature looktype="12" name="Female outfit" type="template"/>
+<creature looktype="46" name="Knight outfit" type="template"/>
+<creature looktype="47" name="Knight outfit" type="template"/>
+<creature looktype="72" name="Male outfit" type="template"/>
+<creature looktype="77" name="Female outfit" type="template"/>
+<creature looktype="75" name="Gamemaster" type="gamemaster"/>
+
+<creature looktype="84" name="Omruc" type="monster"/>
+<creature looktype="85" name="Morguthis" type="monster"/>
+<creature looktype="86" name="Thalas" type="monster"/>
+<creature looktype="87" name="Dipthrah" type="monster"/>
+<creature looktype="88" name="Ashmunrah" type="monster"/>
+<creature looktype="89" name="Mahrdis" type="monster"/>
+<creature looktype="90" name="Vashresamun" type="monster"/>
+<creature looktype="91" name="Rahemos" type="monster"/>
+
+<creature looktype="93" name="Poisonthrower" type="monster"/>
+<creature looktype="96" name="Magicthrower" type="monster"/>
+<creature looktype="97" name="Plaguethrower" type="monster"/>
+<creature looktype="98" name="Flamethrower" type="monster"/>
+<creature looktype="102" name="Deathslicer" type="monster"/>
+<creature looktype="107" name="Mahmoud Ahmadinejad" type="monster"/>
+<creature looktype="110" name="Yeti" type="monster"/>
+
+<creature looktype="201" name="Orshabaal" type="monster"/>
+<creature looktype="202" name="General Murius" type="monster"/>
+<creature looktype="203" name="Dharalion" type="monster"/>
+<creature looktype="204" name="Demodras" type="monster"/>
+<creature looktype="205" name="Grorlam" type="monster"/>
+<creature looktype="206" name="Trainer" type="monster"/>
+<creature looktype="207" name="Osiris" type="monster"/>
+<creature looktype="208" name="The Old Widow" type="monster"/>
+<creature looktype="209" name="Necropharus" type="monster"/>
+<creature looktype="210" name="The Evil Eye" type="monster"/>
+
+<creature looktype="220" name="Giant butterfly" type="monster"/>
+<creature looktype="134" head="116" body="76" legs="124" feet="116" name="Dane Cook" type="monster"/>
+<creature looktype="133" head="39" body="20" legs="21" feet="116" name="Othiliac" type="monster"/>
+
+
+<creature looktype="126" name="Female template" type="oldtemplate"/>
+<creature looktype="127" name="Male template" type="oldtemplate"/>
+<creature looktype="128" name="Male template" type="template"/>
+<creature looktype="129" name="Archer template" type="template"/>
+<creature looktype="130" name="Mage template" type="template"/>
+<creature looktype="131" name="Knight template" type="template"/>
+<creature looktype="132" name="Male template" type="template"/>
+<creature looktype="133" name="Male template" type="template"/>
+<creature looktype="134" name="Male template" type="template"/>
+
+<creature looktype="136" name="Female template" type="template"/>
+<creature looktype="137" name="Female template" type="template"/>
+<creature looktype="138" name="Female template" type="template"/>
+<creature looktype="139" name="Female template" type="template"/>
+<creature looktype="140" name="Female template" type="template"/>
+<creature looktype="141" name="Female template" type="template"/>
+<creature looktype="142" name="Female template" type="template"/>
+
+<creature looktype="144" name="Elf template" type="template"/>
+<creature looktype="160" name="Dwarf template" type="template"/>
+
+</creatures>

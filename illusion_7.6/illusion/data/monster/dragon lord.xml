@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+ <monster name="Dragon Lord" level="30" maglevel="90" speed="250" experience="2100" pushable="0" monster="1" armor="30" defense="50" canpushitems="1" staticattack="50" changetarget="350">
+ <health now="1900" max="1900"/><look type="39" head="20" body="30" legs="40" feet="50" corpse="2881"/>
+ <combat targetdistance="1" runonhealth="250"/>
+ 
+ <attacks><attack type="melee" maxdamage="250"/>
+ <attack type="instant" name="d exura" cycleticks="3000" probability="60"/>
+ <attack type="instant" name="dl exevo flam hur" cycleticks="3000" probability="60"/>
+ <attack type="rune" name="great fireball" exhaustion="2000" cycleticks="2000" probability="65"/>
+ <attack type="rune" name="dlfbomb" exhaustion="2000" cycleticks="4000" probability="47"/>
+ </attacks>
+ <defenses>
+ <defense immunity="fire"/>
+ <defense immunity="poison"/>
+ <defense immunity="drunk"/>
+ <defense immunity="invisible"/>
+ </defenses>
+ <voices>
+ <voice sentence="ZCHHHHHHHH"/><voice sentence="You will burn!"/>
+ </voices>
+ 
+ <loot>
+ 	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+         <item id="2148" countmax="50" chance1="50000" chancemax="0"/>
+     <item id="2672" countmax="3" chance1="20000" chancemax="0"/>
+     <item id="1976" chance="4000"/>
+     <item id="2498" chance="300"/>
+     <item id="2492" chance="200"/>
+ 
+ 
+ 
+     <item id="1987" chance="100000">
+     <inside>
+   <item id="2672" countmax="2" chance1="20000" chancemax="0"/>
+ 	<item id="2033" chance="1333"/> //golden mug
+     <item id="2796" countmax="1" chance1="1333" chancemax="0"/>
+     <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+     <item id="2146" countmax="2" chance1="833" chancemax="0"/>
+     <item id="2547" countmax="2" chance1="1000" chancemax="0"/>
+     <item id="2392" chance="800"/>
+     <item id="2204" chance="1000"/>
+     <item id="2528" chance="800"/>
+     <item id="2479" chance="1333"/>
+     </inside>
+     </item>
+ </loot>
+ </monster>

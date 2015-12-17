@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+      <monster name="Fernfang" level="70" maglevel="70" experience="400" pushable="0" armor="40" defense="35" canpushitems="1" speed="350" staticattack="50" changetarget="238">
+      	<health now="700" max="700"/>
+      	<look type="57" head="20" body="30" legs="40" feet="50" corpse="3128"/>
+      	<combat targetdistance="3" runonhealth="0"/>
+      <attacks>
+      	<attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="5000" probability="75"/>
+      	<attack type="rune" name="sudden death arc" exhaustion="500" cycleticks="6000" probability="80"/>
+ <attack type="instant" name="exura gran" exhaustion="500" cycleticks="2000" probability="70"/>
+ <attack type="distance" name="bolt" mindamage="10" maxdamage="150"/>
+ 
+      </attacks>
+   
+      <defenses>
+      	<defense immunity="poison"/>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="explosion"/>
+      	<defense immunity="sudden death"/>
+      </defenses>
+   
+  <summons maxSummons="2">
+  	<summon name="War Wolf" chance="5000"/>
+  </summons>
+   
+   
+      </monster>

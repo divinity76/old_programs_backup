@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+   <monster name="Banshee" level="25" maglevel="65" experience="900" pushable="0" armor="35" defense="28" canpushitems="1" staticattack="50" changetarget="200" speed="220">
+      	<health now="1000" max="1000"/>
+      	<look type="78" head="20" body="30" legs="40" feet="50" corpse="2998"/>
+      	<combat targetdistance="1" runonhealth="400"/>
+   <attacks>
+      	<attack type="melee" maxdamage="150" probability="80"/>
+      	<attack type="instant" name="banshee_sonar" exhaustion="500" cycleticks="4000" probability="80"/>
+ <attack type="rune" name="life drain" exhaustion="500" cycleticks="4000" probability="80"/>
+ <attack type="rune" name="paralyze" exhaustion="500" cycleticks="2000" probability="100"/>
+ <attack type="instant" name="exura" exhaustion="500" cycleticks="2000" probability="100"/>
+   </attacks>
+ 
+   <defenses>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+   </defenses>
+ 
+   <voices>
+      	<voice sentence="hiiii, hiii muahaha!"/>
+      	<voice sentence="you will be mine!"/>
+         <voice sentence="Dance for me your dance of death!" cycleticks="5000" probability="55"/>
+   </voices>
+ 
+   <loot>
+      	<item id="2148" countmax="45" chance1="100000" chancemax="0"/>
+  
+      	<item id="2657" chance="5000"/>
+      	<item id="2047" chance="50000"/>
+ 
+ 
+      	<item id="2132" chance="2000"/>
+ 
+      	<item id="1987" chance="100000">
+      	<inside>
+ 
+      	<item id="2168" chance="1333"/>
+      	<item id="2121" chance="5000"/>
+     	<item id="2214" chance="555"/>
+     	<item id="2144" countmax="3" chance1="1000" chancemax="0"/>
+      	<item id="2654" chance="20000"/>
+      	<item id="2655" chance="400"/>
+      	<item id="2656" chance="500"/>
+ 		<item id="2197" chance="555"/>
+      	</inside>
+      	</item>
+   </loot>
+   </monster>
+ 

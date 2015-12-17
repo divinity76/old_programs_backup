@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+      <monster name="Priestess" level="35" maglevel="40" experience="420" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+      	<health now="390" max="390"/>
+      	<look type="58" head="20" body="30" legs="40" feet="50" corpse="3065"/>
+      	<combat targetdistance="3" runonhealth="100"/>
+      <attacks>
+ 
+      	<attack type="rune" name="sudden death arc" exhaustion="500" cycleticks="3500" probability="80"/>
+ <attack type="instant" name="exura gran" exhaustion="500" cycleticks="4000" probability="80"/>
+   </attacks>
+ 
+ 
+      <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+      </defenses>
+      <voices>
+      	<voice sentence="Your energy is mine."/>
+      	<voice sentence="Now your life is come to the end"/>
+      </voices>
+      <loot>
+       	<item id="2148" countmax="10" chance1="100000" chancemax="0"/>
+       	<item id="2674" countmax="2" chance1="20000" chancemax="0"/>
+ 
+       	<item id="2032" chance="20000"/>//bowl
+ 
+       	<item id="2760" chance="20000"/>//flower
+ 
+ 
+ 
+       	<item id="1987" chance="100000">
+       	<inside>
+ 
+       	<item id="2070" chance="1000"/>//flute
+ 
+       	<item id="2529" chance="1000"/>//black shield
+ 
+       	<item id="2420" chance="20000"/>//machete
+ 
+      	<item id="2143" countmax="2" chance1="3000" chancemax="0"/>//with pearl
+ 
+ 
+ 
+       	<item id="2192" chance="2500"/>//crystal ball
+ 
+       	<item id="2134" chance="3333"/>//silver brooch
+ <item id="2183" chance="3333"/>
+      	<item id="2151" countmax="2" chance1="1000" chancemax="0"/>//talon
+ 
+      	<item id="2145" countmax="2" chance1="1000" chancemax="0"/>//small diamon
+       	</inside>
+       	</item>
+      </loot>
+ 
+ <summons maxSummons="2">
+  	<summon name="Ghoul" chance="6000"/>
+ </summons>
+ 
+ </monster>
+ 
+ 
+ 

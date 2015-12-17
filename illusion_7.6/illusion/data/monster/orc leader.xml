@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+      <monster name="Orc Leader" level="80" maglevel="30" experience="270" pushable="0" armor="35" defense="35" canpushitems="1" staticattack="50" changetarget="200" speed="230">
+      	<health now="450" max="450"/>
+      	<look type="59" head="20" body="30" legs="40" feet="50" corpse="2938"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+      <attacks>
+      	<attack type="melee" maxdamage="120"/>
+      	<attack type="distance" name="throwingknife" maxdamage="90" cycleticks="2000" probability="40"/>
+      </attacks>
+ 
+      <defenses>
+      	<defense immunity="fire"/>
+ <defense immunity="invis"/>
+      </defenses>
+ 
+      <loot>
+       	<item id="2148" countmax="35" chance1="100000" chancemax="0"/>
+ 
+ 
+ 
+       	<item id="2510" chance="20000"/>//plate shield
+ 
+      	<item id="2667" countmax="1" chance1="20000" chancemax="0"/>//fish
+ 
+       	<item id="2647" chance="900"/>//plegs
+ 
+ 
+ 
+       	<item id="2475" chance="600"/>//warrior helmet
+ 
+       	<item id="1988" chance="40000"/>//bp
+ 
+       	<item id="2478" chance="10000"/>//brass legs
+ 
+       	<item id="2463" chance="8000"/>//parmor
+ 
+      	<item id="2666" countmax="2" chance1="33333" chancemax="0"/>//meat
+  
+ 
+ 
+ 
+       	<item id="1987" chance="100000">
+       	<inside>
+     
+       	<item id="2410" countmax="2" chance1="50000" chancemax="0"/>//knifes
+ 
+       	<item id="2419" chance="5000"/>//scimitar
+       	<item id="2207" chance="1000"/>//sword ring
+       	<item id="2413" chance="900"/>//broad sword
+ 
+ 
+ 
+       	<item id="2379" chance="50000"/>//dagger
+ 
+ 
+       	<item id="2397" chance="15000"/>//long sword
+ 
+ 
+   	</inside>
+ 
+       	</item>
+      </loot>
+ <voices>
+      	<voice sentence="Ulderek Futgyr Human!"/>
+ </voices>
+      </monster>

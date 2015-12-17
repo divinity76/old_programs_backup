@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+ <monster name="Giant Spider" level="100" maglevel="90" experience="900" pushable="0" armor="50" defense="50" canpushitems="1" staticattack="50" changetarget="200" speed="350" bloodcolor="50">
+ <health now="1300" max="1300"/>
+ <look type="38" corpse="2857"/>
+ <combat targetdistance="1" runonhealth="0"/>
+ <blood color="50" effect="16" splash="4"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="333"/>
+ 	<attack type="rune" name="poison field" mindamage="10" maxdamage="3000"/>
+         <attack type="instant" name="exura" cycleticks="8000" probability="15"/>
+         <attack type="instant" name="utani gran hur" cycleticks="2000" probability="85"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+ </defenses>
+ 
+ <loot>
+ 	<item id="2148" countmax="70" chance1="100000" chancemax="0"/>
+ 
+ 	<item id="2463" chance="4000"/>//parmor
+ 
+ 	<item id="2171" chance="800"/>//pamulet
+ 
+         <item id="2476" chance="400"/>//karmor
+ 
+ 	<item id="2477" chance="300"/>//klegs
+ 
+ 	<item id="2457" chance="5000"/>//steel helmet
+ 
+ 	<item id="2478" chance="10000"/>//brass legs
+ 
+ 	<item id="1987" chance="100000">
+ 	<inside>
+ 
+ 	<item id="2148" countmax="30" chance1="100000" chancemax="0"/>
+ 	
+ 	<item id="2169" chance="1000"/>//timering
+ 	</inside>
+ 	</item>
+ </loot>
+ 
+ <summons maxSummons="2">
+  	<summon name="Poison Spider" chance="4000"/>
+ </summons>
+ 
+ </monster>
+ 
+ 

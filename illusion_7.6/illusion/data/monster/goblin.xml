@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+      <monster name="Goblin" level="20" maglevel="30" experience="25" pushable="1" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="120" speed="160">
+      	<health now="50" max="50"/>
+      	<look type="61" head="20" body="30" legs="40" feet="50" corpse="2940"/>
+      	<combat targetdistance="1" runonhealth="15"/>
+      <attacks>
+      	<attack type="melee" maxdamage="17"/>
+ <attack type="distance" name="smallstone" maxdamage="17"/>
+      
+      </attacks>
+      
+      <defenses>
+      
+      </defenses>
+      
+      <loot>
+       	<item id="2148" countmax="10" chance1="100000" chancemax="0"/>
+ 
+       	<item id="2461" chance="20000"/>//leather helm
+ 
+       	<item id="2467" chance="30000"/>//leather armor
+ 
+       	<item id="2235" chance="20000"/>//moldy cheese
+ 
+      	<item id="2667" countmax="1" chance1="10000" chancemax="0"/>//fishs
+      
+       	<item id="1987" chance="100000">
+       	<inside>
+ 
+       	<item id="2559" chance="10000"/>//small axe
+ 
+      	<item id="1294" countmax="2" chance1="20000" chancemax="0"/>//stones
+ 
+ 
+ 
+       	<item id="2230" chance="20000"/>//bone
+ 
+       	<item id="2449" chance="5000"/>//boneclub
+ 
+       	<item id="2379" chance="10000"/>//dagger
+ 
+ 
+ 
+       	<item id="2406" chance="40000"/>//short sword
+ 
+       	</inside>
+       	</item>
+      </loot>
+ 
+ <voices>
+ 	<voice sentence="Bugga!" cycleticks="10000" probability="40"/>
+ <voice sentence="Me green" cycleticks="10000" probability="40"/>
+ <voice sentence="me mean!" cycleticks="10000" probability="40"/>
+ <voice sentence="Help! Goblinkiller!" cycleticks="10000" probability="40"/>
+ </voices>
+      </monster>
+ 

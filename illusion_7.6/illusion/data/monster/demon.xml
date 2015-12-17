@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+ <monster name="Demon" level="70" maglevel="69" experience="6000" cansummon="1" maxsummon="2" speed="360" pushable="0" armor="49" defense="51" canpushitems="1" staticattack="50" changetarget="395">
+ 	<health now="8200" max="8200"/>
+ 	<look type="35" head="20" body="30" legs="40" feet="50" corpse="2916"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ 	<attack type="melee" mindamage="200" maxdamage="590" cycleticks="2000" probability="100"/>
+ 	<attack type="instant" name="exura" cycleticks="5000" probability="60"/>
+ 	<attack type="instant" name="exevo gran vis lux" exhaustion="500" cycleticks="8000" probability="65"/>
+      	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="4000" probability="80"/>
+         <attack type="rune" name="fire field" exhaustion="500" cycleticks="8000" probability="75"/>
+ 	<attack type="costum" name="manadrain" mindamage="45" maxdamage="80" exhaustion="100" cycleticks="3000" probability="50"/>
+ </attacks>
+ 
+ <defenses>
+        <defense immunity="invisible"/>
+ 	<defense immunity="energy"/>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+ </defenses>
+ 
+ <voices>
+ 	<voice sentence="Your soul will be mine!" cycleticks="5000" probability="40"/>
+ 	<voice sentence="MWA HA HA HA HA HA HA HA" cycleticks="5000" probability="50"/>
+         <voice sentence="I SMELL FEAR" cycleticks="5000" probability="60"/>
+         <voice sentence="CHAMEK UTHUL URAK!" cycleticks="5000" probability="55"/>
+ </voices>
+ 
+   <loot>
+      	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ <item id="2666" countmax="3" chance1="50000" chancemax="0"/>
+      	<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+         <item id="2472" chance="1500"/> //e plate
+         <item id="2176" chance="2000"/> //orb
+         <item id="1982" chance="1000"/> //purple tome
+ 	<item id="2678" countmax="7" chance1="20000" chancemax="0"/> //coco
+  <item id="2151" countmax="4" chance1="2500" chancemax="0"/>//talons
+      	<item id="2462" chance="2000"/>//devil
+ <item id="2171" chance="1333"/>
+ 
+      	<item id="1987" chance="100000">
+      	<inside>
+ 	<item id="2149" countmax="1" chance1="1000" chancemax="0"/>
+      	<item id="2393" chance="1500"/> //gs
+      	<item id="2396" chance="1833"/> //ice rapier
+      	<item id="2164" chance="1900"/> //might ring
+      	<item id="2165" chance="1900"/> //steal
+      	<item id="2179" chance="1833"/> //gold
+      	<item id="2214" chance="1666"/> //gold
+      	<item id="2514" chance="1200"/> //mms
+         <item id="2432" chance="2266"/> //faxe
+         <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      	
+      	
+ 
+ 
+ 
+      	<item id="2387" chance="6666"/>//doubleaxe
+      	<item id="2470" chance="1200"/>//g legs
+      	<item id="2520" chance="1500"/>//d shield
+      	<item id="2418" chance="1666"/>//g sickle
+      	<item id="2377" chance="6666"/>//2hand sword
+      	</inside>
+      	</item>
+   </loot>
+ 
+ <summons maxSummons="2">
+  	<summon name="Fire Elemental" chance="5000"/>
+ </summons>
+ </monster>

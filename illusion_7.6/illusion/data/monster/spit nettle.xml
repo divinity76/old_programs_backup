@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+ <monster name="Spit Nettle" level="30" maglevel="30" experience="25" pushable="0" speed="240" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="150" max="150"/>
+ <look type="221" corpse="4326"/>
+ <combat targetdistance="3" runonhealth="0"/>
+ 
+ <attacks>	<attack type="melee" maxdamage="30"/>
+   	<attack type="rune" name="envenom" cycleticks="4000" probability="100"/>
+ </attacks>
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+ <defense immunity="paralyze"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+    	<item id="2148" countmax="10" chance1="100000" chancemax="0"/>
+ 	<item id="2802" countmax="1" chance1="30000" chancemax="0"/>
+ 	<item id="2804" countmax="1" chance1="20000" chancemax="0"/>
+ </loot>
+ 
+ <voices/>
+ 
+ </monster>

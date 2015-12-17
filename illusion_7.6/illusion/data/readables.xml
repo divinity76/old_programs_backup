@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+ <readables>
+ <readable x="206" y="121" z="7" text="Soccer Field"/>
+ <readable x="251" y="43" z="7" text="Ice Arena"/>
+ <readable x="155" y="106" z="7" text="To the depot"/>
+ <readable x="174" y="109" z="8" text="To the depot"/>
+ <readable x="186" y="57" z="7" text="To the depot"/>
+ <readable x="175" y="148" z="7" text="To the depot"/>
+ <readable x="208" y="105" z="8" text="Trainers"/>
+ <readable x="204" y="105" z="8" text="Heros"/>
+ <readable x="200" y="105" z="8" text="Dragon Land"/>
+ <readable x="196" y="105" z="8" text="Behes"/>
+ <readable x="196" y="98" z="8" text="warlocks"/>
+ <readable x="200" y="98" z="8" text="Demons"/>
+ <readable x="204" y="98" z="8" text="Orshabaal Forest"/>
+ <readable x="208" y="98" z="8" text="Underworld"/>
+ <readable x="196" y="102" z="8" text="Ancients"/>
+ <readable x="184" y="114" z="7" text="Watch Out!"/>
+ <readable x="302" y="140" z="7" text="Orshabaal-Proof Hideout"/>
+ <readable x="267" y="30" z="7" text="Demons?"/>
+ <readable x="186" y="118" z="7" text="Supplies"/>
+ <readable x="203" y="113" z="8" text="Abandend town?"/>
+ <readable x="198" y="109" z="8" text="Terror Strikes"/>
+ <readable x="495" y="498" z="0" text="No fear?"/>
+ <readable x="489" y="575" z="4" text="3 leed to death, 1 leeds to glory"/>
+ <readable x="206" y="109" z="8" text="Bird inhabit this town"/>
+ <readable x="436" y="482" z="3" text="Bored of birds?"/>
+ <readable x="205" y="95" z="8" text="Comedie isle"/>
+ <readable x="202" y="103" z="8" text="The Tower"/>
+ <readable x="198" y="93" z="8" text="Broadcaster"/>
+ <readable x="200" y="93" z="8" text="Broadcaster"/>
+ <readable x="217" y="116" z="8" text="House complex"/>
+ <readable x="216" y="116" z="8" text="Frozen Throne(A House Complex)"/>
+ <readable x="221" y="116" z="8" text="Mining"/>
+ <readable x="215" y="120" z="8" text="Heaven"/>
+ <readable x="224" y="120" z="8" text="Hell"/>
+ <readable x="206" y="119" z="8" text="Instructions: Place the ore on the table and pull the switch."/>
+<readable x="218" y="120" z="8" text="the Clouds"/>
+<readable x="221" y="120" z="8" text="Deep below"/>
+<readable x="223" y="112" z="8" text="Pvp arena"/>
+<readable x="205" y="125" z="8" text="Pvp arena"/>
+<readable x="175" y="115" z="7" text="Low level area"/>
+<readable x="212" y="104" z="8" text="Low level area"/>
+<readable x="386" y="59" z="7" text="Back to town"/>
+<readable x="280" y="113" z="8" text="Back to town"/>
+<readable x="286" y="148" z="8" text="No way back after this"/>
+<readable x="285" y="120" z="8" text="Bone Town?"/>
+</readables>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+   <monster name="Cobra" level="1" maglevel="1" experience="30" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="250">
+      	<health now="65" max="65"/>
+      	<look type="81" head="20" body="30" legs="40" feet="50" corpse="3007"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+   
+   <attacks>
+      <attack type="melee" maxdamage="20" probability="100"/>
+ <attack type="rune" name="poison" exhaustion="500" cycleticks="3000" probability="90"/>
+      	<attack type="poison_melee" maxdamage="30" probability="100" maxhits="50" maxhitsdamage="1"/>
+         </attacks>
+   
+      <defenses>
+      <defense immunity="poison"/>
+      </defenses>
+   
+   <loot/>
+   <voices/>
+   </monster>

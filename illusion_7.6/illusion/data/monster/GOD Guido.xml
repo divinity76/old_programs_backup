@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+ <monster name="GOD Guido" level="150" maglevel="20" speed="600" experience="600000" pushable="0" monster="1" armor="3" defense="5" canpushitems="1" staticattack="100" changetarget="2000">
+ <health now="5000" max="5000"/>
+ <look type="75" head="114" body="60" legs="60" feet="114" corpse="3129"/>
+ <combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ <attack type="melee" maxdamage="250"/>
+ <attack type="instant" name="exura vita" exhaustion="1000" cycleticks="2000" probability="40"/>
+ <attack type="rune" name="sudden death" exhaustion="1000" cycleticks="2000" probability="25"/>
+ <attack type="instant" name="hitmusic" exhaustion="1000" cycleticks="2000" probability="75"/>
+ </attacks>
+ <defenses>
+ <defense immunity="energy"/>
+ <defense immunity="fire"/>
+ <defense immunity="poison"/>
+ <defense immunity="paralyze"/>
+ <defense immunity="drunk"/>
+ <defense immunity="invisibility"/>
+ </defenses>
+ <voices>
+ <voice sentence="I will fuck with Guilcera! TIBIA RULEZ!"/>
+ <voice sentence="Play real Tibia! Visit www.tibia.com"/>
+ <voice sentence="Play real Tibia! Visit www.tibia.com"/>
+ <voice sentence="Play real Tibia! Visit www.tibia.com"/>
+ <voice sentence="Play real Tibia! Visit www.tibia.com"/>
+ <voice sentence="Play real Tibia! Visit www.tibia.com"/>
+ <voice sentence="Play real Tibia! Visit www.tibia.com"/>
+ </voices>
+ <loot></loot>
+ <summons maxSummons="4">
+  	<summon name="Behemoth" chance="10000"/>
+ </summons>
+ </monster>

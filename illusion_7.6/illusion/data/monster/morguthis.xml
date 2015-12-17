@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+ <monster name="morguthis" level="110" maglevel="90" experience="2000" pushable="0" armor="40" defense="30" canpushitems="1" staticattack="50" changetarget="200">
+ 	<health now="3000" max="3000"/>
+ 	<look type="85" head="20" body="30" legs="40" feet="50" corpse="3016"/>
+ 	<combat targetdistance="1" runonhealth="100"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="290" cycleticks="2000" probability="100"/>
+ 	<attack type="instant" name="exura" cycleticks="5000" probability="80"/>
+ 	<attack type="instant" name="exori" cycleticks="5000" probability="60"/>
+ 	<attack type="rune" name="Sudden death" exhaustion="500" cycleticks="2000" probability="30"/>
+ 	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="1000" probability="40"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="energy"/>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+ </defenses>
+ 
+ <voices>
+ <voice sentence="Who want enter my domains?" cycleticks="5000" probability="55"/>
+ <voice sentence="Your time to live end here!" cycleticks="5000" probability="65"/>
+ </voices>
+ 
+ <loot>
+  	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+  	<item id="2176" chance="2000"/>
+ <item id="2335" chance="2000"/>
+  	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ 
+  	<item id="1987" chance="100000">
+  	<inside>
+  	<item id="2148" countmax="70" chance1="100000" chancemax="0"/>
+  	<item id="2550" chance="10000"/>
+ 	<item id="2688" countmax="5" chance1="4000" chancemax="0"/>
+  	<item id="2540" chance="1333"/>
+  	<item id="2539" chance="500"/>
+  	<item id="2533" chance="1428"/>
+  	<item id="2486" chance="1000"/>
+  	<item id="2658" chance="800"/>
+  	<item id="2189" chance="800"/>
+ 	<item id="2147" countmax="2" chance1="4000" chancemax="0"/>
+ 	<item id="2678" countmax="4" chance1="4000" chancemax="0"/>
+  	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ 	<item id="2690" countmax="4" chance1="4000" chancemax="0"/>
+ 
+  	<item id="1440" chance="3973">
+  	<inside>
+  	<item id="1538" countmax="1" chance1="3973" chancemax="0"/>
+  	</inside>
+  	</item>
+ 
+ 
+  	</inside>
+  	</item>
+ </loot>
+ 
+ <summons maxSummons="2">
+  	<summon name="Hero" chance="5000"/>
+ </summons>
+ </monster>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+ <monster name="Lich" level="40" maglevel="45" experience="900" pushable="0" armor="45" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="270">
+ <health now="880" max="880"/>
+ <look type="99" head="95" body="116" legs="119" feet="115" corpse="3025" />
+ <combat targetdistance="3" runonhealth="80" />
+ 
+ <attacks>
+ 	<attack type="melee" mindamage="30" exhaustion="400" maxdamage="100" cycleticks="2000" probability="100" />
+ 		<attack type="rune" name="explosion" exhaustion="500" cycleticks="3000" probability="70"/>
+ <attack type="instant" name="exevo vis lux" exhaustion="500" cycleticks="4000" probability="40"/>
+ <attack type="rune" name="paralyze" exhaustion="500" cycleticks="2000" probability="100"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="fire" />
+ 	<defense immunity="poison" />
+ 	<defense immunity="paralyze" />
+ 	<defense immunity="drunk" />
+ <defense immunity="invis"/>
+ </defenses>
+ 
+ 
+ 
+ <loot>
+ 	<item id="2148" countmax="70" chance1="100000" chancemax="0"/>
+ 
+ 
+ 
+ 	<item id="1987" chance="100000">
+ 	<inside>
+ 
+ 	<item id="2237" chance="10000"/>//garbage
+ 
+ 	<item id="2479" chance="3000"/>//garbage
+ 
+ 	<item id="2148" countmax="12" chance1="80000" chancemax="0"/>
+ 
+ 	<item id="2175" chance="10000"/>//spell book
+ 
+ 	<item id="2401" chance="10000"/>//staff
+ 
+ 	<item id="2535" chance="1000"/>//garbage
+ 
+ 	<item id="2179" chance="1000"/>
+ 	</inside>
+ 	</item>
+ </loot>
+ 
+ <summons maxSummons="4">
+  	<summon name="Bone Beast" chance="2500"/>
+ </summons>
+ 
+ </monster>
+ 

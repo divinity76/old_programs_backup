@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+ <monster name="Old Widow" level="175" maglevel="100" speed="450" experience="22000" cansummon="1" maxsummon="2" pushable="0" armor="25" defense="20" canpushitems="1" staticattack="60" changetarget="320">
+ 	<health now="20000" max="20000"/>
+ 	<look type="38" corpse="2857"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="4000" cycleticks="2000" probability="100"/>
+ 	<attack type="rune" name="Poisonbomb" exhaustion="500" cycleticks="3000" probability="100"/> 
+         <attack type="instant" name="utani hur" exhaustion="500" cycleticks="4000" probability="50"/>
+         <attack type="rune" name="life drain" exhaustion="500" cycleticks="6500" probability="100"/> 
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+  	<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+  	<item id="2463" chance="7000"/> //plate armor
+  	<item id="2171" chance="2203"/> // plat ammy
+  	<item id="2459" chance="20000"/>
+ 
+  	<item id="1987" chance="100000">
+  	<inside>
+  	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+  	<item id="2476" chance="1828"/> //knight armor
+  	<item id="2476" chance="1628"/>  // knight legs
+ 	<item id="0" countmax="2" chance1="28050" chancemax="0"/>
+  	<item id="2478" chance="10000"/>
+  	<item id="2169" chance="800"/>
+  	</inside>
+  	</item>
+ </loot>
+ <summoning>
+ <summon name="Giant Spider" exhaustion="3300" cycleticks="8000" probability="70"/>
+ </summoning>
+ </monster>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+   <monster name="Elf Arcanist" level="20" maglevel="24" experience="175" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="220">
+      	<health now="220" max="220"/>
+      	<look type="63" head="20" body="30" legs="40" feet="50" corpse="2979"/>
+      	<combat targetdistance="3" runonhealth="50"/>
+ 
+   <attacks>
+      	<attack type="distance" name="arrow" mindamage="10" maxdamage="70" cycleticks="5000" probability="60"/>
+      	<attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="5000" probability="75"/>
+      	<attack type="rune" name="sudden death arc" exhaustion="500" cycleticks="6000" probability="80"/>
+ <attack type="instant" name="exura gran" exhaustion="500" cycleticks="4000" probability="80"/>
+   </attacks>
+ 
+   <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+ <defense immunity="invis"/>
+   </defenses>
+ 
+   <loot>
+      	<item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+ 
+      	<item id="1949" chance="20000"/>
+ 
+      	<item id="2047" chance="10000"/>
+ 
+      	<item id="2260" chance="5000"/>
+ 
+      	<item id="2642" chance="20000"/>
+ 
+      	<item id="2682" chance="6666"/>
+ 
+      	<item id="2802" countmax="1" chance1="10000" chancemax="0"/>
+ 
+      	<item id="2600" chance="33333"/>
+ 
+      	<item id="2177" chance="1000"/>
+ 
+      	<item id="2652" chance="5000"/>
+ 
+      	<item id="2329" chance="10000"/>
+ 
+      	<item id="2544" countmax="4" chance1="20000" chancemax="0"/>
+ 
+      	<item id="2689" countmax="3" chance1="10000" chancemax="0"/>
+ 
+ 
+      	<item id="1987" chance="100000">
+      	<inside>
+ 
+      	<item id="2401" chance="3000"/>
+ 	<item id="2189" chance="3000"/>
+ 
+ 
+      	<item id="2456" chance="6666"/>
+ 
+      	<item id="2032" chance="4000"/>
+ 
+      	<item id="2131" chance="800"/>
+      	<item id="2154" chance="600"/>
+      	</inside>
+      	</item>
+   </loot>
+ 
+   </monster>

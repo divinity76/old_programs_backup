@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+      <monster name="Orc Warlord" level="70" maglevel="30" experience="670" pushable="0" armor="45" defense="40" canpushitems="1" staticattack="50" changetarget="200" speed="240">
+      	<health now="950" max="950"/>
+      	<look type="2" head="20" body="30" legs="40" feet="50" corpse="2967"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+      <attacks>
+      	<attack type="melee" mindamage="40" maxdamage="250"/>
+      	<attack type="distance" name="throwingstar" mindamage="40" maxdamage="200" cycleticks="4000" probability="50"/>
+ <attack type="costum" name="invis" mindamage="0" maxdamage="0" exhaustion="100" cycleticks="5000" probability="555"/>
+ 
+      </attacks>
+ 
+      <defenses>
+ 
+      	<defense immunity="poison"/>
+      	<defense immunity="fire"/>
+ <defense immunity="invis"/>
+ 
+      </defenses>
+ 
+      <loot>
+       	<item id="2148" countmax="14" chance1="100000" chancemax="0"/>
+ 
+       	<item id="2666" countmax="3" chance1="60000" chancemax="0"/>
+ 
+       	<item id="2667" countmax="1" chance1="50000" chancemax="0"/>
+ 
+       	<item id="2647" chance="1000"/>//plegs
+ 
+ 
+       	<item id="2478" chance="7000"/>//b-legs
+ 
+       	<item id="2463" chance="4000"/>//parmor
+ 
+       	<item id="2497" chance="500"/>//crusader helm
+ 
+ 
+ 
+       	<item id="1987" chance="100000">
+       	<inside>
+ 
+       	<item id="2419" chance="5000"/>//scimitar
+ 
+ 
+ 
+      	<item id="2399" countmax="1" chance1="10000" chancemax="0"/>
+ 
+       	<item id="2428" chance="2000"/>//orcish axe
+ 
+ 
+       	<item id="2165" chance="700"/>//stealth ring
+ 
+ 
+ 
+       	<item id="2434" chance="700"/>//dragon hammer
+       	</inside>
+       	</item>
+      </loot>
+      </monster>
+ 

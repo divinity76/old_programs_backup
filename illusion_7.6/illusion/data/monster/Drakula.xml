@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+ <monster name="Drakula" level="160" maglevel="80" speed="12220" experience="15000" pushable="0" armor="90" defense="90" canpushitems="1" staticattack="50" changetarget="5200">
+ 	<health now="22500" max="22500"/>
+ 	<look type="68" head="54" body="54" legs="54" feet="54" corpse="2956"/>
+ 	<combat targetdistance="1" runonhealth="1"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="450" cycleticks="2000" probability="100"/>
+         <attack type="rune" name="life drain" exhaustion="500" cycleticks="8000" probability="40"/>
+         <attack type="rune" name="uexplosion" exhaustion="500" cycleticks="8000" probability="4"/>
+         <attack type="rune" name="poisen explosion" exhaustion="500" cycleticks="8000" probability="8"/>
+ 	<attack type="instant" name="exevo gran mas vis" exhaustion="500" cycleticks="8000" probability="18"/>
+ 	<attack type="rune" name="explosion" exhaustion="500" cycleticks="8000" probability="48"/>
+ 	<attack type="rune" name="sudden death" exhaustion="500" cycleticks="8000" probability="48"/>
+ 	<attack type="rune" name="great fireball" exhaustion="500" cycleticks="8000" probability="38"/>
+ 	<attack type="instant" name="exevo gran mas mort" exhaustion="500" cycleticks="8000" probability="8"/>
+ 	<attack type="instant" name="exevo gran mas song" exhaustion="500" cycleticks="8000" probability="8"/>
+ 	<attack type="instant" name="exori" exhaustion="500" cycleticks="8000" probability="8"/>
+ 	<attack type="instant" name="exura vita" exhaustion="500" cycleticks="8000" probability="50"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ </defenses>
+ <voices>
+ <voice sentence="I will call my bats!" cycleticks="5000" probability="55"/>
+ <voice sentence="BLOOD!" cycleticks="5000" probability="45"/>
+ </voices>
+ 
+ <loot>
+  	<item id="2148" countmax="40" chance1="100000" chancemax="3000"/>
+  	<item id="1987" chance="100000">
+  	<item id="2396" chance="1133"/>
+  	<item id="2498" chance="299"/>
+  	<item id="2641" chance="149"/>
+  	<item id="2472" chance="198"/>
+  	<inside>
+  	<item id="2148" countmax="50" chance1="13332" chancemax="1230"/>
+  	<item id="2534" chance="4999"/>
+  	<item id="2396" chance="11333"/>
+ 	<item id="2144" countmax="30" chance1="10000" chancemax="4000"/>
+  	<item id="2127" chance="111"/>
+  	<item id="2640" chance="99"/>
+  	<item id="2123" chance="199"/>
+  	<item id="2514" chance="299"/>
+  	</inside>
+  	</item>
+ </loot>
+ </monster>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+ 
+ <npc name="Balladares" script="data/npc/scripts/helper.lua" access="3" lookdir="1">
+ 	<health now="1000" max="1000"/>
+<look type="128" head="79" body="126" legs="126" feet="114"/>
+ </npc>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+  <monster name="Orshabaal" level="10" maglevel="40" experience="18000" pushable="0" armor="10" 
+ 
+ defense="5" canpushitems="1" staticattack="40" changetarget="200" speed="340" bossmonster="1" skullType="4">
+      <health now="19000" max="19000"/>
+      <look type="35" head="20" body="30" legs="40" feet="50" corpse="2916"/>
+      <combat targetdistance="1" runonhealth="0"/>
+ 
+  <attacks>
+      <attack type="melee" mindamage="600" maxdamage="3500" />
+      <attack type="instant" name="utani gran hur" cycleticks="3000" probability="100"/>
+      <attack type="instant" name="exura" cycleticks="2000" probability="100"/>
+     <attack type="rune" name="GFBorshabaal" exhaustion="500" cycleticks="6000" 
+ 
+ probability="100"/>  
+      <attack type="instant" name="exoriorsha" exhaustion="500" cycleticks="7000" 
+ 
+ probability="85"/>
+      <attack type="instant" name="verdinhu" exhaustion="500" cycleticks="7000" 
+ 
+ probability="85"/>
+ </attacks>
+ 
+  <defenses>
+        <defense immunity="invisible"/>
+      <defense immunity="invis"/>
+      <defense immunity="energy"/>
+      <defense immunity="fire"/>
+      <defense immunity="poison"/>
+      <defense immunity="paralyze"/>
+      <defense immunity="drunk"/>
+  </defenses>
+ 
+  <voices>
+      <voice sentence="YOU ARE DOOMED!"/>
+      <voice sentence="CHAMEK ATH UTHUL ARAK!"/>
+      <voice sentence="PRAISED BE MY MASTERS, THE RUTHLESS SEVEN!"/>
+      <voice sentence="SOULS FOR ORSHABAAL!"/>
+  </voices>
+ 
+ <loot>
+ <item id="2155" chance="10000"/>     /// big smerald
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2462" chance="1000"/>   ///devil helmet
+ <item id="2144" countmax="10" chance1="90000" chancemax="6000"/>   ///black pearl
+ <item id="2393" chance="800"/>   ///giant sword
+ <item id="2174" chance="8000"/>   ///strange symbol
+ <item id="2498" chance="900"/>   ///royal helm
+ <item id="2494" chance="500"/>   ///Demon Arm
+ <item id="2495" chance="1000"/>   ///Demon legs
+ 
+ <item id="1987" chance="80000">  ///bag
+ <inside>
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2148" countmax="100" chance1="80000" chancemax="7000"/>  ///gp
+ <item id="2421" chance="500"/>  ///thunder hammer
+ <item id="2402" chance="1"/>     /// silver dagger
+ <item id="2178" chance="50000"/>   ///mind stone
+ <item id="2522" chance="900"/>  ///great shield
+ <item id="2646" chance="900"/>  ///gold boots
+ <item id="2453" chance="1"/>  ///Sprite wand
+ </inside>
+ </item>
+ </loot>
+ 
+ <summons maxSummons="2">
+  <summon name="Demon" chance="2000"/>
+ </summons>
+ 
+  </monster>

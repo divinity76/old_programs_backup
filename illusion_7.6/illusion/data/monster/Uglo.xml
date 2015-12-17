@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+   <monster name="Uglo" level="140" maglevel="50" experience="66000" pushable="0" armor="160" defense="175" canpushitems="1" staticattack="50" changetarget="2000" speed="3900">
+      	<health now="140000" max="140000"/>
+      	<look type="55" head="20" body="30" legs="40" feet="50" corpse="2931"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+   <attacks>
+      	<attack type="melee" mindamage="1000" maxdamage="2000" cycleticks="1500" probability="100"/>
+      	<attack type="distance" name="largerock" maxdamage="2000" exhaustion="600" cycleticks="2000" probability="80"/>
+ 	<attack type="instant" name="utani hur" exhaustion="0" cycleticks="8000" probability="60"/>
+   </attacks>
+   
+   <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+      	<defense immunity="invis"/>
+   </defenses>
+ 
+ <voices>
+ 	<voice sentence="Human flesh delicous!" cycleticks="6000" probability="40"/>
+ 	<voice sentence="Run human and die tired!" cycleticks="3000" probability="50"/>
+ 
+ </voices>
+   
+   <loot>
+      	<item id="2148" countmax="70" chance1="100000" chancemax="0"/>
+      	<item id="2671" countmax="3" chance1="20000" chancemax="0"/>
+      	<item id="2023" chance="5000"/>
+      	<item id="2387" chance="4000"/>
+      	<item id="2377" chance="7518"/>
+      	<item id="2393" chance="3988"/> //giant sword
+   	<item id="2489" chance="5588"/>
+       <item id="1987" chance="100000">
+      	<inside>
+      	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+      	<item id="2645" chance="2600"/>  //steelboots
+       <item id="2188" chance="2100"/>
+       <item id="2416" chance="5500"/>
+      	<item id="2161" chance="6333"/>
+     	</inside>
+      	</item>
+   </loot>
+ <summons maxSummons="2">
+  	<summon name="Behemoth" chance="6000"/>
+ </summons>
+   </monster>

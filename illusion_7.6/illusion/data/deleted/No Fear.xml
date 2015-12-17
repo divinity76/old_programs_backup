@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<player name="No Fear" account="561156" sex="1" lookdir="1" exp="9300" voc="1" level="10" access="0" cap="470" maglevel="0" lastlogin="1194574613" banned="0" premticks="0" promoted="0">
+<spawn x="177" y="107" z="8"/>
+<temple x="177" y="107" z="8"/>
+<health now="185" max="185" food="0"/>
+<mana now="" max="" spent="0"/>
+<look type="130" head="20" body="30" legs="40" feet="50"/>
+<skills>
+<skill skillid="0" level="10" tries="10"/>
+<skill skillid="1" level="15" tries="10"/>
+<skill skillid="2" level="15" tries="10"/>
+<skill skillid="3" level="15" tries="10"/>
+<skill skillid="4" level="15" tries="10"/>
+<skill skillid="5" level="15" tries="10"/>
+<skill skillid="6" level="15" tries="10"/>
+</skills>
+<inventory><slot slotid="1"><item id="2480"/></slot>
+<slot slotid="2"><item id="2172"/></slot>
+<slot slotid="3"><item id="2000"><inside><item id="2554"/><item id="2120"/><item id="2398"/><item id="2412"/><item id="2388"/><item id="2190"/></inside></item></slot>
+<slot slotid="4"><item id="2464"/></slot>
+<slot slotid="6"><item id="2530"/></slot>
+<slot slotid="7"><item id="2468"/></slot>
+<slot slotid="8"><item id="2643"/></slot>
+</inventory>
+<depots>
+<depot depotid="1"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+<depot depotid="2"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+<depot depotid="3"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+<depot depotid="4"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+<depot depotid="5"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+<depot depotid="6"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+<depot depotid="7"><item id="2590"><inside><item id="2594"/></inside></item></depot>
+</depots>
+<storage/>
+</player>

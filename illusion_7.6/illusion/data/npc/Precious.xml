@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Precious" script="data/npc/scripts/joias.lua" access="3" lookdir="2">
+<mana now="800" max="800"/>
+<health now="200" max="200"/>
+<look type="132" head="24" body="79" legs="76" feet="87"/>
+</npc>

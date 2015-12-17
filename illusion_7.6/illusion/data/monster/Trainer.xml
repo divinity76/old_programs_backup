@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+      <monster name="Trainer" level="200" maglevel="20000" experience="200" pushable="1" armor="0" defense="0" canpushitems="1" staticattack="50" changetarget="238">
+      	<health now="240000000" max="240000000"/>
+      	<look type="57" head="20" body="30" legs="40" feet="50" corpse="3128"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+      <attacks>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="instant" name="exura vita" exhaustion="500" cycleticks="1000" probability="100"/>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="melee" maxdamage="0"/>
+      	<attack type="melee" maxdamage="0"/>
+      </attacks>
+   
+      <defenses>
+      	<!-- <defense immunity="poison"/> -->
+      </defenses>
+   
+      <voices>
+      	<voice sentence="'Poh laska a guasca!"/>
+      </voices>
+   
+      <loot>
+      </loot>
+      </monster>

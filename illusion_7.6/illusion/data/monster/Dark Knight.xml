@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+ <monster name="dark knight" level="135" maglevel="20" speed="890" experience="11900" pushable="0" armor="50" defense="48" canpushitems="1" staticattack="50" changetarget="1230">
+ 	<health now="8800" max="8800"/>
+ 	<look type="131" head="94" body="114" legs="114" feet="114" corpse="3058"/>
+ 	<combat targetdistance="1" runonhealth="0"/>
+ <attacks>
+ 	<attack type="melee" maxdamage="690" cycleticks="2000" probability="100"/>
+ 	<attack type="distance" name="spear" mindamage="10" maxdamage="480" cycleticks="3000" probability="80"/>
+         <attack type="instant" name="exori" cycleticks="5000" probability="40"/>
+         <attack type="instant" name="exevo mas xori" cycleticks="5000" probability="25"/>
+         <attack type="instant" name="utani hur" cycleticks="5000" probability="55"/>
+         <attack type="instant" name="exura vita" cycleticks="5000" probability="45"/>
+ </attacks>
+ 
+ <defenses>
+ 	<defense immunity="energy"/>
+ 	<defense immunity="fire"/>
+ 	<defense immunity="poison"/>
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+ </defenses>
+ 
+ <voices>
+ 	<voice sentence="By bolg's blood" cycleticks="5000" probability="20"/>
+ 	<voice sentence="Totaly MINE!" cycleticks="5000" probability="30"/>
+         <voice sentence="No Prisoners EVER!!" cycleticks="5000" probability="40"/>
+         <voice sentence="Kill All!!! ALL!!!" cycleticks="5000" probability="50"/> 
+         <voice sentence="You are NOOB for me!" cycleticks="5000" probability="60"/>
+ </voices>
+ 
+ <loot>
+  	<item id="2476" chance="4000"/>
+  	<item id="2148" countmax="60" chance1="100000" chancemax="11110"/>
+  	<item id="2489" chance="4428"/>
+  	<item id="2490" chance="11666"/>
+  	<item id="2381" chance="9000"/>
+  	<item id="2133" chance="700"/>
+  	<item id="2173" chance="1700"/>
+  	<item id="2171" chance="6700"/>
+  	<item id="2438" chance="100"/>
+  	<item id="2471" chance="200"/>
+ 
+  	<item id="1987" chance="100000">
+  	<inside>
+  	<item id="2148" countmax="100" chance1="100000" chancemax="11110"/>
+  	<item id="2120" chance="20000"/>
+  	<item id="2387" chance="10666"/>
+  	<item id="2430" chance="4333"/>
+  	<item id="2414" chance="1809"/>
+  	<item id="2195" chance="1700"/>
+  	<item id="3962" chance="10"/>
+  	</inside>
+  	</item>
+ </loot>
+ </monster>

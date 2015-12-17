@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+      <monster name="Minotaur" level="20" maglevel="30" experience="50" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+      	<health now="100" max="100"/>
+      	<look type="25" head="20" body="30" legs="40" feet="50" corpse="2830"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+      <attacks>
+      	<attack type="melee" maxdamage="30"/>
+   
+      </attacks>
+   
+      <defenses>
+   
+      </defenses>
+   
+      <loot>
+       	<item id="2148" countmax="28" chance1="100000" chancemax="0"/>
+ 
+       	<item id="2464" chance="8000"/>//chain armor
+ 
+ 
+ 
+       	<item id="2649" chance="20000"/>//leather legs
+ 
+       	<item id="2554" chance="20000"/>//shovel
+ 
+       	<item id="2458" chance="15000"/>//chain helmet
+ 
+       	<item id="2460" chance="15000"/>//brass helmet
+   
+       	<item id="1987" chance="100000">
+ 
+       	<inside>
+ 
+       	<item id="2386" chance="15000"/>//axe
+ 
+       	<item id="2510" chance="15000"/>//plate shield
+ 
+       	<item id="2398" chance="15000"/>//mace
+ 
+       	<item id="2376" chance="15000"/>//sword
+ 
+       	<item id="2172" chance="1000"/>//bronze amulet
+ 
+       	<item id="2411" chance="800"/>//poison dagger
+ 
+       	</inside>
+       	</item>
+      </loot>
+ 
+      <voices>
+      	<voice sentence="Kaplar!"/>
+      </voices>
+      </monster>
+ 
+ 

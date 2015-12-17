@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+      <monster name="Marid" level="70" maglevel="60" experience="300" pushable="0" armor="35" defense="28" canpushitems="1" staticattack="50" changetarget="200" speed="170">
+      	<health now="550" max="550"/>
+      	<look type="104" head="20" body="30" legs="40" feet="50" corpse="3040"/>
+      	<combat targetdistance="1" runonhealth="50"/>
+      <attacks>
+      	<attack type="melee" maxdamage="230"/>
+      	<attack type="instant" name="djinn_exori" exhaustion="500" cycleticks="6000" probability="80"/>
+ 	<attack type="instant" name="djinn_exori" exhaustion="500" cycleticks="1200" probability="10"/>
+      </attacks>
+      
+      <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+      </defenses>
+      
+       <loot>
+       	<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+       	<item id="2673" countmax="4" chance1="10000" chancemax="0"/>
+       	<item id="2044" chance="20000"/>
+      
+       	<item id="1987" chance="100000">
+       	<inside>
+ <item id="2146" countmax="1" chance1="833" chancemax="0"/>
+       	<item id="2148" countmax="15" chance1="80000" chancemax="0"/>
+       	<item id="2442" chance="2000"/>
+ 	<item id="2183" chance="3000"/>
+       	</inside>
+       	</item>
+      </loot>
+ <summons maxSummons="4">
+  	<summon name="Blue Djinn" chance="5000"/>
+ </summons>
+      </monster>

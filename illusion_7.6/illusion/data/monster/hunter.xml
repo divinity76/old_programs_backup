@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+      <monster name="Hunter" level="20" maglevel="30" experience="150" pushable="0" armor="25" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="210">
+      	<health now="150" max="150"/>
+      	<look type="129" head="95" body="116" legs="121" feet="115" corpse="3128"/>
+      	<combat targetdistance="4" runonhealth="0"/>
+      <attacks>
+      	<attack type="distance" name="arrow" mindamage="50" maxdamage="140" cycleticks="2000" probability="100"/>
+      
+      </attacks>
+      
+ 
+      
+      <loot>
+       	<item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+ 
+       	<item id="2465" chance="7000"/>//brass armor
+ 
+       	<item id="2461" chance="10000"/>//leather helmet
+ 
+       	<item id="2649" chance="10000"/>//leather legs
+ 
+       	<item id="2666" countmax="2" chance1="20000" chancemax="0"/>
+ 
+      	<item id="2675" countmax="2" chance1="6666" chancemax="0"/>//roll
+ 
+      	<item id="2690" countmax="3" chance1="6666" chancemax="0"/>//orange
+ 
+       	<item id="2050" chance="20000"/>//torch
+ 
+       	<item id="2478" chance="3000"/>//b legs
+ 
+       	<item id="2652" chance="4000"/>//green tunic
+      	<item id="2544" countmax="15" chance1="30000" chancemax="0"/>//arrow
+ 
+      	<item id="2546" countmax="3" chance1="4000" chancemax="0"/>//burst
+      
+       	<item id="1987" chance="100000">
+       	<inside>
+ 
+       	<item id="2456" chance="30000"/>//bow
+ 
+ 
+ 
+      	<item id="2147" countmax="1" chance1="500" chancemax="0"/>//ruby
+ 
+ 
+ 
+      	<item id="2201" chance="600"/>//dragon necklace
+ 
+       	</inside>
+       	</item>
+      </loot>
+      <voices>
+      	<voice sentence="Guess who we're hunting"/>
+      	<voice sentence="haha!"/>
+      </voices>
+      </monster>
+ 
+ 

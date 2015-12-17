@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+      <monster name="Dwarf Guard" level="20" maglevel="30" experience="165" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="200">
+      	<health now="240" max="240"/>
+      	<look type="70" head="20" body="30" legs="40" feet="50" corpse="2983"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+ 
+   <attacks>
+      	<attack type="melee" maxdamage="120"/>
+   </attacks>
+ 
+   <defenses>
+      	<defense immunity="poison"/>
+ <defense immunity="invis"/>
+   </defenses>
+ 
+   <loot>
+      	<item id="2148" countmax="30" chance1="100000" chancemax="0"/>
+      	<item id="2483" chance="20000"/>
+ <item id="2643" chance="50000"/>
+      	<item id="2787" countmax="2" chance1="50000" chancemax="0"/>
+     	<item id="2457" chance="5000"/>
+ 
+      	<item id="1987" chance="100000">
+      	<inside>
+      	<item id="2150" countmax="1" chance1="833" chancemax="0"/>
+      	<item id="2417" chance="10000"/>
+      	<item id="2387" chance="4000"/>
+      	<item id="2513" chance="20000"/>
+  
+ 
+      	<item id="2211" chance="1000"/>
+      	</inside>
+      	</item>
+   </loot>
+ <voices>
+ 	<voice sentence="Hail Durin!"/>
+ </voices>
+   </monster>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+ <monster name="Bat" level="10" maglevel="0" experience="10" pushable="0" speed="220" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="30" max="30"/>
+ <look type="122" corpse="4298"/>
+ <combat targetdistance="1" runonhealth="0"/>
+ 
+ <attacks>
+ 	<attack type="melee" maxdamage="15"/>
+ </attacks>
+ 
+ <defenses>
+ 	
+ 	<defense immunity="paralyze"/>
+ 	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot/>
+ 
+ <voices>	<voice sentence="Week! Week!" cycleticks="10000" probability="50"/>
+ </voices>
+ 
+ </monster>

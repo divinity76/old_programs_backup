@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<monster name="Chuck Norris" level="20" maglevel="30" experience="240" pushable="0" armor="32" defense="34" canpushitems="1" staticattack="50" changetarget="180" speed="150">
+	<health now="400000" max="400000"/>
+	<look type="9" head="20" body="30" legs="40" feet="50" corpse="2809"/>
+	<combat targetdistance="1" runonhealth="0"/>
+	<blood color="86" effect="9" splash="255"/>
+
+<attacks>
+	<attack type="melee" mindamage="10" maxdamage="20" probability="100"/>
+	<attack type="distance" name="throwingstar" mindamage="25" maxdamage="30" probability="55"/>
+	<attack type="instant" name="ChuckNorrisTransform" exhausted="100" cycleticks="1000" propablity="50"/>
+</attacks>
+
+<defenses>
+</defenses>
+
+<voices>
+<voice sentence="Ja nie spie. Czuwam."/>
+<voice sentence="Chcesz dostac z polobrotu?"/>
+<voice sentence="No chodz panienko!"/>
+</voices>
+<loot>
+</loot>
+</monster>

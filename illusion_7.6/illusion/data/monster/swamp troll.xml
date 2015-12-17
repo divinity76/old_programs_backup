@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+      <monster name="Swamp Troll" level="0" maglevel="0" experience="25" pushable="0" armor="15" defense="20" canpushitems="1" staticattack="50" changetarget="200" speed="128">
+      	<health now="55" max="55"/>
+      	<look type="76" head="20" body="30" legs="40" feet="50" corpse="2995"/>
+      	<combat targetdistance="1" runonhealth="0"/>
+      <attacks>
+      	<attack type="melee" maxdamage="25"/>
+ <attack type="rune" name="poison" exhaustion="500" cycleticks="2500" probability="15"/>
+       	<attack type="poison_melee" maxdamage="20" probability="100" maxhits="40" maxhitsdamage="1"/>
+      </attacks>
+ 
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ </defenses>
+ 
+      <loot>
+       	<item id="2148" countmax="12" chance1="100000" chancemax="0"/>
+       	<item id="2667" countmax="1" chance1="90000" chancemax="0"/>
+      	<item id="2643" chance="20000"/>
+       	<item id="2050" chance="20000"/>
+       	<item id="1987" chance="100000">
+       	<inside>
+  
+       	<item id="2580" chance="2000"/>
+       	<item id="2379" chance="30000"/>
+ 
+       	</inside>
+       	</item>
+      </loot>
+      <voices>
+      	<voice sentence="Me strong me eat Spinach"/>
+ 
+      </voices>
+      </monster>

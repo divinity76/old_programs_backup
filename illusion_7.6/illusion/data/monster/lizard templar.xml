@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+ <monster name="Lizard Templar" level="60" maglevel="30" experience="140" pushable="0" speed="280" monster="1" armor="3" defense="5" canpushitems="0" staticattack="50" changetarget="200">
+ <health now="410" max="410"/>
+ <look type="113" corpse="4256"/>
+ <combat targetdistance="1" runonhealth="0"/>
+ 
+ <attacks>
+   	<attack type="melee" maxdamage="120"/>
+   	
+ </attacks>
+ 
+ <defenses>
+   	<defense immunity="poison"/>
+   	<defense immunity="paralyze"/>
+   	<defense immunity="drunk"/>
+ </defenses>
+ 
+ <loot>
+    	<item id="2148" countmax="30" chance1="100000" chancemax="0"/>
+ 
+ 	<item id="2457" chance="4000"/>//steel helmet
+ 
+ 	<item id="2463" chance="3500"/>//p armor
+ 
+    	<item id="1987" chance="100000">
+    	<inside>
+ 
+    	<item id="2406" chance="40000"/>//shortsword
+ 
+ 	<item id="3975" chance="2000"/>//salamander shield
+ 
+ 	<item id="3963" chance="1818"/>//blade
+    	</inside>
+    	</item>
+ </loot>
+ 
+ <voices/>
+ 
+ </monster>

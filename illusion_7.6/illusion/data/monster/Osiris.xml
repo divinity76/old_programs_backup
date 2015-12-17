@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+ <monster name="Osiris" level="100" maglevel="170" speed="940" experience="10000" pushable="0" monster="1" armor="13" defense="15" canpushitems="1" staticattack="50" changetarget="400"><health now="22000" max="22000"/><look type="130" head="0" body="90" legs="128" feet="95" corpse="3129"/><combat targetdistance="5" runonhealth="300"/>
+ 
+ <attacks>
+ <attack type="melee" mindamage="30" maxdamage="70" cycleticks="2000" probability="100"/>
+ <attack type="instant" name="w exevo gran vis lux" cycleticks="3000" probability="85"/>
+ <attack type="rune" name="wexplosion" exhaustion="1000" cycleticks="2000" probability="100"/>
+ <attack type="rune" name="warlock_burstarrow" exhaustion="500" cycleticks="2000" probability="95"/>
+ <attack type="instant" name="b exura" cycleticks="2000" probability="85"/>
+ <attack type="rune" name="warlock_firebomb" exhaustion="2000" cycleticks="4000" probability="60"/>
+ <attack type="rune" name="warlocksd" exhaustion="500" cycleticks="4000" probability="90"/>
+ <attack type="rune" name="paralyze" exhaustion="50" cycleticks="6000" probability="50"/>
+ 
+ 	<attack type="costum" name="invis" mindamage="0" maxdamage="0" exhaustion="500" cycleticks="4000" probability="65"/>
+ 
+ </attacks>
+ 
+ <defenses>
+ <defense immunity="energy"/>
+ <defense immunity="fire"/>
+ <defense immunity="poison"/>
+ <defense immunity="paralyze"/>
+ <defense immunity="drunk"/>
+ <defense immunity="invisible"/>
+ </defenses>
+ 
+ 
+ <loot>
+ 	<item id="2148" countmax="150" chance1="100000" chancemax="0"/>
+ 	<item id="2600" chance="10000"/>
+ 
+ 	<item id="1987" chance="100000">
+ 	<inside>
+ 	<item id="2197" chance="3000"/>
+ 	<item id="2411" chance="5000"/>
+ 	<item id="2792" countmax="5" chance1="6666" chancemax="0"/>
+ 	<item id="2793" countmax="2" chance1="6666" chancemax="0"/>
+ 	<item id="2656" chance="1"/>
+ 	<item id="2466" chance="800"/>
+ 	<item id="2436" chance="1428"/>
+ 	<item id="2123" chance="1000"/>
+<item id="2185" chance="3000"/>
+ 	</inside>
+ 	</item>
+ </loot>
+ 
+ <summons maxSummons="0">
+  	<summon name="Stone Golem" chance="5000"/>
+ </summons>
+ 
+ </monster>

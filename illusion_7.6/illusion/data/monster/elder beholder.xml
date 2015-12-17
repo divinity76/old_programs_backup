@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+   <monster name="Elder Beholder" level="40" maglevel="40" experience="280" pushable="0" armor="35" defense="30" canpushitems="1" staticattack="50" changetarget="200" speed="270">
+      	<health now="500" max="500"/>
+      	<look type="108" head="20" body="30" legs="40" feet="50" corpse="3052"/>
+      	<combat targetdistance="1" runonhealth="150"/>
+ 
+   <attacks>
+      	<attack type="melee" maxdamage="180"/>
+      	<attack type="rune" name="heavy magic missile" exhaustion="500" cycleticks="3000" probability="90"/>
+ <attack type="rune" name="life drain" exhaustion="500" cycleticks="3000" probability="90"/>
+   </attacks>
+ 
+   <defenses>
+      	<defense immunity="energy"/>
+      	<defense immunity="fire"/>
+      	<defense immunity="poison"/>
+      	<defense immunity="paralyze"/>
+      	<defense immunity="drunk"/>
+ <defense immunity="invis"/>
+   </defenses>
+ 
+   <loot>
+      	<item id="2148" countmax="45" chance1="100000" chancemax="0"/>
+ 
+      	<item id="1987" chance="80000">
+      	<inside>
+      	<item id="2148" countmax="20" chance1="80000" chancemax="0"/>
+      	<item id="2394" chance="2000"/>
+      	<item id="2397" chance="6666"/>
+      	</inside>
+      	</item>
+   </loot>
+   </monster>

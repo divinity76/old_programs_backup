@@ -1,0 +1,27 @@
+#################
+#Illusion 0.9.8B#
+#################
+
+2007-11-09 - 18.42
+Removed wallhack
+Protection system* (Need to add config.lua support)
+
+2007-11-09 - 02.01
+/private, ignore private messages* (GM only)
+!rs, shows when red skull will be removed.
+
+2007-11-09 - 20.02
+/noskull, removes skull from player.
+
+2007-11-09 - 20.55
+Faster mana & HP per second.
+
+2007-11-10 - 01.04
+Monster will walk to player when /m.
+
+2007-11-10 - 01.36
+Added Grass/Earth/Water/Swamp/Lava/Rock Ground/Rock Mountain Randomizer* (Had to remove a lot of code, don't know how that might change the stability or something. Won't work for OTX maps.)
+
+2007-11-10 - 18.04
+/check, checks for multiclients.
+GM won't hurt much when they attack.
