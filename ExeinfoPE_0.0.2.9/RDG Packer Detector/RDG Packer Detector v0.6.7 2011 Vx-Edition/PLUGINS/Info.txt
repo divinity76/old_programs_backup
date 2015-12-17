@@ -1,0 +1,3 @@
+Soporta Plugins variados peid - petools etc
+
+Pronto subire el sdk para el Packer Detector

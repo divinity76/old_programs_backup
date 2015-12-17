@@ -1,0 +1,9 @@
+Para Poner lenguaje por defecto
+
+ir a boton 7 y elegir lenguaje
+
+
+
+Para agregar al menu contextual
+
+ir al boton 7 y seleccionar - agregar al menu contextual
