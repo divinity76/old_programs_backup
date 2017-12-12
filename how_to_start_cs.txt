@@ -7,3 +7,8 @@ bot_add : add a bot to team with least players
 
 bot_add_ct : add bot to counter strike team
 bot_add_t : add bot to terrorist team
+
+serial: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+if you get the error "Counter Strike Available Memory Less Than 15MB" error during startup,
+ set "Compatibility mode: Windows XP SP2" (i get this on Intel Integrated, but not nVidia GPUs..)
